@@ -19,11 +19,7 @@ Can a locally-run vision-language model, operating within a hybrid perception-re
 - PCA9685 16-Channel PWM Servo Driver
 - UBEC 
 
-## Hardware Photos
-
-| | | |
-|---|---|---|
-| ![Hardware photo 1](docs/images/hardware-1.jpg) | ![Hardware photo 2](docs/images/hardware-2.jpg) | ![Hardware photo 3](docs/images/hardware-3.jpg) |
+See [`docs/hardware.md`](docs/hardware.md) for hardware photos.
 
 ## System Architecture
 
@@ -54,6 +50,7 @@ OpenCV (perception)
 ## Documentation
 
 - [`docs/project-database.md`](docs/project-database.md) — architecture decision record, servo calibration, benchmarks
+- [`docs/hardware.md`](docs/hardware.md) — hardware photos
 - [`docs/system-schematic.md`](docs/system-schematic.md) — full wiring + data flow diagram
 - [`docs/research-question.md`](docs/research-question.md) — revised research question, hypothesis, title options
 - [`docs/vlm-spatial-reasoning-review.md`](docs/vlm-spatial-reasoning-review.md) — literature review + OpenCV/VLM division of labor
