@@ -10,7 +10,7 @@ import serial
 
 from detection import classify_grid, detect_any
 
-PORT = "/dev/cu.usbmodem1101"   # TODO(Shaurya): confirm your port
+PORT = "/dev/cu.usbmodem1101"
 BAUD = 115200
 CAM_INDEX = 0
 

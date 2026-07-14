@@ -4,7 +4,7 @@ import time
 
 import serial
 
-PORT = "/dev/cu.usbmodem1101"  # TODO(Shaurya): confirm/replace with your port
+PORT = "/dev/cu.usbmodem1101"
 BAUD = 115200
 
 

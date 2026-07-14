@@ -51,8 +51,5 @@ def probe_two_object(image_path, color_a, color_b, true_answer):
 
 
 if __name__ == "__main__":
-    # TODO(Shaurya): replace with your actual captured frames + ground truth
-    probe_single("frames/red_left.jpg", "red", "left", "n/a")
-    probe_single("frames/red_center.jpg", "red", "center", "n/a")
-    probe_single("frames/red_right.jpg", "red", "right", "n/a")
+    pass
     # probe_two_object("frames/red_and_blue.jpg", "red", "blue", "red")

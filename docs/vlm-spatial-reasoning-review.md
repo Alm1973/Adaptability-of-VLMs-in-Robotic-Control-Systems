@@ -68,10 +68,7 @@ def probe_single(image_path, color, true_answer_left_right, true_answer_top_bott
 
 
 if __name__ == "__main__":
-    # TODO(Shaurya): fill in your actual captured frames and known ground truth
-    probe_single("frames/red_left.jpg", "red", "left", "n/a")
-    probe_single("frames/red_center.jpg", "red", "center", "n/a")
-    probe_single("frames/red_right.jpg", "red", "right", "n/a")
+    pass
 ```
 
 **Results table (fill in after running):**
