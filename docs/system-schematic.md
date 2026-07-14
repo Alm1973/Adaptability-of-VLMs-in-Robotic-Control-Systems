@@ -28,7 +28,7 @@ flowchart TD
     S0 -.->|new camera position| CAM
 ```
 
-## Data flow (per cycle)
+## Data flow 
 
 1. Webcam captures a frame.
 2. OpenCV processes the frame: HSV color mask → cleanup → contour detection → filter by area → centroid → 3×3 grid label (in `code/detection.py`).
