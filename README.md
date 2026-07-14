@@ -7,7 +7,7 @@ Robotic System for Object Detection
 For the current project, we have designed a vision based robot control system which involves the use of a camera, VLM, and a robotic arm controlled by the microcontroller. The system is supposed to identify objects within a workspace, get their location from the processed images, and actuate physical movements through the use of an Arduino actuation system and guide the robotic arm there.
 
 ## Research Question
-Can a locally run Visula language model recover from task disrupting situations such as a, including occlusion,changes in its environment , and abnormal targets, by allowing dynamic reasoning and adaptive camera repositioning strategies. The study will push a fixed set of failure factors into a defined object verification task, and measure whether the model detects the failure, adapts its plan, and ultimately completes the task on its own.
+Can a locally-run vision-language model, operating within a hybrid perception-reasoning pipeline where OpenCV handles spatial localization, reliably recover from task-disrupting situations — occlusion, environmental change, and abnormal/unrecognized targets — during an object verification task, by adapting its recovery strategy and repositioning the camera autonomously? (See [`docs/research-question.md`](docs/research-question.md) for the full revision history and hypothesis.)
 
 ## Current Hardware Setup
 - Arduino Uno 
@@ -44,3 +44,13 @@ OpenCV (perception)
 3. Install dependencies (once): `pip install opencv-python numpy pyserial ollama`
 4. Start Ollama and pull the model: `ollama serve` then `ollama pull qwen2.5vl:3b`
 5. Run the system: `python main.py`
+
+## Documentation
+
+- [`docs/project-database.md`](docs/project-database.md) — architecture decision record, servo calibration, benchmarks
+- [`docs/system-schematic.md`](docs/system-schematic.md) — full wiring + data flow diagram
+- [`docs/research-question.md`](docs/research-question.md) — revised research question, hypothesis, title options
+- [`docs/vlm-spatial-reasoning-review.md`](docs/vlm-spatial-reasoning-review.md) — literature review + OpenCV/VLM division of labor
+- [`docs/grid-testing-protocol.md`](docs/grid-testing-protocol.md) — full-grid detection accuracy test protocol
+- [`code/hardware_tests/`](code/hardware_tests/) — staged, isolated tests for closing the hardware loop
+- [`lab-notebook.md`](lab-notebook.md) — dated experiment log
