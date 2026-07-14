@@ -1,6 +1,6 @@
 # VLM Spatial Reasoning: Literature Review & Division of Labor
 
-Assignment 3. Covers: (a) what current research says about VLM spatial reasoning capability, (b) a template for testing Moondream directly, (c) the resulting division of labor between OpenCV and the VLM in AVI's pipeline.
+Assignment 3. Covers: (a) what current research says about VLM spatial reasoning capability, (b) a template for testing Moondream directly, (c) the resulting division of labor between OpenCV and the VLM in pipeline.
 
 ## (a) What the literature says
 
