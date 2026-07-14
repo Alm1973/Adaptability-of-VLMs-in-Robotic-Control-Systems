@@ -9,18 +9,14 @@ model, tokenizer = load(MODEL)
 
 prompt = "Describe the image: a robot arm picking up an object."
 
-# -------------------
-# WARMUP (NOT COUNTED)
-# -------------------
+
 print("\nWarming up...")
 for _ in range(2):
     _ = generate(model, tokenizer, prompt=prompt, max_tokens=20)
 
 print("Warmup done.\n")
 
-# -------------------
-# BENCHMARK
-# -------------------
+
 latencies = []
 
 for i in range(5):
