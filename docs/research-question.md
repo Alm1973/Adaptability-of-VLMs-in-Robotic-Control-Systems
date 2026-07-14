@@ -8,7 +8,7 @@
 > abnormal/unrecognized targets – in an object verification task, through adaptation of the recovery approach and >
 > autonomous repositioning of the camera?
 
-Changes from the original:
+
 - "Raspberry Pi 5" → generalization to "locally-run," because the
   current compute host is a laptop ("Raspberry Pi 5" is only a target for
   deployment, not the current host).
