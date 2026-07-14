@@ -1,11 +1,4 @@
-/*
- * stage2_serial_test.ino — Assignment 1(b), Stage 2: Serial communication test
- *
- * Goal: confirm laptop -> Arduino command round trip.
- * Type a command in the Python side (stage2_serial_test.py) and watch the
- * servo respond. This does NOT touch the camera or VLM yet -- isolate the
- * communication link before adding perception.
- */
+
 
 #include <Wire.h>
 #include <Adafruit_PWMServoDriver.h>
