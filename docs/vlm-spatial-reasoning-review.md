@@ -70,7 +70,7 @@ if __name__ == "__main__":
     pass
 ```
 
-**Results table (fill in after running):**
+**Results table :**
 
 | Frame | Question | Moondream Answer | Ground Truth | Correct? |
 |---|---|---|---|---|
@@ -79,8 +79,6 @@ if __name__ == "__main__":
 | red_right.jpg | left/center/right | | right | |
 | (two-object frame) | which is further left | | | |
 
-## (c) Division of labor (draft — confirm after running (b))
 
-> OpenCV detects object position via HSV color masking, morphological cleanup, and contour extraction, and outputs a normalized centroid plus a 3×3 grid label (e.g. "top-left"). The VLM receives that grid label — not raw pixel coordinates or an unprocessed image region — along with the target object description and the current task state, and decides which action to take from the fixed action vocabulary (rotate/tilt/confirm). OpenCV is responsible for *where the object is*; the VLM is responsible for *what to do about it*, including recovery reasoning when OpenCV reports no detection at all (occlusion, environmental change, or an anomalous/unrecognized target).
 
-This keeps the VLM's job restricted to the kind of coarse categorical judgment ("this label says the object is on the left, so rotate left") that even small models handle reasonably reliably, per the literature above, rather than the fine-grained pixel-level localization where small VLMs are known to be weaker.
+
