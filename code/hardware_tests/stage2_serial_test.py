@@ -11,7 +11,7 @@ BAUD = 115200
 def main():
     print(f"Connecting to {PORT} @ {BAUD}...")
     arduino = serial.Serial(PORT, BAUD, timeout=1)
-    time.sleep(2)  # let the Arduino reset after the serial connection opens
+    time.sleep(2)  
 
     # Drain the READY banner
     while arduino.in_waiting:
