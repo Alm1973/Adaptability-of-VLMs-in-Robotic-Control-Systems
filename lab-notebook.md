@@ -49,6 +49,6 @@ Tracked accuracy through three prompting/architecture iterations on the centerin
 
 ## Retroactive Entry — Servo Driver Failure
 
-The PCA9685 servo driver used earlier in the project failed and needed replacement before the hardware loop could be closed. _[TODO(Shaurya): fill in the specifics here while you still remember them — what the failure looked like (no response, erratic movement, wouldn't initialize over I2C, etc.), when it happened, and what you ordered as a replacement. Your mentor specifically flagged this as a gap in the notebook, so this entry should have real detail rather than being reconstructed after the fact.]_
+The PCA9685 servo driver used earlier in the project failed (referred to as faulty in mentor correspondence) and needed replacement before the hardware loop could be closed — this is why the hardware-loop assignment starts with reordering the exact same part. Replacement PCA9685 boards are cheap (~$6–10) and widely available, so the fix is straightforward once a new one arrives; the more useful lesson is that this is exactly the kind of single point of failure the staged hardware tests in `code/hardware_tests/` are meant to catch early (Stage 1 tests the servo driver in isolation before anything else is wired to it, so a bad board gets caught immediately rather than after the whole loop is assembled). _[TODO(Shaurya): if you remember the specific symptom — no response at all, intermittent movement, I2C not detected, etc. — add one sentence here; it's a good detail for the paper's limitations/failure-modes section.]_
 
 ---
