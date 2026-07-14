@@ -4,10 +4,10 @@
 Robotic System for Object Detection
 
 ## Project Description
-In this project, the vision-based robot control system has been designed where the camera, VLM, and robotic arm with the microcontroller have been used. The robot control system will be responsible for object detection in the workspace, localization of the object by using images processed and actuating of the physical movement by the help of Arduino actuation system.
+In this project, the vision based robot control system has been designed where the camera, VLM, and robotic arm with the microcontroller have been used. The robot control system will be responsible for object detection in the workspace, localization of the object by usingg images processed and actuating of the physical movement by the help of Arduino actuation system.
 
 ## Research Question
-Is it possible that a locally hosted vision-language model, embedded in a perception-reasoning pipeline that uses OpenCV to do spatial localization, be able to recover from disruptions in the task of object verification due to occlusion, changes in the environment, and novel/unexpected objects?
+Is it possible that a locally hosted vision language model, embedded in a perception-reasoning pipeline that uses OpenCV to do spatial localization, be able to recover from disruptions in the task of object verification due to occlusion, changes in the environment, and unexpected objects?
 
 ## Current Hardware Setup
 - Arduino Uno 
