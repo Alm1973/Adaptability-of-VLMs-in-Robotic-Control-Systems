@@ -1,20 +1,5 @@
 """
-stage4_full_loop_test.py — Assignment 1(b), Stage 4: Full loop test
 
-Goal: prove data flows through the ENTIRE pipeline end-to-end at least once:
-
-    webcam frame -> OpenCV detects object + grid position
-                 -> grid label sent to VLM (Moondream via Ollama)
-                 -> VLM returns an action
-                 -> action sent to Arduino via serial
-                 -> servo moves
-
-If Moondream is too slow to iterate on, set HARDCODE_ACTION to a fixed
-command (e.g. "ROTATE_BASE_LEFT_15") to confirm the mechanical loop works
-without waiting on inference -- exactly what the mentor suggested.
-
-Only run this AFTER stages 1-3 pass individually. Use
-stage2_serial_test.ino (or your full avi_control.ino) on the Arduino.
 """
 
 import sys
@@ -29,8 +14,7 @@ PORT = "/dev/cu.usbmodem1101"   # TODO(Shaurya): confirm your port
 BAUD = 115200
 CAM_INDEX = 0
 
-# Set to a command string (e.g. "ROTATE_BASE_LEFT_15") to skip the VLM call
-# and just prove the mechanical loop, per the mentor's suggestion.
+
 HARDCODE_ACTION = None
 
 ACTION_VOCAB = [
@@ -132,10 +116,4 @@ def main():
 if __name__ == "__main__":
     main()
 
-# PASS CRITERIA (log in lab-notebook.md):
-#   - At least one full cycle completes: detection -> decision -> serial
-#     command -> visible servo movement.
-#   - Even if the VLM's chosen action doesn't make logical sense yet, the
-#     DATA FLOW through every stage is proven. That's the milestone.
-#   - Record decide_time values -- this feeds Assignment 5's revised
-#     research question and prior timeout-calibration work.
+

@@ -4,10 +4,10 @@
 Robotic System for Object Detection
 
 ## Project Description
-For the current project, we have designed a vision based robot control system which involves the use of a camera, VLM, and a robotic arm controlled by the microcontroller. The system is supposed to identify objects within a workspace, get their location from the processed images, and actuate physical movements through the use of an Arduino actuation system and guide the robotic arm there.
+In this project, the vision-based robot control system has been designed where the camera, VLM, and robotic arm with the microcontroller have been used. The robot control system will be responsible for object detection in the workspace, localization of the object by using images processed and actuating of the physical movement by the help of Arduino actuation system.
 
 ## Research Question
-Can a locally-run vision-language model, operating within a hybrid perception-reasoning pipeline where OpenCV handles spatial localization, reliably recover from task-disrupting situations — occlusion, environmental change, and abnormal/unrecognized targets — during an object verification task, by adapting its recovery strategy and repositioning the camera autonomously? (See [`docs/research-question.md`](docs/research-question.md) for the full revision history and hypothesis.)
+Is it possible that a locally hosted vision-language model, embedded in a perception-reasoning pipeline that uses OpenCV to do spatial localization, be able to recover from disruptions in the task of object verification due to occlusion, changes in the environment, and novel/unexpected objects?
 
 ## Current Hardware Setup
 - Arduino Uno 
@@ -23,7 +23,7 @@ See [`docs/hardware.md`](docs/hardware.md) for hardware photos.
 
 ## System Architecture
 
-The system uses a **hybrid OpenCV + VLM pipeline**: OpenCV handles deterministic perception (HSV color masking → centroid tracking) and drives the arm directly while tracking is healthy; a locally-run VLM (Qwen2.5-VL:3B via Ollama) is only invoked for higher-level recovery reasoning when tracking is lost. See [`docs/project-database.md`](docs/project-database.md) for the full architecture decision record, servo calibration data, benchmarking results, and design rationale.
+It is implemented using a **hybrid OpenCV + VLM workflow**: OpenCV is responsible for deterministic perception (HSV masking + centroid tracking) as well as directly controlling the arm in case of healthy tracking, while a locally executed VLM (Qwen2.5-VL:3B from Ollama) is called upon for recovery reasoning if tracking fails
 
 ```
 OpenCV (perception)
@@ -41,7 +41,7 @@ OpenCV (perception)
 
 ## How to Run the Code
 
-1. Flash `avi_control.ino` to the Arduino (PCA9685-based servo driver).
+1. Flash `avi_control.ino` to the Arduino.
 2. Activate your Python environment: `source ~/robotenv/bin/activate`
 3. Install dependencies (once): `pip install opencv-python numpy pyserial ollama`
 4. Start Ollama and pull the model: `ollama serve` then `ollama pull qwen2.5vl:3b`

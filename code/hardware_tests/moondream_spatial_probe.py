@@ -1,11 +1,5 @@
 """
-moondream_spatial_probe.py — Assignment 3(b)
 
-Probe Moondream's raw spatial reasoning ability, independent of the
-OpenCV pipeline, so you know how much you can safely offload to it.
-See docs/vlm-spatial-reasoning-review.md for the protocol and results table.
-
-Usage:
     1. Capture 3-5 still frames with a known object at a known position
        and save them under code/hardware_tests/frames/.
     2. Fill in the calls at the bottom with your actual filenames and

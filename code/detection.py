@@ -1,32 +1,11 @@
 """
-detection.py — Assignment 4: OpenCV object detection upgrade
 
-Implements the pipeline requested by the mentor:
-    HSV mask -> erosion -> dilation -> find contours -> filter by area -> centroid
-
-Covers all four target objects (red star, yellow star, blue cube, green cylinder)
-instead of just red, and adds a 3x3 grid classification on top of the raw centroid
-so the VLM can be handed a compact text label (e.g. "top-left") instead of raw
-pixel coordinates -- this is the perception layer described in
-docs/project-database.md (Layer 1) and directly supports Assignment 2's grid
-testing and Assignment 3's OpenCV/VLM division of labor.
-
-HSV ranges below are STARTING POINTS. Assignment 4(b) asks you to test each
-range against your actual objects under your actual lighting and log what you
-land on -- update COLOR_RANGES and re-run calibrate.py (see hardware_tests/)
-to confirm before you start collecting real data.
 """
 
 import cv2
 import numpy as np
 
-# ---------------------------------------------------------------------------
-# Assignment 4(b): HSV ranges for all four target objects.
-# Each color maps to a list of (lower, upper) tuples because red wraps around
-# the hue circle (0 and 180 are both "red"), so it needs two ranges OR'd
-# together. The others only need one range each.
-# TODO(Shaurya): replace these with your logged, tested values.
-# ---------------------------------------------------------------------------
+
 COLOR_RANGES = {
     "red": [
         (np.array([0, 120, 70]), np.array([10, 255, 255])),
@@ -43,7 +22,7 @@ COLOR_RANGES = {
     ],
 }
 
-MIN_CONTOUR_AREA = 700  # filter out noise; tune per Assignment 4(b)
+MIN_CONTOUR_AREA = 700  # filter out noise
 MORPH_KERNEL = np.ones((5, 5), np.uint8)
 
 
@@ -107,12 +86,7 @@ def detect_any(frame, colors=("red", "yellow", "blue", "green")):
     return best
 
 
-# ---------------------------------------------------------------------------
-# Grid classification (3x3), used to turn a pixel centroid into a compact
-# text label for the VLM -- e.g. "top-left", "center", "bottom-right".
-# This is what Assignment 2's grid testing evaluates, and what Assignment
-# 3(c)'s division of labor assumes OpenCV provides.
-# ---------------------------------------------------------------------------
+
 GRID_LABELS = [
     ["top-left", "top-center", "top-right"],
     ["middle-left", "center", "middle-right"],
@@ -128,7 +102,7 @@ def classify_grid(centroid, frame_width, frame_height):
 
 
 if __name__ == "__main__":
-    # Quick manual sanity check against a live webcam feed.
+
     cap = cv2.VideoCapture(0)
     print("Press ESC to quit.")
     while True:

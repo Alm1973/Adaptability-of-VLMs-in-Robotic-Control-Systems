@@ -1,17 +1,3 @@
-"""
-stage2_serial_test.py — Assignment 1(b), Stage 2: Serial communication test
-
-Confirms: laptop sends command -> Arduino receives -> servo moves -> Arduino
-confirms back over serial. Run this AFTER stage2_serial_test.ino is flashed.
-
-Usage:
-    python stage2_serial_test.py
-Then type commands interactively: PING, ROTATE_BASE_LEFT_15, ROTATE_BASE_RIGHT_15
-
-Find your Arduino's port first with:
-    ls /dev/cu.*        (macOS)
-    ls /dev/tty.usb*     (Linux)
-"""
 
 import sys
 import time
