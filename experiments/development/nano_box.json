@@ -1,0 +1,56 @@
+[
+  {
+    "brightness": 1.0,
+    "offset": [
+      -50,
+      0
+    ],
+    "search_valid": true,
+    "found": false,
+    "time_to_find": null,
+    "centred": false,
+    "time_to_centre": null,
+    "search_moves": 19,
+    "frames": 62,
+    "final_err_px": null,
+    "vlm_calls": 24,
+    "final_status": "AMBIGUOUS",
+    "condition": "box"
+  },
+  {
+    "brightness": 1.0,
+    "offset": [
+      50,
+      0
+    ],
+    "search_valid": true,
+    "found": false,
+    "time_to_find": null,
+    "centred": false,
+    "time_to_centre": null,
+    "search_moves": 1,
+    "frames": 90,
+    "final_err_px": null,
+    "vlm_calls": 89,
+    "final_status": "AMBIGUOUS",
+    "condition": "box"
+  },
+  {
+    "brightness": 1.0,
+    "offset": [
+      -50,
+      0
+    ],
+    "search_valid": true,
+    "found": false,
+    "time_to_find": null,
+    "centred": false,
+    "time_to_centre": null,
+    "search_moves": 24,
+    "frames": 49,
+    "final_err_px": null,
+    "vlm_calls": 0,
+    "final_status": "MISSING",
+    "condition": "box"
+  }
+]

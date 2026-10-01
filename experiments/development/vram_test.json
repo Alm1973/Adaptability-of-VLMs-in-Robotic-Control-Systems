@@ -1,0 +1,34 @@
+{
+  "ngl99": {
+    "ngl": 99,
+    "vram_free_after_load": 230,
+    "vram_free_min": 111,
+    "probe_degen": 10,
+    "n_probe": 12,
+    "med_lat_s": 16.14
+  },
+  "ngl24": {
+    "ngl": 24,
+    "vram_free_after_load": 268,
+    "vram_free_min": 181,
+    "probe_degen": 10,
+    "n_probe": 12,
+    "med_lat_s": 19.11
+  },
+  "ngl16": {
+    "ngl": 16,
+    "vram_free_after_load": 311,
+    "vram_free_min": 219,
+    "probe_degen": 10,
+    "n_probe": 12,
+    "med_lat_s": 20.07
+  },
+  "ngl8": {
+    "ngl": 8,
+    "vram_free_after_load": 357,
+    "vram_free_min": 261,
+    "probe_degen": 10,
+    "n_probe": 12,
+    "med_lat_s": 19.27
+  }
+}

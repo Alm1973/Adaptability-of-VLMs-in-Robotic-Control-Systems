@@ -1,0 +1,42 @@
+{
+  "occlusion_full/disrupt": {
+    "class": "covered",
+    "desc": "hand covering the cup",
+    "n": 53,
+    "p10": 0.315,
+    "median": 0.33,
+    "p90": 0.352
+  },
+  "occlusion_remove/disrupt": {
+    "class": "covered",
+    "desc": "hand covering the cup",
+    "n": 52,
+    "p10": 0.448,
+    "median": 0.539,
+    "p90": 0.591
+  },
+  "occlusion_remove/recover": {
+    "class": "gone",
+    "desc": "cup removed, bare desk",
+    "n": 52,
+    "p10": 0.915,
+    "median": 0.941,
+    "p90": 0.969
+  },
+  "impostor/recover": {
+    "class": "gone",
+    "desc": "object placed where the cup was",
+    "n": 47,
+    "p10": 0.669,
+    "median": 0.807,
+    "p90": 0.848
+  },
+  "lighting/disrupt": {
+    "class": "present",
+    "desc": "control: cup visible",
+    "n": 53,
+    "p10": 0.113,
+    "median": 0.118,
+    "p90": 0.137
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "n_calls": 150,
+  "resolution": [
+    480,
+    360
+  ],
+  "degenerate": 0,
+  "degenerate_at": [],
+  "first_lock_at": null,
+  "slow_over_30s": 0,
+  "vram_after_load": 205,
+  "vram_first": 169,
+  "vram_last": 117,
+  "vram_min": 96,
+  "vram_drift": 52,
+  "lat_mean": 0.5,
+  "lat_p50": 0.54,
+  "lat_p90": 0.6,
+  "lat_p99": 0.65,
+  "lat_max": 0.65
+}

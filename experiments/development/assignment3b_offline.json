@@ -1,0 +1,42 @@
+{
+  "part1_wiring": {
+    "n": 24,
+    "raw_verifier_answers": {
+      "'no'": 24
+    },
+    "search_direction_returns": {
+      "None": 24
+    },
+    "dead": true
+  },
+  "part2_constancy": {
+    "per_group": {
+      "clean": {
+        "n": 40,
+        "answers": {
+          "left": 40
+        },
+        "modal_answer": "left",
+        "modal_share": 1.0
+      },
+      "cluttered": {
+        "n": 40,
+        "answers": {
+          "left": 40
+        },
+        "modal_answer": "left",
+        "modal_share": 1.0
+      }
+    },
+    "overall": {
+      "left": 80
+    },
+    "modal_answer": "left",
+    "modal_share": 1.0,
+    "is_constant": true
+  },
+  "part3": {
+    "run": false,
+    "reason": "constant answer in part 2"
+  }
+}

@@ -1,0 +1,134 @@
+[
+  {
+    "file": "absent_00.png",
+    "gt_prompt": false,
+    "gt_eye": false,
+    "path": "generated_frames\\absent_00.png",
+    "detected": false,
+    "conf": 0.0,
+    "box": null,
+    "vlm": "no",
+    "vlm_yes": false,
+    "gt_used": false,
+    "det_ok": true,
+    "vlm_ok": true
+  },
+  {
+    "file": "absent_01.png",
+    "gt_prompt": false,
+    "gt_eye": false,
+    "path": "generated_frames\\absent_01.png",
+    "detected": false,
+    "conf": 0.0,
+    "box": null,
+    "vlm": "no",
+    "vlm_yes": false,
+    "gt_used": false,
+    "det_ok": true,
+    "vlm_ok": true
+  },
+  {
+    "file": "absent_02.png",
+    "gt_prompt": false,
+    "gt_eye": false,
+    "path": "generated_frames\\absent_02.png",
+    "detected": false,
+    "conf": 0.0,
+    "box": null,
+    "vlm": "no",
+    "vlm_yes": false,
+    "gt_used": false,
+    "det_ok": true,
+    "vlm_ok": true
+  },
+  {
+    "file": "absent_03.png",
+    "gt_prompt": false,
+    "gt_eye": false,
+    "path": "generated_frames\\absent_03.png",
+    "detected": false,
+    "conf": 0.0,
+    "box": null,
+    "vlm": "no",
+    "vlm_yes": false,
+    "gt_used": false,
+    "det_ok": true,
+    "vlm_ok": true
+  },
+  {
+    "file": "present_00.png",
+    "gt_prompt": true,
+    "gt_eye": true,
+    "path": "generated_frames\\present_00.png",
+    "detected": true,
+    "conf": 0.946,
+    "box": [
+      154,
+      155,
+      348,
+      433
+    ],
+    "vlm": "yes",
+    "vlm_yes": true,
+    "gt_used": true,
+    "det_ok": true,
+    "vlm_ok": true
+  },
+  {
+    "file": "present_01.png",
+    "gt_prompt": true,
+    "gt_eye": true,
+    "path": "generated_frames\\present_01.png",
+    "detected": true,
+    "conf": 0.969,
+    "box": [
+      393,
+      171,
+      512,
+      435
+    ],
+    "vlm": "yes",
+    "vlm_yes": true,
+    "gt_used": true,
+    "det_ok": true,
+    "vlm_ok": true
+  },
+  {
+    "file": "present_02.png",
+    "gt_prompt": true,
+    "gt_eye": true,
+    "path": "generated_frames\\present_02.png",
+    "detected": true,
+    "conf": 0.948,
+    "box": [
+      218,
+      219,
+      339,
+      474
+    ],
+    "vlm": "yes",
+    "vlm_yes": true,
+    "gt_used": true,
+    "det_ok": true,
+    "vlm_ok": true
+  },
+  {
+    "file": "present_03.png",
+    "gt_prompt": true,
+    "gt_eye": true,
+    "path": "generated_frames\\present_03.png",
+    "detected": true,
+    "conf": 0.381,
+    "box": [
+      254,
+      147,
+      400,
+      363
+    ],
+    "vlm": "yes",
+    "vlm_yes": true,
+    "gt_used": true,
+    "det_ok": true,
+    "vlm_ok": true
+  }
+]

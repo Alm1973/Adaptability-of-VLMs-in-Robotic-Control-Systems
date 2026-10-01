@@ -1,0 +1,122 @@
+[
+  {
+    "idx": 1,
+    "file": "exp_01_home_ref_b90_t90.jpg",
+    "phrasing": "water bottle",
+    "gt": 1,
+    "raw": "Yes",
+    "pred": 1,
+    "latency_s": 17.25,
+    "placement": "gpu"
+  },
+  {
+    "idx": 1,
+    "file": "exp_01_home_ref_b90_t90.jpg",
+    "phrasing": "bottle",
+    "gt": 1,
+    "raw": "Yes",
+    "pred": 1,
+    "latency_s": 6.04,
+    "placement": "gpu"
+  },
+  {
+    "idx": 1,
+    "file": "exp_01_home_ref_b90_t90.jpg",
+    "phrasing": "insulated water bottle",
+    "gt": 1,
+    "raw": "Yes",
+    "pred": 1,
+    "latency_s": 5.98,
+    "placement": "gpu"
+  },
+  {
+    "idx": 1,
+    "file": "exp_01_home_ref_b90_t90.jpg",
+    "phrasing": "metal water bottle",
+    "gt": 1,
+    "raw": "Yes.",
+    "pred": 1,
+    "latency_s": 5.99,
+    "placement": "gpu"
+  },
+  {
+    "idx": 1,
+    "file": "exp_01_home_ref_b90_t90.jpg",
+    "phrasing": "tumbler",
+    "gt": 1,
+    "raw": "Yes",
+    "pred": 1,
+    "latency_s": 5.99,
+    "placement": "gpu"
+  },
+  {
+    "idx": 2,
+    "file": "exp_02_verify_small_b98_t90.jpg",
+    "phrasing": "water bottle",
+    "gt": 1,
+    "raw": "No",
+    "pred": 0,
+    "latency_s": 5.98,
+    "placement": "gpu"
+  },
+  {
+    "idx": 2,
+    "file": "exp_02_verify_small_b98_t90.jpg",
+    "phrasing": "bottle",
+    "gt": 1,
+    "raw": "No",
+    "pred": 0,
+    "latency_s": 5.98,
+    "placement": "gpu"
+  },
+  {
+    "idx": 2,
+    "file": "exp_02_verify_small_b98_t90.jpg",
+    "phrasing": "insulated water bottle",
+    "gt": 1,
+    "raw": "Yes",
+    "pred": 1,
+    "latency_s": 5.99,
+    "placement": "gpu"
+  },
+  {
+    "idx": 2,
+    "file": "exp_02_verify_small_b98_t90.jpg",
+    "phrasing": "metal water bottle",
+    "gt": 1,
+    "raw": "Yes.",
+    "pred": 1,
+    "latency_s": 6.0,
+    "placement": "gpu"
+  },
+  {
+    "idx": 2,
+    "file": "exp_02_verify_small_b98_t90.jpg",
+    "phrasing": "tumbler",
+    "gt": 1,
+    "raw": "Yes",
+    "pred": 1,
+    "latency_s": 6.0,
+    "placement": "gpu"
+  },
+  {
+    "idx": 3,
+    "file": "exp_03_pan_left_10_b80_t90.jpg",
+    "phrasing": "water bottle",
+    "gt": 1,
+    "raw": "Yes",
+    "pred": 1,
+    "latency_s": 77.11,
+    "placement": "cpu_fallback"
+  },
+  {
+    "idx": 3,
+    "file": "exp_03_pan_left_10_b80_t90.jpg",
+    "phrasing": "bottle",
+    "gt": 1,
+    "raw": "Yes",
+    "pred": 1,
+    "latency_s": 60.14,
+    "placement": "cpu_fallback"
+  }
+]

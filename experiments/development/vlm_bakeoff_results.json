@@ -1,0 +1,88 @@
+{
+  "smolvlm2-2.2b": {
+    "hf_id": "HuggingFaceTB/SmolVLM2-2.2B-Instruct",
+    "why": "built for speed; ~4.4GB fp16 FITS 6GB, so no dequant overhead at all",
+    "soak": {
+      "degenerate": 0,
+      "of": 25,
+      "first_lock_at": null,
+      "latency_short_p50": 5.849,
+      "latency_short_max": 560.327,
+      "latency_long_p50": 9.931
+    },
+    "heldout": {
+      "acc": 0.75,
+      "sens": 0.909,
+      "spec": 0.4,
+      "hallucinations": 0,
+      "tp": 10,
+      "fp": 3,
+      "tn": 2,
+      "fn": 1
+    },
+    "occlusion": {
+      "correct": 1,
+      "of": 3,
+      "detail": [
+        {
+          "expected": "VISIBLE",
+          "got": "VISIBLE",
+          "ok": true
+        },
+        {
+          "expected": "PARTIAL",
+          "got": "VISIBLE",
+          "ok": false
+        },
+        {
+          "expected": "HIDDEN",
+          "got": "PARTIAL",
+          "ok": false
+        }
+      ]
+    }
+  },
+  "qwen2.5vl-3b-CONTROL": {
+    "hf_id": "Qwen/Qwen2.5-VL-3B-Instruct",
+    "why": "SAME weights as the incumbent, new runtime -- isolates runtime vs model",
+    "soak": {
+      "degenerate": 0,
+      "of": 25,
+      "first_lock_at": null,
+      "latency_short_p50": 5.619,
+      "latency_short_max": 6.09,
+      "latency_long_p50": 12.725
+    },
+    "heldout": {
+      "acc": 0.875,
+      "sens": 1.0,
+      "spec": 0.6,
+      "hallucinations": 0,
+      "tp": 11,
+      "fp": 2,
+      "tn": 3,
+      "fn": 0
+    },
+    "occlusion": {
+      "correct": 1,
+      "of": 3,
+      "detail": [
+        {
+          "expected": "VISIBLE",
+          "got": "PARTIAL",
+          "ok": false
+        },
+        {
+          "expected": "PARTIAL",
+          "got": "PARTIAL",
+          "ok": true
+        },
+        {
+          "expected": "HIDDEN",
+          "got": "PARTIAL",
+          "ok": false
+        }
+      ]
+    }
+  }
+}

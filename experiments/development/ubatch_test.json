@@ -1,0 +1,10 @@
+{
+  "ub512_ctrl": {
+    "b": 512,
+    "ub": 512,
+    "vram_free_after_load": 200,
+    "probe_degen": 6,
+    "probe_first_lock": 3,
+    "probe_med_lat_s": 16.91
+  }
+}

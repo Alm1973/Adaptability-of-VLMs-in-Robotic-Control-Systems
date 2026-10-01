@@ -1,0 +1,29 @@
+{
+  "100352": {
+    "latency_short_p50": 0.375,
+    "prompt_tokens": 151,
+    "acc": 0.75,
+    "tp": 9,
+    "fp": 2,
+    "tn": 3,
+    "fn": 2
+  },
+  "200704": {
+    "latency_short_p50": 0.58,
+    "prompt_tokens": 283,
+    "acc": 0.812,
+    "tp": 10,
+    "fp": 2,
+    "tn": 3,
+    "fn": 1
+  },
+  "401408": {
+    "latency_short_p50": 0.834,
+    "prompt_tokens": 511,
+    "acc": 0.812,
+    "tp": 10,
+    "fp": 2,
+    "tn": 3,
+    "fn": 1
+  }
+}

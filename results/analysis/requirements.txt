@@ -1,0 +1,4 @@
+# Enough to run analyze.py (no GPU, no robot). Also needs ffmpeg on PATH.
+numpy
+scipy
+matplotlib

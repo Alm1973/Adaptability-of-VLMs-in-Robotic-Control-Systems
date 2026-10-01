@@ -1,0 +1,64 @@
+[23:35:34] run dir: runs\2026-09-01_233533
+[23:35:34] 48 trials, clutter levels=['none', 'high'], seed=20260901, smoke=False
+[23:35:34] phase=6.0s, edge margin=1.00s each end -> 4.00s scoreable per phase
+[23:35:34] opening camera...
+[23:35:54] loading verifier (this takes ~20s)...
+[23:36:13] arm ready at base=90 tilt=90
+[23:36:13] capturing baseline...
+[23:37:11] baseline: cup detected in 10/10 frames, brightness 144-144
+[23:37:15] clutter changed to 'none'
+[23:38:41] trial 1 (camera_pose) rep 1: PASS  acc=1.0 false=0
+[23:40:50] trial 2 (removal) rep 1: PARTIAL  acc=0.532 false=0
+[23:41:37] trial 3 (occlude_hand): REPEAT requested
+[23:42:16] trial 3 (occlude_hand) rep 1: PARTIAL  acc=0.525 false=0
+[23:43:15] trial 4 (occlude_object) rep 1: PARTIAL  acc=0.5 false=0
+[23:44:35] trial 5 (identity_swap) rep 1: PARTIAL  acc=0.525 false=0
+[23:45:31] trial 6 (substitution): REPEAT requested
+[23:46:30] trial 6 (substitution) rep 1: PARTIAL  acc=0.525 false=0
+[23:47:56] trial 7 (lighting) rep 1: PASS  acc=1.0 false=0
+[23:48:36] trial 8 (control) rep 1: PASS  acc=1.0 false=0
+[23:53:33] clutter changed to 'high'
+[23:54:55] trial 9 (identity_swap) rep 1: PARTIAL  acc=0.5 false=0
+[23:55:41] trial 10 (occlude_hand) rep 1: PASS  acc=0.904 false=0
+[23:56:23] trial 11 (control) rep 1: PASS  acc=1.0 false=0
+[23:57:13] trial 12 (substitution) rep 1: FAIL  acc=0.506 false=6
+[23:58:14] trial 13 (camera_pose) rep 1: PASS  acc=1.0 false=0
+[23:59:03] trial 14 (removal) rep 1: PARTIAL  acc=0.639 false=0
+[00:01:13] trial 15 (lighting) rep 1: PASS  acc=1.0 false=0
+[00:02:55] trial 16 (occlude_object) rep 1: PASS  acc=1.0 false=0
+[00:03:15] clutter changed to 'none'
+[00:04:38] trial 17 (occlude_hand) rep 2: PARTIAL  acc=0.525 false=0
+[00:05:08] trial 18 (control) rep 2: PASS  acc=1.0 false=0
+[00:07:54] trial 19 (lighting) rep 2: PASS  acc=1.0 false=0
+[00:09:09] trial 20 (identity_swap) rep 2: PARTIAL  acc=0.525 false=0
+[00:09:52] trial 21 (occlude_object) rep 2: PASS  acc=1.0 false=0
+[00:10:32] trial 22 (removal) rep 2: FAIL  acc=0.487 false=3
+[00:11:37] trial 23 (camera_pose) rep 2: PASS  acc=1.0 false=0
+[00:12:27] trial 24 (substitution) rep 2: PARTIAL  acc=0.525 false=0
+[00:14:49] clutter changed to 'high'
+[00:16:10] trial 25 (camera_pose) rep 2: PASS  acc=1.0 false=0
+[00:16:55] trial 26 (lighting) rep 2: PASS  acc=1.0 false=0
+[00:18:00] trial 27 (occlude_object) rep 2: PASS  acc=0.987 false=0
+[00:18:55] trial 28 (control) rep 2: PASS  acc=1.0 false=0
+[00:19:49] trial 29 (removal) rep 2: FAIL  acc=0.789 false=16
+[00:20:58] trial 30 (identity_swap) rep 2: FAIL  acc=0.703 false=18
+[00:22:12] trial 31 (substitution) rep 2: FAIL  acc=0.5 false=40
+[00:23:02] trial 32 (occlude_hand) rep 2: PASS  acc=1.0 false=0
+[00:23:30] clutter changed to 'none'
+[00:24:28] trial 33 (occlude_hand) rep 3: PARTIAL  acc=0.525 false=0
+[00:25:15] trial 34 (camera_pose) rep 3: PASS  acc=1.0 false=0
+[00:26:04] trial 35 (occlude_object) rep 3: PARTIAL  acc=0.5 false=0
+[00:26:48] trial 36 (removal) rep 3: FAIL  acc=0.506 false=1
+[00:27:33] trial 37 (identity_swap) rep 3: PARTIAL  acc=0.519 false=0
+[00:28:16] trial 38 (control) rep 3: PASS  acc=1.0 false=0
+[00:29:18] trial 39 (substitution) rep 3: FAIL  acc=0.325 false=14
+[00:30:03] trial 40 (lighting) rep 3: PASS  acc=1.0 false=0
+[00:30:57] clutter changed to 'high'
+[00:31:42] trial 41 (control) rep 3: PASS  acc=1.0 false=0
+[00:32:22] trial 42 (camera_pose) rep 3: PASS  acc=1.0 false=0
+[00:33:28] trial 43 (lighting) rep 3: PASS  acc=1.0 false=0
+[00:35:12] trial 44 (occlude_object) rep 3: PASS  acc=1.0 false=0
+[00:36:07] trial 45 (identity_swap) rep 3: FAIL  acc=0.303 false=15
+[00:36:49] trial 46 (removal) rep 3: FAIL  acc=0.5 false=40
+[00:37:28] trial 47 (substitution) rep 3: FAIL  acc=0.5 false=40
+[00:38:14] trial 48 (occlude_hand) rep 3: PASS  acc=1.0 false=0

@@ -1,0 +1,206 @@
+{
+  "c2_05_pan_b108_t90.jpg": {
+    "whole": [
+      [
+        "monitor",
+        "laptop",
+        "keyboard",
+        "mouse",
+        "can",
+        "tissue"
+      ],
+      [
+        "water bottle",
+        "tissue",
+        "laptop",
+        "keyboard",
+        "computer mouse",
+        "can"
+      ],
+      [
+        "monitor",
+        "keyboard",
+        "laptop",
+        "mouse",
+        "bottle",
+        "can",
+        "tissue"
+      ]
+    ],
+    "crops": {
+      "TL": [
+        "Monitor",
+        "bottle",
+        "laptop screen"
+      ],
+      "TR": [
+        "Papers",
+        "Milk Carton"
+      ],
+      "BL": [
+        "Bottle",
+        "speaker",
+        "computer monitor",
+        "keyboard",
+        "can"
+      ],
+      "BR": [
+        "Celsius",
+        "computer mouse",
+        "can",
+        "soda can"
+      ],
+      "center": [
+        "Laptop",
+        "Coffee can",
+        "Keyboard",
+        "Hand",
+        "Tissue"
+      ]
+    }
+  },
+  "c2_07_tilt_b90_t78.jpg": {
+    "whole": [
+      [
+        "Monitor",
+        "laptop",
+        "tissues"
+      ],
+      [
+        "Computer monitor",
+        "laptop",
+        "bottle",
+        "tissue paper"
+      ],
+      [
+        "Monitor",
+        "laptop",
+        "tissue paper"
+      ]
+    ],
+    "crops": {
+      "TL": [
+        "Television screen"
+      ],
+      "TR": [
+        "tv",
+        "blinds",
+        "television",
+        "tv screen",
+        "tv remote",
+        "remote control",
+        "remote"
+      ],
+      "BL": [
+        "Monitor",
+        "laptop",
+        "bottle"
+      ],
+      "BR": [
+        "Bottle",
+        "monitor",
+        "tissue",
+        "television",
+        "speaker",
+        "laptop",
+        "paper"
+      ],
+      "center": [
+        "Window blinds",
+        "rock formations",
+        "TV screen",
+        "laptop screen"
+      ]
+    }
+  },
+  "c2_09_tilt_b90_t108.jpg": {
+    "whole": [
+      [
+        "Keyboard",
+        "mouse"
+      ],
+      [
+        "Keyboard",
+        "mouse",
+        "can",
+        "mousepad",
+        "pen"
+      ],
+      [
+        "Keyboard",
+        "mouse",
+        "pen",
+        "can"
+      ]
+    ],
+    "crops": {
+      "TL": [
+        "keyboard"
+      ],
+      "TR": [
+        "Laptop"
+      ],
+      "BL": [
+        "Keyboard",
+        "Mouse",
+        "Wire"
+      ],
+      "BR": [
+        "USB cable"
+      ],
+      "center": [
+        "Keyboard",
+        "mouse"
+      ]
+    }
+  },
+  "c2_10_home.jpg": {
+    "whole": [
+      [
+        "Tissue paper"
+      ],
+      [
+        "Monitor",
+        "keyboard",
+        "laptop",
+        "can",
+        "tissue"
+      ],
+      [
+        "Keyboard",
+        "can",
+        "laptop",
+        "tissue"
+      ]
+    ],
+    "crops": {
+      "TL": [
+        "Monitor"
+      ],
+      "TR": [
+        "Laptop",
+        "monitor",
+        "monitor case",
+        "tissue"
+      ],
+      "BL": [
+        "Keyboard",
+        "monitor",
+        "water bottle"
+      ],
+      "BR": [
+        "Celsius Energy Drink",
+        "Laptop",
+        "Keyboard",
+        "Mouse",
+        "Computer Mouse"
+      ],
+      "center": [
+        "monitor",
+        "keyboard",
+        "bottle",
+        "computer"
+      ]
+    }
+  }
+}

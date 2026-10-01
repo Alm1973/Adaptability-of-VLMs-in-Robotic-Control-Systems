@@ -1,0 +1,22 @@
+LARGE FILES (>50 MB) — none copied
+===================================
+
+No individual file over 50 MB was copied into import/msi/. The two
+categories of large content in the source tree were handled as follows,
+neither by hitting the 50 MB single-file threshold:
+
+1. Model weights (yolov8s-worldv2.pt, ~25 MB at <HOME>\weights\ and
+   <HOME>\yolov8s-worldv2.pt; any local .gguf/quantized VLM weight files
+   under the llama-server directory) — excluded categorically per the task's
+   Step 1 instruction to skip "model weights" during the search, not
+   evaluated file-by-file. They are re-downloadable from source and are not
+   part of the experiment results.
+
+2. Per-trial raw/annotated frame folders under
+   runs/2026-09-01_233533/trials/ — no single JPEG in there exceeds ~250 KB,
+   so none trips the 50 MB single-file rule, but the folders were excluded
+   as directories per Step 2's explicit instruction (sampled instead — see
+   FRAMES_NOT_COPIED.txt).
+
+Total size of import/msi/ after copying: see DECISIONS.md for the final
+figure (well under the 150 MB commit cap).

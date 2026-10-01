@@ -1,0 +1,7 @@
+episode,clutter,D_false,E_false,E_minus_D
+009_identity_swap_rep1,high,0,26,26
+012_substitution_rep1,high,6,9,3
+014_removal_rep1,high,0,37,37
+029_removal_rep2,high,15,36,21
+030_identity_swap_rep2,high,19,22,3
+045_identity_swap_rep3,high,17,28,11

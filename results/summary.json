@@ -1,0 +1,523 @@
+{
+  "frames_total": 8428,
+  "frames_scored": 5699,
+  "frames_edge": 2729,
+  "frames_absent_scored": 691,
+  "capture_dt_median_s": 0.09999999999999998,
+  "capture_dt_mean_s": 0.10348261709319169,
+  "capture_fps_median": 10.000000000000002,
+  "capture_fps_mean": 9.663458734324877,
+  "trial_minutes": 44.745,
+  "vlm_frames": 135,
+  "vlm_calls_live": 135,
+  "vlm_frame_share_pct": 1.6018035121025154,
+  "step_ms_novlm_median": 28.8,
+  "step_ms_novlm_p95": 48.5,
+  "step_ms_vlm_median": 333.6,
+  "step_ms_vlm_p95": 465.32,
+  "step_ms_all_mean": 34.606371618414805,
+  "vlm_calls_replay_D": 132,
+  "verdicts_live": {
+    "PASS": 25,
+    "PARTIAL": 13,
+    "FAIL": 10
+  },
+  "verdicts_replay_disrupt_only": {
+    "PASS": 25,
+    "FAIL": 23
+  },
+  "verdict_breakdown": [
+    {
+      "condition": "D_full",
+      "PASS": 25,
+      "PARTIAL": 0,
+      "FAIL (false belief)": 10,
+      "FAIL (accuracy < 0.4, no false belief)": 13
+    },
+    {
+      "condition": "E_no_vlm",
+      "PASS": 24,
+      "PARTIAL": 0,
+      "FAIL (false belief)": 12,
+      "FAIL (accuracy < 0.4, no false belief)": 12
+    }
+  ],
+  "live_false_total": 193,
+  "live_episode_acc_mean": 0.7682291666666666,
+  "ablation": [
+    {
+      "condition": "D_full",
+      "false_belief": 196,
+      "lost_while_present": 711,
+      "spurious_reacq": 2,
+      "mean_durAcc": 0.64,
+      "vlm_calls": 132
+    },
+    {
+      "condition": "E_no_vlm",
+      "false_belief": 297,
+      "lost_while_present": 657,
+      "spurious_reacq": 11,
+      "mean_durAcc": 0.653,
+      "vlm_calls": 0
+    },
+    {
+      "condition": "D_full(decay=30)",
+      "false_belief": 229,
+      "lost_while_present": 478,
+      "spurious_reacq": 2,
+      "mean_durAcc": 0.762,
+      "vlm_calls": 132
+    },
+    {
+      "condition": "D_full(decay=60)",
+      "false_belief": 235,
+      "lost_while_present": 232,
+      "spurious_reacq": 2,
+      "mean_durAcc": 0.89,
+      "vlm_calls": 132
+    }
+  ],
+  "n_differing": 6,
+  "n_favour_vlm": 6,
+  "sign_p_one_sided": 0.015625,
+  "sign_p_two_sided": 0.03125,
+  "frames_saved_total": 101,
+  "top2_share_pct": 62.37623762376238,
+  "by_clutter": {
+    "none": {
+      "D_false": 19,
+      "E_false": 19
+    },
+    "high": {
+      "D_false": 177,
+      "E_false": 278
+    }
+  },
+  "identity": {
+    "D_false": 36,
+    "E_false": 76,
+    "D_acc": 0.18266666666666667,
+    "E_acc": 0.3013333333333334
+  },
+  "detector_fp": [
+    {
+      "scenario": "removal",
+      "clutter": "none",
+      "absent_frames": 117,
+      "detector_fired": 1,
+      "rate": 0.0085,
+      "ci95_lo": 0.0015,
+      "ci95_hi": 0.0468
+    },
+    {
+      "scenario": "removal",
+      "clutter": "high",
+      "absent_frames": 113,
+      "detector_fired": 103,
+      "rate": 0.9115,
+      "ci95_lo": 0.8447,
+      "ci95_hi": 0.9512
+    },
+    {
+      "scenario": "substitution",
+      "clutter": "none",
+      "absent_frames": 117,
+      "detector_fired": 1,
+      "rate": 0.0085,
+      "ci95_lo": 0.0015,
+      "ci95_hi": 0.0468
+    },
+    {
+      "scenario": "substitution",
+      "clutter": "high",
+      "absent_frames": 117,
+      "detector_fired": 83,
+      "rate": 0.7094,
+      "ci95_lo": 0.6215,
+      "ci95_hi": 0.784
+    },
+    {
+      "scenario": "identity_swap",
+      "clutter": "none",
+      "absent_frames": 120,
+      "detector_fired": 0,
+      "rate": 0.0,
+      "ci95_lo": 0.0,
+      "ci95_hi": 0.031
+    },
+    {
+      "scenario": "identity_swap",
+      "clutter": "high",
+      "absent_frames": 107,
+      "detector_fired": 25,
+      "rate": 0.2336,
+      "ci95_lo": 0.1636,
+      "ci95_hi": 0.3222
+    },
+    {
+      "scenario": "ALL",
+      "clutter": "none",
+      "absent_frames": 354,
+      "detector_fired": 2,
+      "rate": 0.0056,
+      "ci95_lo": 0.0016,
+      "ci95_hi": 0.0204
+    },
+    {
+      "scenario": "ALL",
+      "clutter": "high",
+      "absent_frames": 337,
+      "detector_fired": 211,
+      "rate": 0.6261,
+      "ci95_lo": 0.5733,
+      "ci95_hi": 0.6761
+    }
+  ],
+  "fisher_p_bare_vs_clutter": 2.0218765851462416e-84,
+  "fp_conf_median": 0.383,
+  "fp_conf_min": 0.174,
+  "fp_conf_max": 0.82,
+  "fp_conf_share_ge_025": 0.8779342723004695,
+  "fp_conf_share_ge_050": 0.03755868544600939,
+  "by_axis": [
+    {
+      "condition": "D_full",
+      "axis": "control",
+      "n": 6,
+      "false_belief": 0,
+      "lost": 0,
+      "mean_durAcc": 1.0,
+      "vlm_calls_per_episode": 1.0
+    },
+    {
+      "condition": "D_full",
+      "axis": "environment",
+      "n": 12,
+      "false_belief": 0,
+      "lost": 0,
+      "mean_durAcc": 1.0,
+      "vlm_calls_per_episode": 1.0
+    },
+    {
+      "condition": "D_full",
+      "axis": "occlusion",
+      "n": 18,
+      "false_belief": 60,
+      "lost": 375,
+      "mean_durAcc": 0.516,
+      "vlm_calls_per_episode": 3.5
+    },
+    {
+      "condition": "D_full",
+      "axis": "identity",
+      "n": 6,
+      "false_belief": 36,
+      "lost": 190,
+      "mean_durAcc": 0.183,
+      "vlm_calls_per_episode": 6.5
+    },
+    {
+      "condition": "D_full",
+      "axis": "unexpected",
+      "n": 6,
+      "false_belief": 100,
+      "lost": 146,
+      "mean_durAcc": 0.392,
+      "vlm_calls_per_episode": 2.0
+    },
+    {
+      "condition": "D_full(decay=30)",
+      "axis": "control",
+      "n": 6,
+      "false_belief": 0,
+      "lost": 0,
+      "mean_durAcc": 1.0,
+      "vlm_calls_per_episode": 1.0
+    },
+    {
+      "condition": "D_full(decay=30)",
+      "axis": "environment",
+      "n": 12,
+      "false_belief": 0,
+      "lost": 0,
+      "mean_durAcc": 1.0,
+      "vlm_calls_per_episode": 1.0
+    },
+    {
+      "condition": "D_full(decay=30)",
+      "axis": "occlusion",
+      "n": 18,
+      "false_belief": 61,
+      "lost": 267,
+      "mean_durAcc": 0.667,
+      "vlm_calls_per_episode": 3.5
+    },
+    {
+      "condition": "D_full(decay=30)",
+      "axis": "identity",
+      "n": 6,
+      "false_belief": 40,
+      "lost": 133,
+      "mean_durAcc": 0.421,
+      "vlm_calls_per_episode": 6.5
+    },
+    {
+      "condition": "D_full(decay=30)",
+      "axis": "unexpected",
+      "n": 6,
+      "false_belief": 128,
+      "lost": 78,
+      "mean_durAcc": 0.675,
+      "vlm_calls_per_episode": 2.0
+    },
+    {
+      "condition": "D_full(decay=60)",
+      "axis": "control",
+      "n": 6,
+      "false_belief": 0,
+      "lost": 0,
+      "mean_durAcc": 1.0,
+      "vlm_calls_per_episode": 1.0
+    },
+    {
+      "condition": "D_full(decay=60)",
+      "axis": "environment",
+      "n": 12,
+      "false_belief": 0,
+      "lost": 0,
+      "mean_durAcc": 1.0,
+      "vlm_calls_per_episode": 1.0
+    },
+    {
+      "condition": "D_full(decay=60)",
+      "axis": "occlusion",
+      "n": 18,
+      "false_belief": 61,
+      "lost": 149,
+      "mean_durAcc": 0.831,
+      "vlm_calls_per_episode": 3.5
+    },
+    {
+      "condition": "D_full(decay=60)",
+      "axis": "identity",
+      "n": 6,
+      "false_belief": 40,
+      "lost": 73,
+      "mean_durAcc": 0.671,
+      "vlm_calls_per_episode": 6.5
+    },
+    {
+      "condition": "D_full(decay=60)",
+      "axis": "unexpected",
+      "n": 6,
+      "false_belief": 134,
+      "lost": 10,
+      "mean_durAcc": 0.958,
+      "vlm_calls_per_episode": 2.0
+    },
+    {
+      "condition": "E_no_vlm",
+      "axis": "control",
+      "n": 6,
+      "false_belief": 0,
+      "lost": 0,
+      "mean_durAcc": 1.0,
+      "vlm_calls_per_episode": 0.0
+    },
+    {
+      "condition": "E_no_vlm",
+      "axis": "environment",
+      "n": 12,
+      "false_belief": 0,
+      "lost": 0,
+      "mean_durAcc": 1.0,
+      "vlm_calls_per_episode": 0.0
+    },
+    {
+      "condition": "E_no_vlm",
+      "axis": "occlusion",
+      "n": 18,
+      "false_belief": 118,
+      "lost": 338,
+      "mean_durAcc": 0.52,
+      "vlm_calls_per_episode": 0.0
+    },
+    {
+      "condition": "E_no_vlm",
+      "axis": "identity",
+      "n": 6,
+      "false_belief": 76,
+      "lost": 165,
+      "mean_durAcc": 0.301,
+      "vlm_calls_per_episode": 0.0
+    },
+    {
+      "condition": "E_no_vlm",
+      "axis": "unexpected",
+      "n": 6,
+      "false_belief": 103,
+      "lost": 154,
+      "mean_durAcc": 0.358,
+      "vlm_calls_per_episode": 0.0
+    }
+  ],
+  "occlusion": [
+    {
+      "trial": 3,
+      "scenario": "occlude_hand",
+      "clutter": "none",
+      "disrupt_frames": 40,
+      "belief_correct": 0.05,
+      "detector_fired": 0.0,
+      "CONFIRMED": 0,
+      "OCCLUDED": 2,
+      "MISSING": 38,
+      "DISPLACED": 0,
+      "AMBIGUOUS": 0
+    },
+    {
+      "trial": 4,
+      "scenario": "occlude_object",
+      "clutter": "none",
+      "disrupt_frames": 40,
+      "belief_correct": 0.0,
+      "detector_fired": 0.0,
+      "CONFIRMED": 0,
+      "OCCLUDED": 0,
+      "MISSING": 0,
+      "DISPLACED": 40,
+      "AMBIGUOUS": 0
+    },
+    {
+      "trial": 10,
+      "scenario": "occlude_hand",
+      "clutter": "high",
+      "disrupt_frames": 33,
+      "belief_correct": 0.788,
+      "detector_fired": 0.0,
+      "CONFIRMED": 0,
+      "OCCLUDED": 26,
+      "MISSING": 0,
+      "DISPLACED": 0,
+      "AMBIGUOUS": 7
+    },
+    {
+      "trial": 16,
+      "scenario": "occlude_object",
+      "clutter": "high",
+      "disrupt_frames": 40,
+      "belief_correct": 1.0,
+      "detector_fired": 1.0,
+      "CONFIRMED": 40,
+      "OCCLUDED": 0,
+      "MISSING": 0,
+      "DISPLACED": 0,
+      "AMBIGUOUS": 0
+    },
+    {
+      "trial": 17,
+      "scenario": "occlude_hand",
+      "clutter": "none",
+      "disrupt_frames": 40,
+      "belief_correct": 0.05,
+      "detector_fired": 0.0,
+      "CONFIRMED": 0,
+      "OCCLUDED": 2,
+      "MISSING": 38,
+      "DISPLACED": 0,
+      "AMBIGUOUS": 0
+    },
+    {
+      "trial": 21,
+      "scenario": "occlude_object",
+      "clutter": "none",
+      "disrupt_frames": 40,
+      "belief_correct": 1.0,
+      "detector_fired": 1.0,
+      "CONFIRMED": 40,
+      "OCCLUDED": 0,
+      "MISSING": 0,
+      "DISPLACED": 0,
+      "AMBIGUOUS": 0
+    },
+    {
+      "trial": 27,
+      "scenario": "occlude_object",
+      "clutter": "high",
+      "disrupt_frames": 37,
+      "belief_correct": 0.973,
+      "detector_fired": 0.946,
+      "CONFIRMED": 35,
+      "OCCLUDED": 1,
+      "MISSING": 0,
+      "DISPLACED": 0,
+      "AMBIGUOUS": 1
+    },
+    {
+      "trial": 32,
+      "scenario": "occlude_hand",
+      "clutter": "high",
+      "disrupt_frames": 40,
+      "belief_correct": 1.0,
+      "detector_fired": 1.0,
+      "CONFIRMED": 40,
+      "OCCLUDED": 0,
+      "MISSING": 0,
+      "DISPLACED": 0,
+      "AMBIGUOUS": 0
+    },
+    {
+      "trial": 33,
+      "scenario": "occlude_hand",
+      "clutter": "none",
+      "disrupt_frames": 40,
+      "belief_correct": 0.05,
+      "detector_fired": 0.0,
+      "CONFIRMED": 0,
+      "OCCLUDED": 2,
+      "MISSING": 38,
+      "DISPLACED": 0,
+      "AMBIGUOUS": 0
+    },
+    {
+      "trial": 35,
+      "scenario": "occlude_object",
+      "clutter": "none",
+      "disrupt_frames": 40,
+      "belief_correct": 0.0,
+      "detector_fired": 0.0,
+      "CONFIRMED": 0,
+      "OCCLUDED": 0,
+      "MISSING": 0,
+      "DISPLACED": 40,
+      "AMBIGUOUS": 0
+    },
+    {
+      "trial": 44,
+      "scenario": "occlude_object",
+      "clutter": "high",
+      "disrupt_frames": 40,
+      "belief_correct": 1.0,
+      "detector_fired": 1.0,
+      "CONFIRMED": 40,
+      "OCCLUDED": 0,
+      "MISSING": 0,
+      "DISPLACED": 0,
+      "AMBIGUOUS": 0
+    },
+    {
+      "trial": 48,
+      "scenario": "occlude_hand",
+      "clutter": "high",
+      "disrupt_frames": 40,
+      "belief_correct": 1.0,
+      "detector_fired": 1.0,
+      "CONFIRMED": 40,
+      "OCCLUDED": 0,
+      "MISSING": 0,
+      "DISPLACED": 0,
+      "AMBIGUOUS": 0
+    }
+  ]
+}

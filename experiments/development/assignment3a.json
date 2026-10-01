@@ -1,0 +1,306 @@
+{
+  "per_episode": {
+    "D_full": {
+      "camera_pose": {
+        "kind": "environment",
+        "durAcc": 1.0,
+        "lost": 0,
+        "false": 0,
+        "spurious": false,
+        "vlm_calls": 1
+      },
+      "distractor": {
+        "kind": "unexpected",
+        "durAcc": 1.0,
+        "lost": 0,
+        "false": 0,
+        "spurious": false,
+        "vlm_calls": 1
+      },
+      "identity_same_class": {
+        "kind": "occlusion",
+        "durAcc": 0.615,
+        "lost": 10,
+        "false": 5,
+        "spurious": false,
+        "vlm_calls": 4
+      },
+      "lighting": {
+        "kind": "environment",
+        "durAcc": 1.0,
+        "lost": 0,
+        "false": 0,
+        "spurious": false,
+        "vlm_calls": 1
+      },
+      "occlude_book": {
+        "kind": "occlusion",
+        "durAcc": 0.562,
+        "lost": 14,
+        "false": 0,
+        "spurious": false,
+        "vlm_calls": 5
+      },
+      "occlude_box": {
+        "kind": "occlusion",
+        "durAcc": 0.387,
+        "lost": 19,
+        "false": 0,
+        "spurious": false,
+        "vlm_calls": 4
+      },
+      "occlude_jacket": {
+        "kind": "occlusion",
+        "durAcc": 0.429,
+        "lost": 16,
+        "false": 0,
+        "spurious": false,
+        "vlm_calls": 3
+      },
+      "occlude_paper": {
+        "kind": "occlusion",
+        "durAcc": 0.0,
+        "lost": 25,
+        "false": 0,
+        "spurious": false,
+        "vlm_calls": 3
+      },
+      "occlusion_full": {
+        "kind": "occlusion",
+        "durAcc": 0.05,
+        "lost": 38,
+        "false": 0,
+        "spurious": false,
+        "vlm_calls": 2
+      },
+      "occlusion_remove": {
+        "kind": "occlusion",
+        "durAcc": 0.05,
+        "lost": 38,
+        "false": 0,
+        "spurious": false,
+        "vlm_calls": 1
+      }
+    },
+    "E_no_vlm": {
+      "camera_pose": {
+        "kind": "environment",
+        "durAcc": 1.0,
+        "lost": 0,
+        "false": 0,
+        "spurious": false,
+        "vlm_calls": 0
+      },
+      "distractor": {
+        "kind": "unexpected",
+        "durAcc": 1.0,
+        "lost": 0,
+        "false": 0,
+        "spurious": false,
+        "vlm_calls": 0
+      },
+      "identity_same_class": {
+        "kind": "occlusion",
+        "durAcc": 0.923,
+        "lost": 2,
+        "false": 23,
+        "spurious": false,
+        "vlm_calls": 0
+      },
+      "lighting": {
+        "kind": "environment",
+        "durAcc": 1.0,
+        "lost": 0,
+        "false": 0,
+        "spurious": false,
+        "vlm_calls": 0
+      },
+      "occlude_book": {
+        "kind": "occlusion",
+        "durAcc": 0.656,
+        "lost": 11,
+        "false": 0,
+        "spurious": false,
+        "vlm_calls": 0
+      },
+      "occlude_box": {
+        "kind": "occlusion",
+        "durAcc": 0.161,
+        "lost": 26,
+        "false": 0,
+        "spurious": false,
+        "vlm_calls": 0
+      },
+      "occlude_jacket": {
+        "kind": "occlusion",
+        "durAcc": 0.214,
+        "lost": 22,
+        "false": 0,
+        "spurious": false,
+        "vlm_calls": 0
+      },
+      "occlude_paper": {
+        "kind": "occlusion",
+        "durAcc": 0.0,
+        "lost": 25,
+        "false": 0,
+        "spurious": false,
+        "vlm_calls": 0
+      },
+      "occlusion_full": {
+        "kind": "occlusion",
+        "durAcc": 0.05,
+        "lost": 38,
+        "false": 0,
+        "spurious": false,
+        "vlm_calls": 0
+      },
+      "occlusion_remove": {
+        "kind": "occlusion",
+        "durAcc": 0.05,
+        "lost": 38,
+        "false": 0,
+        "spurious": false,
+        "vlm_calls": 0
+      }
+    }
+  },
+  "per_axis": {
+    "environment": {
+      "D_full": {
+        "durAcc": 1.0,
+        "lost": 0,
+        "false": 0,
+        "vlm_calls": 2
+      },
+      "E_no_vlm": {
+        "durAcc": 1.0,
+        "lost": 0,
+        "false": 0,
+        "vlm_calls": 0
+      },
+      "delta_durAcc": 0.0,
+      "n_episodes": 2,
+      "episodes": [
+        "lighting",
+        "camera_pose"
+      ]
+    },
+    "occlusion": {
+      "D_full": {
+        "durAcc": 0.299,
+        "lost": 160,
+        "false": 5,
+        "vlm_calls": 22
+      },
+      "E_no_vlm": {
+        "durAcc": 0.293,
+        "lost": 162,
+        "false": 23,
+        "vlm_calls": 0
+      },
+      "delta_durAcc": 0.006,
+      "n_episodes": 7,
+      "episodes": [
+        "occlusion_full",
+        "occlusion_remove",
+        "occlude_book",
+        "occlude_paper",
+        "occlude_box",
+        "occlude_jacket",
+        "identity_same_class"
+      ]
+    },
+    "unexpected": {
+      "D_full": {
+        "durAcc": 1.0,
+        "lost": 0,
+        "false": 0,
+        "vlm_calls": 1
+      },
+      "E_no_vlm": {
+        "durAcc": 1.0,
+        "lost": 0,
+        "false": 0,
+        "vlm_calls": 0
+      },
+      "delta_durAcc": 0.0,
+      "n_episodes": 1,
+      "episodes": [
+        "distractor"
+      ]
+    }
+  },
+  "disagreement": {
+    "camera_pose": {
+      "frames": 160,
+      "differ_state": 0,
+      "differ_answer": 0,
+      "pct_state": 0.0,
+      "pct_answer": 0.0
+    },
+    "distractor": {
+      "frames": 176,
+      "differ_state": 0,
+      "differ_answer": 0,
+      "pct_state": 0.0,
+      "pct_answer": 0.0
+    },
+    "identity_same_class": {
+      "frames": 144,
+      "differ_state": 26,
+      "differ_answer": 26,
+      "pct_state": 18.1,
+      "pct_answer": 18.1
+    },
+    "lighting": {
+      "frames": 179,
+      "differ_state": 0,
+      "differ_answer": 0,
+      "pct_state": 0.0,
+      "pct_answer": 0.0
+    },
+    "occlude_book": {
+      "frames": 159,
+      "differ_state": 8,
+      "differ_answer": 8,
+      "pct_state": 5.0,
+      "pct_answer": 5.0
+    },
+    "occlude_box": {
+      "frames": 156,
+      "differ_state": 41,
+      "differ_answer": 28,
+      "pct_state": 26.3,
+      "pct_answer": 17.9
+    },
+    "occlude_jacket": {
+      "frames": 161,
+      "differ_state": 38,
+      "differ_answer": 18,
+      "pct_state": 23.6,
+      "pct_answer": 11.2
+    },
+    "occlude_paper": {
+      "frames": 142,
+      "differ_state": 8,
+      "differ_answer": 8,
+      "pct_state": 5.6,
+      "pct_answer": 5.6
+    },
+    "occlusion_full": {
+      "frames": 157,
+      "differ_state": 0,
+      "differ_answer": 0,
+      "pct_state": 0.0,
+      "pct_answer": 0.0
+    },
+    "occlusion_remove": {
+      "frames": 179,
+      "differ_state": 0,
+      "differ_answer": 0,
+      "pct_state": 0.0,
+      "pct_answer": 0.0
+    }
+  }
+}

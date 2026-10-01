@@ -1,0 +1,223 @@
+{
+  "current": {
+    "halluc_hits": 0,
+    "halluc_checks": 40,
+    "halluc_rate": 0.0,
+    "halluc_detail": [],
+    "pos_correct": 6,
+    "pos_total": 8,
+    "pos_misses": [
+      [
+        "c2_07_tilt_b90_t78.jpg",
+        "water bottle",
+        1,
+        0
+      ],
+      [
+        "c2_10_home.jpg",
+        "laptop",
+        1,
+        0
+      ]
+    ],
+    "mean_items": 4.5,
+    "med_lat_s": 2.74,
+    "lists": {
+      "c2_01_pan_b60_t90.jpg": [
+        "Monitor",
+        "Mouse",
+        "Computer",
+        "Desktop"
+      ],
+      "c2_02_pan_b72_t90.jpg": [
+        "Monitor",
+        "Desktop",
+        "Bottle",
+        "Mouse"
+      ],
+      "c2_03_pan_b84_t90.jpg": [
+        "Monitor",
+        "keyboard",
+        "laptop",
+        "bottle",
+        "mouse"
+      ],
+      "c2_04_pan_b96_t90.jpg": [
+        "Celsius can"
+      ],
+      "c2_05_pan_b108_t90.jpg": [
+        "mouse",
+        "mousepad",
+        "keyboard",
+        "laptop",
+        "water bottle",
+        "bottle",
+        "can"
+      ],
+      "c2_06_pan_b120_t90.jpg": [
+        "Celso",
+        "laptop",
+        "keyboard",
+        "tissue",
+        "mug",
+        "mouse"
+      ],
+      "c2_07_tilt_b90_t78.jpg": [
+        "Tissue",
+        "laptop"
+      ],
+      "c2_08_tilt_b90_t93.jpg": [
+        "Laptop",
+        "soda can",
+        "keyboard",
+        "mouse",
+        "computer monitor",
+        "laptop keyboard",
+        "tissue paper",
+        "paper towel roll"
+      ],
+      "c2_09_tilt_b90_t108.jpg": [
+        "Keyboard",
+        "Mouse",
+        "Can",
+        "Bottle"
+      ],
+      "c2_10_home.jpg": [
+        "Keyboard",
+        "Mouse",
+        "Can",
+        "Bottle"
+      ]
+    }
+  },
+  "count_hint": {
+    "halluc_hits": 0,
+    "halluc_checks": 40,
+    "halluc_rate": 0.0,
+    "halluc_detail": [],
+    "pos_correct": 5,
+    "pos_total": 8,
+    "pos_misses": [
+      [
+        "c2_07_tilt_b90_t78.jpg",
+        "keyboard",
+        0,
+        1
+      ],
+      [
+        "c2_07_tilt_b90_t78.jpg",
+        "computer mouse",
+        0,
+        1
+      ],
+      [
+        "c2_10_home.jpg",
+        "water bottle",
+        1,
+        0
+      ]
+    ],
+    "mean_items": 7.8,
+    "med_lat_s": 5.45,
+    "lists": {
+      "c2_01_pan_b60_t90.jpg": [
+        "Rocks",
+        "monitor",
+        "screen",
+        "desktop",
+        "keyboard",
+        "mouse",
+        "power cord",
+        "wall"
+      ],
+      "c2_02_pan_b72_t90.jpg": [
+        "Monitor",
+        "Bottle",
+        "Remote control",
+        "Book",
+        "Computer keyboard",
+        "Computer mouse"
+      ],
+      "c2_03_pan_b84_t90.jpg": [
+        "Keyboard",
+        "soda can",
+        "laptop",
+        "bottle",
+        "monitor",
+        "mouse",
+        "chair",
+        "monitor stand"
+      ],
+      "c2_04_pan_b96_t90.jpg": [
+        "Monitor",
+        "keyboard",
+        "can",
+        "laptop",
+        "tissue",
+        "bottle",
+        "earphones",
+        "mouse"
+      ],
+      "c2_05_pan_b108_t90.jpg": [
+        "Monitor",
+        "laptop",
+        "keyboard",
+        "mouse",
+        "can",
+        "water bottle",
+        "tissue",
+        "soda can"
+      ],
+      "c2_06_pan_b120_t90.jpg": [
+        "Can",
+        "Mouse",
+        "Book",
+        "Paper",
+        "Tissue",
+        "Laptop",
+        "Drink",
+        "Shirt"
+      ],
+      "c2_07_tilt_b90_t78.jpg": [
+        "Monitor",
+        "keyboard",
+        "computer",
+        "mouse",
+        "bottle",
+        "laptop",
+        "computer mouse",
+        "tissue"
+      ],
+      "c2_08_tilt_b90_t93.jpg": [
+        "Computer monitor",
+        "laptop",
+        "computer keyboard",
+        "computer mouse",
+        "beverage can",
+        "water bottle",
+        "tissue",
+        "pen"
+      ],
+      "c2_09_tilt_b90_t108.jpg": [
+        "Keyboard",
+        "can",
+        "mouse",
+        "paperclip",
+        "eraser",
+        "pen",
+        "bottle",
+        "desk"
+      ],
+      "c2_10_home.jpg": [
+        "Laptop",
+        "soda can",
+        "monitor",
+        "keyboard",
+        "tissue",
+        "mouse",
+        "headphones",
+        "hand"
+      ]
+    }
+  }
+}

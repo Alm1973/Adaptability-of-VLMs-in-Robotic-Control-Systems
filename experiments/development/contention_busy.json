@@ -1,0 +1,17 @@
+{
+  "phase": "busy",
+  "comfyui_generating": true,
+  "detector": {
+    "median": 0.0221,
+    "mean": 0.0229,
+    "min": 0.0154,
+    "max": 0.0318
+  },
+  "vlm": {
+    "median": 0.308,
+    "mean": 0.3017,
+    "min": 0.2643,
+    "max": 0.3252
+  },
+  "n": 12
+}

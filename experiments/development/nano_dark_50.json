@@ -1,0 +1,56 @@
+[
+  {
+    "brightness": 0.5,
+    "offset": [
+      -50,
+      0
+    ],
+    "search_valid": true,
+    "found": true,
+    "time_to_find": 0.41,
+    "centred": true,
+    "time_to_centre": 1.04,
+    "search_moves": 0,
+    "frames": 8,
+    "final_err_px": 81.7,
+    "vlm_calls": 1,
+    "final_status": "CONFIRMED",
+    "condition": "dark_50"
+  },
+  {
+    "brightness": 0.5,
+    "offset": [
+      50,
+      0
+    ],
+    "search_valid": false,
+    "found": true,
+    "time_to_find": 4.72,
+    "centred": false,
+    "time_to_centre": null,
+    "search_moves": 9,
+    "frames": 103,
+    "final_err_px": 454.1,
+    "vlm_calls": 8,
+    "final_status": "MISSING",
+    "condition": "dark_50"
+  },
+  {
+    "brightness": 0.5,
+    "offset": [
+      -50,
+      0
+    ],
+    "search_valid": true,
+    "found": true,
+    "time_to_find": 0.38,
+    "centred": true,
+    "time_to_centre": 1.78,
+    "search_moves": 0,
+    "frames": 16,
+    "final_err_px": 56.6,
+    "vlm_calls": 1,
+    "final_status": "CONFIRMED",
+    "condition": "dark_50"
+  }
+]

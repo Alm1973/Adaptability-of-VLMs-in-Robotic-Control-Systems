@@ -1,0 +1,315 @@
+{
+  "c2_05_pan_b108_t90.jpg": {
+    "whole": [
+      [
+        "mouse",
+        "keyboard",
+        "laptop",
+        "monitor"
+      ],
+      [
+        "Celsius can",
+        "laptop",
+        "keyboard",
+        "monitor",
+        "mouse",
+        "headphones",
+        "bottle",
+        "tissue",
+        "socks"
+      ],
+      [
+        "laptop",
+        "bottle",
+        "can",
+        "mouse",
+        "keyboard",
+        "monitor",
+        "earphone",
+        "paper"
+      ]
+    ],
+    "blind": {
+      "TL": [
+        "Computer monitor",
+        "laptop",
+        "bottle",
+        "speaker",
+        "fan"
+      ],
+      "TR": [
+        "Waste bin"
+      ],
+      "BL": [
+        "Bottle",
+        "Cans",
+        "Laptop"
+      ],
+      "BR": [
+        "Celsius orange drink",
+        "computer mouse",
+        "can"
+      ],
+      "center": [
+        "Tissue"
+      ]
+    },
+    "prop": {
+      "r0": [
+        "Bottle",
+        "Keyboard",
+        "Bottle cap",
+        "Can",
+        "Laptop",
+        "Monitor"
+      ]
+    },
+    "prop_boxes": [
+      [
+        0.19722222222222222,
+        1.0,
+        0.0,
+        0.56484375
+      ]
+    ]
+  },
+  "c2_07_tilt_b90_t78.jpg": {
+    "whole": [
+      [
+        "Monitor",
+        "laptop",
+        "tissue",
+        "lamp"
+      ],
+      [
+        "Monitor",
+        "laptop",
+        "tissue paper"
+      ],
+      [
+        "Monitor",
+        "laptop",
+        "tissue",
+        "cup"
+      ]
+    ],
+    "blind": {
+      "TL": [
+        "Canyon landscape"
+      ],
+      "TR": [
+        "Remote"
+      ],
+      "BL": [
+        "Computer monitor",
+        "laptop",
+        "mouse",
+        "bottle"
+      ],
+      "BR": [
+        "Plastic bottle",
+        "laptop",
+        "computer monitor",
+        "paper"
+      ],
+      "center": [
+        "Television",
+        "blinds",
+        "laptop"
+      ]
+    },
+    "prop": {
+      "r0": [
+        "Monitor",
+        "Mouse",
+        "Box"
+      ],
+      "r1": [
+        "building",
+        "screen"
+      ],
+      "r2": [
+        "Tissue paper"
+      ]
+    },
+    "prop_boxes": [
+      [
+        0.6430555555555556,
+        1.0,
+        0.0,
+        0.5703125
+      ],
+      [
+        0.0,
+        0.23333333333333334,
+        0.0796875,
+        0.553125
+      ],
+      [
+        0.6527777777777778,
+        1.0,
+        0.6625,
+        1.0
+      ]
+    ]
+  },
+  "c2_09_tilt_b90_t108.jpg": {
+    "whole": [
+      [
+        "Keyboard",
+        "Can",
+        "Mouse",
+        "Table"
+      ],
+      [
+        "Keyboard",
+        "bottle",
+        "marker"
+      ],
+      [
+        "Keyboard",
+        "mouse",
+        "can",
+        "table"
+      ]
+    ],
+    "blind": {
+      "TL": [
+        "Keyboard"
+      ],
+      "TR": [
+        "laptop keyboard",
+        "sparkling orange drink"
+      ],
+      "BL": [
+        "keyboard",
+        "mouse",
+        "cable",
+        "keycap",
+        "keys"
+      ],
+      "BR": [
+        "Cord"
+      ],
+      "center": [
+        "Keyboard",
+        "Mug"
+      ]
+    },
+    "prop": {
+      "r0": [
+        "keyboard"
+      ]
+    },
+    "prop_boxes": [
+      [
+        0.0,
+        0.7402777777777778,
+        0.0,
+        0.590625
+      ]
+    ]
+  },
+  "c2_10_home.jpg": {
+    "whole": [
+      [
+        "keyboard",
+        "soda can",
+        "tissue paper",
+        "mouse"
+      ],
+      [
+        "Monitor",
+        "Laptop",
+        "Keyboard",
+        "Mouse",
+        "Can",
+        "Tissue"
+      ],
+      [
+        "monitor",
+        "keyboard",
+        "laptop",
+        "can",
+        "mouse",
+        "tissues",
+        "bottle",
+        "speaker"
+      ]
+    ],
+    "blind": {
+      "TL": [
+        "Monitor",
+        "Bottle",
+        "Computer",
+        "Keyboard",
+        "Laptop"
+      ],
+      "TR": [
+        "Tissue"
+      ],
+      "BL": [
+        "Monitor",
+        "keyboard",
+        "bottle",
+        "laptop",
+        "monitor stand"
+      ],
+      "BR": [
+        "Keyboard",
+        "Celsius Energy Drink",
+        "Mouse",
+        "Monitor",
+        "Laptop",
+        "Mousepad"
+      ],
+      "center": [
+        "Computer monitor",
+        "keyboard",
+        "mouse",
+        "water bottle"
+      ]
+    },
+    "prop": {
+      "r0": [
+        "Keyboard",
+        "can of celsius",
+        "monitor",
+        "bottle",
+        "speaker",
+        "laptop",
+        "orange"
+      ],
+      "r1": [
+        "Orange Slice"
+      ],
+      "r2": [
+        "canned drink",
+        "laptop",
+        "keyboard",
+        "tissues",
+        "pencils"
+      ]
+    },
+    "prop_boxes": [
+      [
+        0.17777777777777778,
+        1.0,
+        0.1375,
+        0.834375
+      ],
+      [
+        0.7152777777777778,
+        1.0,
+        0.678125,
+        1.0
+      ],
+      [
+        0.375,
+        0.7180555555555556,
+        0.66953125,
+        1.0
+      ]
+    ]
+  }
+}

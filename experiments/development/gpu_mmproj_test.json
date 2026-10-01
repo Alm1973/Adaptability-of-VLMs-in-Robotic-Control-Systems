@@ -1,0 +1,9 @@
+{
+  "control": {
+    "degen": 23,
+    "n": 25,
+    "first_lock_at": 3,
+    "med_lat_s": 3.02,
+    "max_lat_s": 3.59
+  }
+}

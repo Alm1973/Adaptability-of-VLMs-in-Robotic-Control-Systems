@@ -1,0 +1,242 @@
+[
+  {
+    "scenario": "occlusion_full",
+    "phase": "disrupt",
+    "want_occluder": true,
+    "label": "person",
+    "is_occluder": true,
+    "correct": true
+  },
+  {
+    "scenario": "occlusion_full",
+    "phase": "disrupt",
+    "want_occluder": true,
+    "label": "person",
+    "is_occluder": true,
+    "correct": true
+  },
+  {
+    "scenario": "occlusion_full",
+    "phase": "disrupt",
+    "want_occluder": true,
+    "label": "person",
+    "is_occluder": true,
+    "correct": true
+  },
+  {
+    "scenario": "occlusion_full",
+    "phase": "disrupt",
+    "want_occluder": true,
+    "label": "person",
+    "is_occluder": true,
+    "correct": true
+  },
+  {
+    "scenario": "occlusion_full",
+    "phase": "disrupt",
+    "want_occluder": true,
+    "label": "person",
+    "is_occluder": true,
+    "correct": true
+  },
+  {
+    "scenario": "occlusion_full",
+    "phase": "disrupt",
+    "want_occluder": true,
+    "label": "person",
+    "is_occluder": true,
+    "correct": true
+  },
+  {
+    "scenario": "occlusion_full",
+    "phase": "disrupt",
+    "want_occluder": true,
+    "label": "person",
+    "is_occluder": true,
+    "correct": true
+  },
+  {
+    "scenario": "occlusion_full",
+    "phase": "disrupt",
+    "want_occluder": true,
+    "label": "person",
+    "is_occluder": true,
+    "correct": true
+  },
+  {
+    "scenario": "occlusion_full",
+    "phase": "disrupt",
+    "want_occluder": true,
+    "label": "person",
+    "is_occluder": true,
+    "correct": true
+  },
+  {
+    "scenario": "occlusion_full",
+    "phase": "disrupt",
+    "want_occluder": true,
+    "label": "person",
+    "is_occluder": true,
+    "correct": true
+  },
+  {
+    "scenario": "impostor",
+    "phase": "recover",
+    "want_occluder": false,
+    "label": "item",
+    "is_occluder": false,
+    "correct": true
+  },
+  {
+    "scenario": "impostor",
+    "phase": "recover",
+    "want_occluder": false,
+    "label": "item",
+    "is_occluder": false,
+    "correct": true
+  },
+  {
+    "scenario": "impostor",
+    "phase": "recover",
+    "want_occluder": false,
+    "label": "item",
+    "is_occluder": false,
+    "correct": true
+  },
+  {
+    "scenario": "impostor",
+    "phase": "recover",
+    "want_occluder": false,
+    "label": "item",
+    "is_occluder": false,
+    "correct": true
+  },
+  {
+    "scenario": "impostor",
+    "phase": "recover",
+    "want_occluder": false,
+    "label": "person",
+    "is_occluder": true,
+    "correct": false
+  },
+  {
+    "scenario": "impostor",
+    "phase": "recover",
+    "want_occluder": false,
+    "label": "person",
+    "is_occluder": true,
+    "correct": false
+  },
+  {
+    "scenario": "impostor",
+    "phase": "recover",
+    "want_occluder": false,
+    "label": "person",
+    "is_occluder": true,
+    "correct": false
+  },
+  {
+    "scenario": "impostor",
+    "phase": "recover",
+    "want_occluder": false,
+    "label": "item",
+    "is_occluder": false,
+    "correct": true
+  },
+  {
+    "scenario": "impostor",
+    "phase": "recover",
+    "want_occluder": false,
+    "label": "item",
+    "is_occluder": false,
+    "correct": true
+  },
+  {
+    "scenario": "impostor",
+    "phase": "recover",
+    "want_occluder": false,
+    "label": "item",
+    "is_occluder": false,
+    "correct": true
+  },
+  {
+    "scenario": "occlusion_remove",
+    "phase": "recover",
+    "want_occluder": false,
+    "label": "item",
+    "is_occluder": false,
+    "correct": true
+  },
+  {
+    "scenario": "occlusion_remove",
+    "phase": "recover",
+    "want_occluder": false,
+    "label": "item",
+    "is_occluder": false,
+    "correct": true
+  },
+  {
+    "scenario": "occlusion_remove",
+    "phase": "recover",
+    "want_occluder": false,
+    "label": "item",
+    "is_occluder": false,
+    "correct": true
+  },
+  {
+    "scenario": "occlusion_remove",
+    "phase": "recover",
+    "want_occluder": false,
+    "label": "item",
+    "is_occluder": false,
+    "correct": true
+  },
+  {
+    "scenario": "occlusion_remove",
+    "phase": "recover",
+    "want_occluder": false,
+    "label": "item",
+    "is_occluder": false,
+    "correct": true
+  },
+  {
+    "scenario": "occlusion_remove",
+    "phase": "recover",
+    "want_occluder": false,
+    "label": "item",
+    "is_occluder": false,
+    "correct": true
+  },
+  {
+    "scenario": "occlusion_remove",
+    "phase": "recover",
+    "want_occluder": false,
+    "label": "item",
+    "is_occluder": false,
+    "correct": true
+  },
+  {
+    "scenario": "occlusion_remove",
+    "phase": "recover",
+    "want_occluder": false,
+    "label": "item",
+    "is_occluder": false,
+    "correct": true
+  },
+  {
+    "scenario": "occlusion_remove",
+    "phase": "recover",
+    "want_occluder": false,
+    "label": "item",
+    "is_occluder": false,
+    "correct": true
+  },
+  {
+    "scenario": "occlusion_remove",
+    "phase": "recover",
+    "want_occluder": false,
+    "label": "item",
+    "is_occluder": false,
+    "correct": true
+  }
+]

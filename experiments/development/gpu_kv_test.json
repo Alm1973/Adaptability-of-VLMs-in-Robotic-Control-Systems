@@ -1,0 +1,20 @@
+{
+  "c2048_img1024": {
+    "degen": 23,
+    "n": 25,
+    "first_lock_at": 3,
+    "clean_before_lock": 2,
+    "ctx": 2048,
+    "img_tokens": 1024,
+    "erase": false
+  },
+  "c4096_img1024": {
+    "degen": 23,
+    "n": 25,
+    "first_lock_at": 3,
+    "clean_before_lock": 2,
+    "ctx": 4096,
+    "img_tokens": 1024,
+    "erase": false
+  }
+}

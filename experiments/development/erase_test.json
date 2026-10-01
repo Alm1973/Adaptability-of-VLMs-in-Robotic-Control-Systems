@@ -1,0 +1,24 @@
+{
+  "control_no_erase": {
+    "erase": false,
+    "degen": 18,
+    "n": 20,
+    "first_lock_at": 3,
+    "vram_after_load": 275,
+    "vram_first_call": 201,
+    "vram_last_call": 171,
+    "vram_min": 169,
+    "med_lat_s": 15.45
+  },
+  "erase": {
+    "erase": true,
+    "degen": 18,
+    "n": 20,
+    "first_lock_at": 3,
+    "vram_after_load": 187,
+    "vram_first_call": 111,
+    "vram_last_call": 107,
+    "vram_min": 107,
+    "med_lat_s": 15.64
+  }
+}

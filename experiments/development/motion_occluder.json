@@ -1,0 +1,42 @@
+{
+  "occlusion_full/disrupt": {
+    "in": 2.489,
+    "out": 2.278,
+    "ratio": 1.093,
+    "n": 52,
+    "is_occluder": true,
+    "desc": "a real hand covering the cup"
+  },
+  "occlusion_remove/disrupt": {
+    "in": 4.265,
+    "out": 4.357,
+    "ratio": 0.979,
+    "n": 51,
+    "is_occluder": true,
+    "desc": "a real hand covering the cup"
+  },
+  "impostor/recover": {
+    "in": 4.134,
+    "out": 7.377,
+    "ratio": 0.56,
+    "n": 46,
+    "is_occluder": false,
+    "desc": "an object placed where the cup was"
+  },
+  "occlusion_remove/recover": {
+    "in": 1.792,
+    "out": 1.874,
+    "ratio": 0.957,
+    "n": 51,
+    "is_occluder": false,
+    "desc": "cup gone, bare desk"
+  },
+  "lighting/disrupt": {
+    "in": 1.971,
+    "out": 2.539,
+    "ratio": 0.776,
+    "n": 52,
+    "is_occluder": null,
+    "desc": "control: cup visible, light changing"
+  }
+}

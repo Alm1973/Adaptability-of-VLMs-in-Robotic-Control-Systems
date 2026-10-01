@@ -1,0 +1,92 @@
+[
+  {
+    "idx": 1,
+    "file": "exp_01_home_ref_b90_t90.jpg",
+    "phrasing": "water bottle",
+    "gt": 1,
+    "raw": "Yes",
+    "pred": 1,
+    "latency_s": 8.73
+  },
+  {
+    "idx": 1,
+    "file": "exp_01_home_ref_b90_t90.jpg",
+    "phrasing": "insulated water bottle",
+    "gt": 1,
+    "raw": "No",
+    "pred": 0,
+    "latency_s": 3.01
+  },
+  {
+    "idx": 1,
+    "file": "exp_01_home_ref_b90_t90.jpg",
+    "phrasing": "metal water bottle",
+    "gt": 1,
+    "raw": "No",
+    "pred": 0,
+    "latency_s": 3.0
+  },
+  {
+    "idx": 2,
+    "file": "exp_02_verify_small_b98_t90.jpg",
+    "phrasing": "water bottle",
+    "gt": 1,
+    "raw": "No",
+    "pred": 0,
+    "latency_s": 3.0
+  },
+  {
+    "idx": 2,
+    "file": "exp_02_verify_small_b98_t90.jpg",
+    "phrasing": "insulated water bottle",
+    "gt": 1,
+    "raw": "Yes",
+    "pred": 1,
+    "latency_s": 3.02
+  },
+  {
+    "idx": 2,
+    "file": "exp_02_verify_small_b98_t90.jpg",
+    "phrasing": "metal water bottle",
+    "gt": 1,
+    "raw": "No",
+    "pred": 0,
+    "latency_s": 3.05
+  },
+  {
+    "idx": 3,
+    "file": "exp_03_pan_left_10_b80_t90.jpg",
+    "phrasing": "water bottle",
+    "gt": 1,
+    "raw": "Yes",
+    "pred": 1,
+    "latency_s": 56.52
+  },
+  {
+    "idx": 3,
+    "file": "exp_03_pan_left_10_b80_t90.jpg",
+    "phrasing": "insulated water bottle",
+    "gt": 1,
+    "raw": "Yes",
+    "pred": 1,
+    "latency_s": 60.62
+  },
+  {
+    "idx": 3,
+    "file": "exp_03_pan_left_10_b80_t90.jpg",
+    "phrasing": "metal water bottle",
+    "gt": 1,
+    "raw": "No",
+    "pred": 0,
+    "latency_s": 61.17
+  },
+  {
+    "idx": 4,
+    "file": "exp_04_pan_left_20_b70_t90.jpg",
+    "phrasing": "water bottle",
+    "gt": 1,
+    "raw": "Yes.",
+    "pred": 1,
+    "latency_s": 61.25
+  }
+]

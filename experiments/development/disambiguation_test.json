@@ -1,0 +1,46 @@
+{
+  "runs": {
+    "listing_only": [
+      0.812,
+      0.75,
+      0.562
+    ],
+    "listing_disambig": [
+      0.75,
+      0.625,
+      0.562
+    ]
+  },
+  "flips": [
+    {
+      "rep": 1,
+      "frame": "c2_05_pan_b108_t90.jpg",
+      "query": "water bottle",
+      "gt": 1
+    },
+    {
+      "rep": 2,
+      "frame": "c2_07_tilt_b90_t78.jpg",
+      "query": "laptop",
+      "gt": 1
+    },
+    {
+      "rep": 2,
+      "frame": "c2_10_home.jpg",
+      "query": "laptop",
+      "gt": 1
+    },
+    {
+      "rep": 3,
+      "frame": "c2_07_tilt_b90_t78.jpg",
+      "query": "laptop",
+      "gt": 1
+    },
+    {
+      "rep": 3,
+      "frame": "c2_09_tilt_b90_t108.jpg",
+      "query": "water bottle",
+      "gt": 0
+    }
+  ]
+}

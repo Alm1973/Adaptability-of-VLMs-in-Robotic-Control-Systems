@@ -1,0 +1,602 @@
+[
+  {
+    "idx": 1,
+    "file": "exp_01_home_ref_b90_t90.jpg",
+    "obj": "water bottle",
+    "gt": 1,
+    "raw": "Yes",
+    "pred": 1,
+    "latency_s": 10.18,
+    "placement": "gpu"
+  },
+  {
+    "idx": 1,
+    "file": "exp_01_home_ref_b90_t90.jpg",
+    "obj": "keyboard",
+    "gt": 1,
+    "raw": "Yes",
+    "pred": 1,
+    "latency_s": 0.62,
+    "placement": "gpu"
+  },
+  {
+    "idx": 1,
+    "file": "exp_01_home_ref_b90_t90.jpg",
+    "obj": "computer mouse",
+    "gt": 1,
+    "raw": "Yes",
+    "pred": 1,
+    "latency_s": 0.73,
+    "placement": "gpu"
+  },
+  {
+    "idx": 1,
+    "file": "exp_01_home_ref_b90_t90.jpg",
+    "obj": "laptop",
+    "gt": 0,
+    "raw": "Yes",
+    "pred": 1,
+    "latency_s": 0.76,
+    "placement": "gpu"
+  },
+  {
+    "idx": 1,
+    "file": "exp_01_home_ref_b90_t90.jpg",
+    "obj": "banana",
+    "gt": 0,
+    "raw": "Yes",
+    "pred": 1,
+    "latency_s": 0.94,
+    "placement": "gpu"
+  },
+  {
+    "idx": 2,
+    "file": "exp_02_verify_small_b98_t90.jpg",
+    "obj": "water bottle",
+    "gt": 1,
+    "raw": "Yes",
+    "pred": 1,
+    "latency_s": 0.92,
+    "placement": "gpu"
+  },
+  {
+    "idx": 2,
+    "file": "exp_02_verify_small_b98_t90.jpg",
+    "obj": "keyboard",
+    "gt": 1,
+    "raw": "No",
+    "pred": 0,
+    "latency_s": 1.13,
+    "placement": "gpu"
+  },
+  {
+    "idx": 2,
+    "file": "exp_02_verify_small_b98_t90.jpg",
+    "obj": "computer mouse",
+    "gt": 0,
+    "raw": "No",
+    "pred": 0,
+    "latency_s": 1.13,
+    "placement": "gpu"
+  },
+  {
+    "idx": 2,
+    "file": "exp_02_verify_small_b98_t90.jpg",
+    "obj": "laptop",
+    "gt": 0,
+    "raw": "Yes",
+    "pred": 1,
+    "latency_s": 1.06,
+    "placement": "gpu"
+  },
+  {
+    "idx": 2,
+    "file": "exp_02_verify_small_b98_t90.jpg",
+    "obj": "banana",
+    "gt": 0,
+    "raw": "No",
+    "pred": 0,
+    "latency_s": 1.15,
+    "placement": "gpu"
+  },
+  {
+    "idx": 3,
+    "file": "exp_03_pan_left_10_b80_t90.jpg",
+    "obj": "water bottle",
+    "gt": 1,
+    "raw": "Yes",
+    "pred": 1,
+    "latency_s": 1.12,
+    "placement": "gpu"
+  },
+  {
+    "idx": 3,
+    "file": "exp_03_pan_left_10_b80_t90.jpg",
+    "obj": "keyboard",
+    "gt": 1,
+    "raw": "Yes",
+    "pred": 1,
+    "latency_s": 1.73,
+    "placement": "gpu"
+  },
+  {
+    "idx": 3,
+    "file": "exp_03_pan_left_10_b80_t90.jpg",
+    "obj": "computer mouse",
+    "gt": 0,
+    "raw": "No",
+    "pred": 0,
+    "latency_s": 1.96,
+    "placement": "gpu"
+  },
+  {
+    "idx": 3,
+    "file": "exp_03_pan_left_10_b80_t90.jpg",
+    "obj": "laptop",
+    "gt": 0,
+    "raw": "Yes",
+    "pred": 1,
+    "latency_s": 1.29,
+    "placement": "gpu"
+  },
+  {
+    "idx": 3,
+    "file": "exp_03_pan_left_10_b80_t90.jpg",
+    "obj": "banana",
+    "gt": 0,
+    "raw": "No",
+    "pred": 0,
+    "latency_s": 1.47,
+    "placement": "gpu"
+  },
+  {
+    "idx": 4,
+    "file": "exp_04_pan_left_20_b70_t90.jpg",
+    "obj": "water bottle",
+    "gt": 1,
+    "raw": "Yes",
+    "pred": 1,
+    "latency_s": 1.38,
+    "placement": "gpu"
+  },
+  {
+    "idx": 4,
+    "file": "exp_04_pan_left_20_b70_t90.jpg",
+    "obj": "keyboard",
+    "gt": 1,
+    "raw": "Yes",
+    "pred": 1,
+    "latency_s": 3.16,
+    "placement": "gpu"
+  },
+  {
+    "idx": 4,
+    "file": "exp_04_pan_left_20_b70_t90.jpg",
+    "obj": "computer mouse",
+    "gt": 0,
+    "raw": "No",
+    "pred": 0,
+    "latency_s": 2.55,
+    "placement": "gpu"
+  },
+  {
+    "idx": 4,
+    "file": "exp_04_pan_left_20_b70_t90.jpg",
+    "obj": "laptop",
+    "gt": 0,
+    "raw": "No",
+    "pred": 0,
+    "latency_s": 2.43,
+    "placement": "gpu"
+  },
+  {
+    "idx": 4,
+    "file": "exp_04_pan_left_20_b70_t90.jpg",
+    "obj": "banana",
+    "gt": 0,
+    "raw": "Yes",
+    "pred": 1,
+    "latency_s": 2.44,
+    "placement": "gpu"
+  },
+  {
+    "idx": 5,
+    "file": "exp_05_pan_right_20_b110_t90.jpg",
+    "obj": "water bottle",
+    "gt": 1,
+    "raw": "Yes",
+    "pred": 1,
+    "latency_s": 2.67,
+    "placement": "gpu"
+  },
+  {
+    "idx": 5,
+    "file": "exp_05_pan_right_20_b110_t90.jpg",
+    "obj": "keyboard",
+    "gt": 1,
+    "raw": "Yes",
+    "pred": 1,
+    "latency_s": 3.26,
+    "placement": "gpu"
+  },
+  {
+    "idx": 5,
+    "file": "exp_05_pan_right_20_b110_t90.jpg",
+    "obj": "computer mouse",
+    "gt": 1,
+    "raw": "Yes",
+    "pred": 1,
+    "latency_s": 3.24,
+    "placement": "gpu"
+  },
+  {
+    "idx": 5,
+    "file": "exp_05_pan_right_20_b110_t90.jpg",
+    "obj": "laptop",
+    "gt": 0,
+    "raw": "Yes",
+    "pred": 1,
+    "latency_s": 3.27,
+    "placement": "gpu"
+  },
+  {
+    "idx": 5,
+    "file": "exp_05_pan_right_20_b110_t90.jpg",
+    "obj": "banana",
+    "gt": 0,
+    "raw": "No",
+    "pred": 0,
+    "latency_s": 3.08,
+    "placement": "gpu"
+  },
+  {
+    "idx": 6,
+    "file": "exp_06_tilt_up_12_b90_t78.jpg",
+    "obj": "water bottle",
+    "gt": 1,
+    "raw": "No",
+    "pred": 0,
+    "latency_s": 3.32,
+    "placement": "gpu"
+  },
+  {
+    "idx": 6,
+    "file": "exp_06_tilt_up_12_b90_t78.jpg",
+    "obj": "keyboard",
+    "gt": 0,
+    "raw": "No",
+    "pred": 0,
+    "latency_s": 3.11,
+    "placement": "gpu"
+  },
+  {
+    "idx": 6,
+    "file": "exp_06_tilt_up_12_b90_t78.jpg",
+    "obj": "computer mouse",
+    "gt": 0,
+    "raw": "No",
+    "pred": 0,
+    "latency_s": 2.99,
+    "placement": "gpu"
+  },
+  {
+    "idx": 6,
+    "file": "exp_06_tilt_up_12_b90_t78.jpg",
+    "obj": "laptop",
+    "gt": 0,
+    "raw": "Yes",
+    "pred": 1,
+    "latency_s": 3.17,
+    "placement": "gpu"
+  },
+  {
+    "idx": 6,
+    "file": "exp_06_tilt_up_12_b90_t78.jpg",
+    "obj": "banana",
+    "gt": 0,
+    "raw": "No",
+    "pred": 0,
+    "latency_s": 3.21,
+    "placement": "gpu"
+  },
+  {
+    "idx": 7,
+    "file": "exp_07_tilt_down_12_b90_t102.jpg",
+    "obj": "water bottle",
+    "gt": 0,
+    "raw": "No",
+    "pred": 0,
+    "latency_s": 3.03,
+    "placement": "gpu"
+  },
+  {
+    "idx": 7,
+    "file": "exp_07_tilt_down_12_b90_t102.jpg",
+    "obj": "keyboard",
+    "gt": 1,
+    "raw": "Yes",
+    "pred": 1,
+    "latency_s": 3.22,
+    "placement": "gpu"
+  },
+  {
+    "idx": 7,
+    "file": "exp_07_tilt_down_12_b90_t102.jpg",
+    "obj": "computer mouse",
+    "gt": 0,
+    "raw": "No",
+    "pred": 0,
+    "latency_s": 3.36,
+    "placement": "gpu"
+  },
+  {
+    "idx": 7,
+    "file": "exp_07_tilt_down_12_b90_t102.jpg",
+    "obj": "laptop",
+    "gt": 1,
+    "raw": "No",
+    "pred": 0,
+    "latency_s": 2.81,
+    "placement": "gpu"
+  },
+  {
+    "idx": 7,
+    "file": "exp_07_tilt_down_12_b90_t102.jpg",
+    "obj": "banana",
+    "gt": 0,
+    "raw": "No",
+    "pred": 0,
+    "latency_s": 2.94,
+    "placement": "gpu"
+  },
+  {
+    "idx": 8,
+    "file": "exp_08_diag_upleft_b78_t80.jpg",
+    "obj": "water bottle",
+    "gt": 1,
+    "raw": "Yes",
+    "pred": 1,
+    "latency_s": 3.01,
+    "placement": "gpu"
+  },
+  {
+    "idx": 8,
+    "file": "exp_08_diag_upleft_b78_t80.jpg",
+    "obj": "keyboard",
+    "gt": 0,
+    "raw": "Yes",
+    "pred": 1,
+    "latency_s": 2.91,
+    "placement": "gpu"
+  },
+  {
+    "idx": 8,
+    "file": "exp_08_diag_upleft_b78_t80.jpg",
+    "obj": "computer mouse",
+    "gt": 0,
+    "raw": "Yes",
+    "pred": 1,
+    "latency_s": 2.84,
+    "placement": "gpu"
+  },
+  {
+    "idx": 8,
+    "file": "exp_08_diag_upleft_b78_t80.jpg",
+    "obj": "laptop",
+    "gt": 0,
+    "raw": "No",
+    "pred": 0,
+    "latency_s": 2.54,
+    "placement": "gpu"
+  },
+  {
+    "idx": 8,
+    "file": "exp_08_diag_upleft_b78_t80.jpg",
+    "obj": "banana",
+    "gt": 0,
+    "raw": "Yes",
+    "pred": 1,
+    "latency_s": 2.56,
+    "placement": "gpu"
+  },
+  {
+    "idx": 9,
+    "file": "exp_09_diag_downright_b104_t100.jpg",
+    "obj": "water bottle",
+    "gt": 0,
+    "raw": "No",
+    "pred": 0,
+    "latency_s": 2.51,
+    "placement": "gpu"
+  },
+  {
+    "idx": 9,
+    "file": "exp_09_diag_downright_b104_t100.jpg",
+    "obj": "keyboard",
+    "gt": 1,
+    "raw": "Yes",
+    "pred": 1,
+    "latency_s": 2.67,
+    "placement": "gpu"
+  },
+  {
+    "idx": 9,
+    "file": "exp_09_diag_downright_b104_t100.jpg",
+    "obj": "computer mouse",
+    "gt": 1,
+    "raw": "Yes",
+    "pred": 1,
+    "latency_s": 2.5,
+    "placement": "gpu"
+  },
+  {
+    "idx": 9,
+    "file": "exp_09_diag_downright_b104_t100.jpg",
+    "obj": "laptop",
+    "gt": 1,
+    "raw": "No",
+    "pred": 0,
+    "latency_s": 2.48,
+    "placement": "gpu"
+  },
+  {
+    "idx": 9,
+    "file": "exp_09_diag_downright_b104_t100.jpg",
+    "obj": "banana",
+    "gt": 0,
+    "raw": "No",
+    "pred": 0,
+    "latency_s": 2.54,
+    "placement": "gpu"
+  },
+  {
+    "idx": 10,
+    "file": "exp_10_hard_lowleft_b68_t102.jpg",
+    "obj": "water bottle",
+    "gt": 0,
+    "raw": "Yes",
+    "pred": 1,
+    "latency_s": 2.69,
+    "placement": "gpu"
+  },
+  {
+    "idx": 10,
+    "file": "exp_10_hard_lowleft_b68_t102.jpg",
+    "obj": "keyboard",
+    "gt": 1,
+    "raw": "Yes",
+    "pred": 1,
+    "latency_s": 2.53,
+    "placement": "gpu"
+  },
+  {
+    "idx": 10,
+    "file": "exp_10_hard_lowleft_b68_t102.jpg",
+    "obj": "computer mouse",
+    "gt": 0,
+    "raw": "Yes",
+    "pred": 1,
+    "latency_s": 2.52,
+    "placement": "gpu"
+  },
+  {
+    "idx": 10,
+    "file": "exp_10_hard_lowleft_b68_t102.jpg",
+    "obj": "laptop",
+    "gt": 1,
+    "raw": "Yes",
+    "pred": 1,
+    "latency_s": 2.24,
+    "placement": "gpu"
+  },
+  {
+    "idx": 10,
+    "file": "exp_10_hard_lowleft_b68_t102.jpg",
+    "obj": "banana",
+    "gt": 0,
+    "raw": "No",
+    "pred": 0,
+    "latency_s": 2.49,
+    "placement": "gpu"
+  },
+  {
+    "idx": 11,
+    "file": "exp_11_hard_highright_b114_t78.jpg",
+    "obj": "water bottle",
+    "gt": 1,
+    "raw": "No",
+    "pred": 0,
+    "latency_s": 2.63,
+    "placement": "gpu"
+  },
+  {
+    "idx": 11,
+    "file": "exp_11_hard_highright_b114_t78.jpg",
+    "obj": "keyboard",
+    "gt": 0,
+    "raw": "Yes",
+    "pred": 1,
+    "latency_s": 2.36,
+    "placement": "gpu"
+  },
+  {
+    "idx": 11,
+    "file": "exp_11_hard_highright_b114_t78.jpg",
+    "obj": "computer mouse",
+    "gt": 0,
+    "raw": "No",
+    "pred": 0,
+    "latency_s": 2.55,
+    "placement": "gpu"
+  },
+  {
+    "idx": 11,
+    "file": "exp_11_hard_highright_b114_t78.jpg",
+    "obj": "laptop",
+    "gt": 0,
+    "raw": "No",
+    "pred": 0,
+    "latency_s": 2.46,
+    "placement": "gpu"
+  },
+  {
+    "idx": 11,
+    "file": "exp_11_hard_highright_b114_t78.jpg",
+    "obj": "banana",
+    "gt": 0,
+    "raw": "Yes",
+    "pred": 1,
+    "latency_s": 2.4,
+    "placement": "gpu"
+  },
+  {
+    "idx": 12,
+    "file": "exp_12_return_home_b90_t90.jpg",
+    "obj": "water bottle",
+    "gt": 1,
+    "raw": "Yes",
+    "pred": 1,
+    "latency_s": 2.54,
+    "placement": "gpu"
+  },
+  {
+    "idx": 12,
+    "file": "exp_12_return_home_b90_t90.jpg",
+    "obj": "keyboard",
+    "gt": 1,
+    "raw": "No",
+    "pred": 0,
+    "latency_s": 2.55,
+    "placement": "gpu"
+  },
+  {
+    "idx": 12,
+    "file": "exp_12_return_home_b90_t90.jpg",
+    "obj": "computer mouse",
+    "gt": 1,
+    "raw": "Yes",
+    "pred": 1,
+    "latency_s": 2.65,
+    "placement": "gpu"
+  },
+  {
+    "idx": 12,
+    "file": "exp_12_return_home_b90_t90.jpg",
+    "obj": "laptop",
+    "gt": 0,
+    "raw": "Yes",
+    "pred": 1,
+    "latency_s": 2.62,
+    "placement": "gpu"
+  },
+  {
+    "idx": 12,
+    "file": "exp_12_return_home_b90_t90.jpg",
+    "obj": "banana",
+    "gt": 0,
+    "raw": "No",
+    "pred": 0,
+    "latency_s": 2.86,
+    "placement": "gpu"
+  }
+]

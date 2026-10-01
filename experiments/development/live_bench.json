@@ -1,0 +1,543 @@
+{
+  "by_kind": {
+    "D_full": {
+      "environment": {
+        "durAcc": 1.0,
+        "lost": 0,
+        "false": 0,
+        "n": 2
+      },
+      "occlusion": {
+        "durAcc": 0.299,
+        "lost": 160,
+        "false": 5,
+        "n": 7
+      },
+      "unexpected": {
+        "durAcc": 1.0,
+        "lost": 0,
+        "false": 0,
+        "n": 1
+      }
+    },
+    "E_no_vlm": {
+      "environment": {
+        "durAcc": 1.0,
+        "lost": 0,
+        "false": 0,
+        "n": 2
+      },
+      "occlusion": {
+        "durAcc": 0.293,
+        "lost": 162,
+        "false": 23,
+        "n": 7
+      },
+      "unexpected": {
+        "durAcc": 1.0,
+        "lost": 0,
+        "false": 0,
+        "n": 1
+      }
+    },
+    "F_probe": {
+      "environment": {
+        "durAcc": 1.0,
+        "lost": 0,
+        "false": 0,
+        "n": 2
+      },
+      "occlusion": {
+        "durAcc": 0.504,
+        "lost": 98,
+        "false": 5,
+        "n": 7
+      },
+      "unexpected": {
+        "durAcc": 1.0,
+        "lost": 0,
+        "false": 0,
+        "n": 1
+      }
+    }
+  },
+  "per_episode": {
+    "D_full": {
+      "camera_pose": {
+        "recovered": true,
+        "time_to_recovery": 10,
+        "false_belief_frames": 0,
+        "lost_while_present": 0,
+        "during_disruption_acc": 1.0,
+        "spurious_reacquisition": false,
+        "stable_accuracy": 1.0,
+        "final_status": "CONFIRMED",
+        "vlm_calls": 1,
+        "states": {
+          "CONFIRMED": 160
+        }
+      },
+      "distractor": {
+        "recovered": true,
+        "time_to_recovery": 10,
+        "false_belief_frames": 0,
+        "lost_while_present": 0,
+        "during_disruption_acc": 1.0,
+        "spurious_reacquisition": false,
+        "stable_accuracy": 1.0,
+        "final_status": "CONFIRMED",
+        "vlm_calls": 1,
+        "states": {
+          "CONFIRMED": 176
+        }
+      },
+      "identity_same_class": {
+        "recovered": true,
+        "time_to_recovery": 11,
+        "false_belief_frames": 5,
+        "lost_while_present": 10,
+        "during_disruption_acc": 0.615,
+        "spurious_reacquisition": false,
+        "stable_accuracy": 1.0,
+        "final_status": "MISSING",
+        "vlm_calls": 16,
+        "states": {
+          "CONFIRMED": 67,
+          "OCCLUDED": 24,
+          "AMBIGUOUS": 14,
+          "MISSING": 39
+        }
+      },
+      "lighting": {
+        "recovered": true,
+        "time_to_recovery": 10,
+        "false_belief_frames": 0,
+        "lost_while_present": 0,
+        "during_disruption_acc": 1.0,
+        "spurious_reacquisition": false,
+        "stable_accuracy": 1.0,
+        "final_status": "CONFIRMED",
+        "vlm_calls": 1,
+        "states": {
+          "CONFIRMED": 179
+        }
+      },
+      "occlude_book": {
+        "recovered": true,
+        "time_to_recovery": 6,
+        "false_belief_frames": 0,
+        "lost_while_present": 14,
+        "during_disruption_acc": 0.562,
+        "spurious_reacquisition": false,
+        "stable_accuracy": 1.0,
+        "final_status": "CONFIRMED",
+        "vlm_calls": 12,
+        "states": {
+          "CONFIRMED": 137,
+          "OCCLUDED": 3,
+          "MISSING": 1,
+          "AMBIGUOUS": 18
+        }
+      },
+      "occlude_box": {
+        "recovered": true,
+        "time_to_recovery": 7,
+        "false_belief_frames": 0,
+        "lost_while_present": 19,
+        "during_disruption_acc": 0.387,
+        "spurious_reacquisition": false,
+        "stable_accuracy": 1.0,
+        "final_status": "CONFIRMED",
+        "vlm_calls": 13,
+        "states": {
+          "CONFIRMED": 114,
+          "OCCLUDED": 13,
+          "AMBIGUOUS": 11,
+          "MISSING": 18
+        }
+      },
+      "occlude_jacket": {
+        "recovered": true,
+        "time_to_recovery": 7,
+        "false_belief_frames": 0,
+        "lost_while_present": 16,
+        "during_disruption_acc": 0.429,
+        "spurious_reacquisition": false,
+        "stable_accuracy": 1.0,
+        "final_status": "CONFIRMED",
+        "vlm_calls": 8,
+        "states": {
+          "CONFIRMED": 113,
+          "OCCLUDED": 22,
+          "AMBIGUOUS": 6,
+          "MISSING": 20
+        }
+      },
+      "occlude_paper": {
+        "recovered": true,
+        "time_to_recovery": 5,
+        "false_belief_frames": 0,
+        "lost_while_present": 25,
+        "during_disruption_acc": 0.0,
+        "spurious_reacquisition": false,
+        "stable_accuracy": 1.0,
+        "final_status": "CONFIRMED",
+        "vlm_calls": 6,
+        "states": {
+          "CONFIRMED": 113,
+          "MISSING": 1,
+          "AMBIGUOUS": 28
+        }
+      },
+      "occlusion_full": {
+        "recovered": true,
+        "time_to_recovery": 8,
+        "false_belief_frames": 0,
+        "lost_while_present": 38,
+        "during_disruption_acc": 0.05,
+        "spurious_reacquisition": false,
+        "stable_accuracy": 1.0,
+        "final_status": "CONFIRMED",
+        "vlm_calls": 2,
+        "states": {
+          "CONFIRMED": 96,
+          "OCCLUDED": 12,
+          "MISSING": 49
+        }
+      },
+      "occlusion_remove": {
+        "recovered": true,
+        "time_to_recovery": 9,
+        "false_belief_frames": 0,
+        "lost_while_present": 38,
+        "during_disruption_acc": 0.05,
+        "spurious_reacquisition": false,
+        "stable_accuracy": 1.0,
+        "final_status": "MISSING",
+        "vlm_calls": 1,
+        "states": {
+          "CONFIRMED": 59,
+          "OCCLUDED": 12,
+          "MISSING": 108
+        }
+      }
+    },
+    "E_no_vlm": {
+      "camera_pose": {
+        "recovered": true,
+        "time_to_recovery": 10,
+        "false_belief_frames": 0,
+        "lost_while_present": 0,
+        "during_disruption_acc": 1.0,
+        "spurious_reacquisition": false,
+        "stable_accuracy": 1.0,
+        "final_status": "CONFIRMED",
+        "vlm_calls": 0,
+        "states": {
+          "CONFIRMED": 160
+        }
+      },
+      "distractor": {
+        "recovered": true,
+        "time_to_recovery": 10,
+        "false_belief_frames": 0,
+        "lost_while_present": 0,
+        "during_disruption_acc": 1.0,
+        "spurious_reacquisition": false,
+        "stable_accuracy": 1.0,
+        "final_status": "CONFIRMED",
+        "vlm_calls": 0,
+        "states": {
+          "CONFIRMED": 176
+        }
+      },
+      "identity_same_class": {
+        "recovered": true,
+        "time_to_recovery": 11,
+        "false_belief_frames": 23,
+        "lost_while_present": 2,
+        "during_disruption_acc": 0.923,
+        "spurious_reacquisition": false,
+        "stable_accuracy": 1.0,
+        "final_status": "MISSING",
+        "vlm_calls": 0,
+        "states": {
+          "CONFIRMED": 81,
+          "OCCLUDED": 36,
+          "MISSING": 27
+        }
+      },
+      "lighting": {
+        "recovered": true,
+        "time_to_recovery": 10,
+        "false_belief_frames": 0,
+        "lost_while_present": 0,
+        "during_disruption_acc": 1.0,
+        "spurious_reacquisition": false,
+        "stable_accuracy": 1.0,
+        "final_status": "CONFIRMED",
+        "vlm_calls": 0,
+        "states": {
+          "CONFIRMED": 179
+        }
+      },
+      "occlude_book": {
+        "recovered": true,
+        "time_to_recovery": 6,
+        "false_belief_frames": 0,
+        "lost_while_present": 11,
+        "during_disruption_acc": 0.656,
+        "spurious_reacquisition": false,
+        "stable_accuracy": 1.0,
+        "final_status": "CONFIRMED",
+        "vlm_calls": 0,
+        "states": {
+          "CONFIRMED": 145,
+          "OCCLUDED": 3,
+          "MISSING": 1,
+          "AMBIGUOUS": 10
+        }
+      },
+      "occlude_box": {
+        "recovered": true,
+        "time_to_recovery": 7,
+        "false_belief_frames": 0,
+        "lost_while_present": 26,
+        "during_disruption_acc": 0.161,
+        "spurious_reacquisition": false,
+        "stable_accuracy": 1.0,
+        "final_status": "CONFIRMED",
+        "vlm_calls": 0,
+        "states": {
+          "CONFIRMED": 125,
+          "OCCLUDED": 1,
+          "AMBIGUOUS": 25,
+          "MISSING": 5
+        }
+      },
+      "occlude_jacket": {
+        "recovered": true,
+        "time_to_recovery": 7,
+        "false_belief_frames": 0,
+        "lost_while_present": 22,
+        "during_disruption_acc": 0.214,
+        "spurious_reacquisition": false,
+        "stable_accuracy": 1.0,
+        "final_status": "CONFIRMED",
+        "vlm_calls": 0,
+        "states": {
+          "CONFIRMED": 119,
+          "OCCLUDED": 10,
+          "AMBIGUOUS": 32
+        }
+      },
+      "occlude_paper": {
+        "recovered": true,
+        "time_to_recovery": 5,
+        "false_belief_frames": 0,
+        "lost_while_present": 25,
+        "during_disruption_acc": 0.0,
+        "spurious_reacquisition": false,
+        "stable_accuracy": 1.0,
+        "final_status": "CONFIRMED",
+        "vlm_calls": 0,
+        "states": {
+          "CONFIRMED": 117,
+          "MISSING": 1,
+          "AMBIGUOUS": 24
+        }
+      },
+      "occlusion_full": {
+        "recovered": true,
+        "time_to_recovery": 8,
+        "false_belief_frames": 0,
+        "lost_while_present": 38,
+        "during_disruption_acc": 0.05,
+        "spurious_reacquisition": false,
+        "stable_accuracy": 1.0,
+        "final_status": "CONFIRMED",
+        "vlm_calls": 0,
+        "states": {
+          "CONFIRMED": 96,
+          "OCCLUDED": 12,
+          "MISSING": 49
+        }
+      },
+      "occlusion_remove": {
+        "recovered": true,
+        "time_to_recovery": 9,
+        "false_belief_frames": 0,
+        "lost_while_present": 38,
+        "during_disruption_acc": 0.05,
+        "spurious_reacquisition": false,
+        "stable_accuracy": 1.0,
+        "final_status": "MISSING",
+        "vlm_calls": 0,
+        "states": {
+          "CONFIRMED": 59,
+          "OCCLUDED": 12,
+          "MISSING": 108
+        }
+      }
+    },
+    "F_probe": {
+      "camera_pose": {
+        "recovered": true,
+        "time_to_recovery": 10,
+        "false_belief_frames": 0,
+        "lost_while_present": 0,
+        "during_disruption_acc": 1.0,
+        "spurious_reacquisition": false,
+        "stable_accuracy": 1.0,
+        "final_status": "CONFIRMED",
+        "vlm_calls": 1,
+        "states": {
+          "CONFIRMED": 160
+        }
+      },
+      "distractor": {
+        "recovered": true,
+        "time_to_recovery": 10,
+        "false_belief_frames": 0,
+        "lost_while_present": 0,
+        "during_disruption_acc": 1.0,
+        "spurious_reacquisition": false,
+        "stable_accuracy": 1.0,
+        "final_status": "CONFIRMED",
+        "vlm_calls": 1,
+        "states": {
+          "CONFIRMED": 176
+        }
+      },
+      "identity_same_class": {
+        "recovered": true,
+        "time_to_recovery": 11,
+        "false_belief_frames": 5,
+        "lost_while_present": 8,
+        "during_disruption_acc": 0.692,
+        "spurious_reacquisition": false,
+        "stable_accuracy": 1.0,
+        "final_status": "MISSING",
+        "vlm_calls": 20,
+        "states": {
+          "CONFIRMED": 67,
+          "OCCLUDED": 37,
+          "AMBIGUOUS": 14,
+          "MISSING": 26
+        }
+      },
+      "lighting": {
+        "recovered": true,
+        "time_to_recovery": 10,
+        "false_belief_frames": 0,
+        "lost_while_present": 0,
+        "during_disruption_acc": 1.0,
+        "spurious_reacquisition": false,
+        "stable_accuracy": 1.0,
+        "final_status": "CONFIRMED",
+        "vlm_calls": 1,
+        "states": {
+          "CONFIRMED": 179
+        }
+      },
+      "occlude_book": {
+        "recovered": true,
+        "time_to_recovery": 6,
+        "false_belief_frames": 0,
+        "lost_while_present": 14,
+        "during_disruption_acc": 0.562,
+        "spurious_reacquisition": false,
+        "stable_accuracy": 1.0,
+        "final_status": "CONFIRMED",
+        "vlm_calls": 12,
+        "states": {
+          "CONFIRMED": 137,
+          "OCCLUDED": 3,
+          "MISSING": 1,
+          "AMBIGUOUS": 18
+        }
+      },
+      "occlude_box": {
+        "recovered": true,
+        "time_to_recovery": 7,
+        "false_belief_frames": 0,
+        "lost_while_present": 27,
+        "during_disruption_acc": 0.129,
+        "spurious_reacquisition": false,
+        "stable_accuracy": 1.0,
+        "final_status": "CONFIRMED",
+        "vlm_calls": 17,
+        "states": {
+          "CONFIRMED": 114,
+          "OCCLUDED": 5,
+          "AMBIGUOUS": 11,
+          "MISSING": 26
+        }
+      },
+      "occlude_jacket": {
+        "recovered": true,
+        "time_to_recovery": 7,
+        "false_belief_frames": 0,
+        "lost_while_present": 24,
+        "during_disruption_acc": 0.143,
+        "spurious_reacquisition": false,
+        "stable_accuracy": 1.0,
+        "final_status": "CONFIRMED",
+        "vlm_calls": 13,
+        "states": {
+          "CONFIRMED": 113,
+          "OCCLUDED": 14,
+          "AMBIGUOUS": 6,
+          "MISSING": 28
+        }
+      },
+      "occlude_paper": {
+        "recovered": true,
+        "time_to_recovery": 5,
+        "false_belief_frames": 0,
+        "lost_while_present": 25,
+        "during_disruption_acc": 0.0,
+        "spurious_reacquisition": false,
+        "stable_accuracy": 1.0,
+        "final_status": "CONFIRMED",
+        "vlm_calls": 6,
+        "states": {
+          "CONFIRMED": 113,
+          "MISSING": 1,
+          "AMBIGUOUS": 28
+        }
+      },
+      "occlusion_full": {
+        "recovered": true,
+        "time_to_recovery": 8,
+        "false_belief_frames": 0,
+        "lost_while_present": 0,
+        "during_disruption_acc": 1.0,
+        "spurious_reacquisition": false,
+        "stable_accuracy": 1.0,
+        "final_status": "CONFIRMED",
+        "vlm_calls": 10,
+        "states": {
+          "CONFIRMED": 96,
+          "OCCLUDED": 61
+        }
+      },
+      "occlusion_remove": {
+        "recovered": true,
+        "time_to_recovery": 9,
+        "false_belief_frames": 0,
+        "lost_while_present": 0,
+        "during_disruption_acc": 1.0,
+        "spurious_reacquisition": false,
+        "stable_accuracy": 1.0,
+        "final_status": "MISSING",
+        "vlm_calls": 8,
+        "states": {
+          "CONFIRMED": 59,
+          "OCCLUDED": 60,
+          "MISSING": 60
+        }
+      }
+    }
+  }
+}

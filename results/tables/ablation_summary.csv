@@ -1,0 +1,5 @@
+condition,false_belief,lost_while_present,spurious_reacq,mean_durAcc,vlm_calls
+D_full,196,711,2,0.64,132
+E_no_vlm,297,657,11,0.653,0
+D_full(decay=30),229,478,2,0.762,132
+D_full(decay=60),235,232,2,0.89,132

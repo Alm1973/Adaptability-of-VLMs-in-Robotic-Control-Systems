@@ -1,0 +1,54 @@
+{
+  "baseline": {
+    "macro_bal_acc": 0.753,
+    "fp_rate": 0.371,
+    "unparseable": 0,
+    "per_object": {
+      "water bottle": 0.833,
+      "keyboard": 0.889,
+      "computer mouse": 0.625,
+      "laptop": 0.667,
+      "banana": null
+    },
+    "med_lat_s": 2.11
+  },
+  "skeptical": {
+    "macro_bal_acc": 0.632,
+    "fp_rate": 0.2,
+    "unparseable": 0,
+    "per_object": {
+      "water bottle": 0.5,
+      "keyboard": 0.667,
+      "computer mouse": 0.75,
+      "laptop": 0.611,
+      "banana": null
+    },
+    "med_lat_s": 2.69
+  },
+  "neg_primed": {
+    "macro_bal_acc": 0.528,
+    "fp_rate": 0.2,
+    "unparseable": 0,
+    "per_object": {
+      "water bottle": 0.667,
+      "keyboard": 0.5,
+      "computer mouse": 0.5,
+      "laptop": 0.444,
+      "banana": null
+    },
+    "med_lat_s": 2.67
+  },
+  "evidence": {
+    "macro_bal_acc": 0.594,
+    "fp_rate": 0.171,
+    "unparseable": 6,
+    "per_object": {
+      "water bottle": 0.722,
+      "keyboard": 0.556,
+      "computer mouse": 0.375,
+      "laptop": 0.722,
+      "banana": null
+    },
+    "med_lat_s": 6.03
+  }
+}

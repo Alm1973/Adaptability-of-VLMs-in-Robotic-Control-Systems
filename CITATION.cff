@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "When Does a Local Vision-Language Model Help? Event-Gated Verification for a Robot Camera Under Scene Disruptions"
+type: software
+authors:
+  - given-names: Shaurya S.
+    family-names: Khidake
+    affiliation: "BASIS Phoenix"
+repository-code: "https://github.com/Alm1973/Adaptability-of-VLMs-in-Robotic-Control-Systems"
+license: MIT
+version: "1.0.0"
+date-released: "2026-09-28"
+keywords:
+  - robotics
+  - vision-language models
+  - open-vocabulary detection
+  - event-gating
+  - belief state
+  - Qwen2.5-VL
+  - YOLO-World

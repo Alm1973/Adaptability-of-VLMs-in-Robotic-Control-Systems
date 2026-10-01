@@ -1,0 +1,36 @@
+{
+  "ollama": [
+    {
+      "first_lock": 8,
+      "degen": 8,
+      "n": 15,
+      "seq": ".......DDDDDDDD"
+    },
+    {
+      "first_lock": null,
+      "degen": 0,
+      "n": 15,
+      "seq": "E.............."
+    },
+    {
+      "first_lock": 4,
+      "degen": 12,
+      "n": 15,
+      "seq": "...DDDDDDDDDDDD"
+    }
+  ],
+  "b10326": [
+    {
+      "error": "launch failed"
+    },
+    {
+      "first_lock": null,
+      "degen": 0,
+      "n": 15,
+      "seq": "..............."
+    },
+    {
+      "error": "launch failed"
+    }
+  ]
+}

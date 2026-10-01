@@ -1,0 +1,218 @@
+{
+  "c2_05_pan_b108_t90.jpg": {
+    "whole": [
+      [
+        "Celsius",
+        "laptop",
+        "keyboard",
+        "mouse",
+        "monitor",
+        "soda can",
+        "paper towel",
+        "plastic bottle",
+        "headphones"
+      ],
+      [
+        "monitor",
+        "mouse",
+        "keyboard",
+        "soda",
+        "bottle"
+      ],
+      [
+        "cups",
+        "keyboards",
+        "mice",
+        "laptops",
+        "monitors"
+      ]
+    ],
+    "crops": {
+      "TL": [
+        "Bottle",
+        "Air conditioner",
+        "Monitor"
+      ],
+      "TR": [
+        "Tissue",
+        "Bottle"
+      ],
+      "BL": [
+        "Keyboard",
+        "bottle",
+        "can",
+        "monitor",
+        "laptop",
+        "speakers"
+      ],
+      "BR": [
+        "Can of Celsius drink",
+        "laptop keyboard",
+        "computer mouse",
+        "can of apple juice",
+        "can of juice"
+      ],
+      "center": [
+        "laptop",
+        "coffee can",
+        "keyboard",
+        "tissue",
+        "pen"
+      ]
+    }
+  },
+  "c2_07_tilt_b90_t78.jpg": {
+    "whole": [
+      [
+        "Monitor",
+        "laptop",
+        "tissue"
+      ],
+      [
+        "Monitor",
+        "laptop",
+        "tissue",
+        "bottle",
+        "air vent"
+      ],
+      [
+        "Monitor",
+        "Bottle",
+        "Computer",
+        "Paper",
+        "Laptop"
+      ]
+    ],
+    "crops": {
+      "TL": [
+        "Television"
+      ],
+      "TR": [
+        "Shutters",
+        "TV",
+        "remote"
+      ],
+      "BL": [
+        "Computer monitor",
+        "mouse"
+      ],
+      "BR": [
+        "Laptop",
+        "TV",
+        "Bottle",
+        "Paper"
+      ],
+      "center": [
+        "Television",
+        "Monitor",
+        "Wall",
+        "Window",
+        "Blinds"
+      ]
+    }
+  },
+  "c2_09_tilt_b90_t108.jpg": {
+    "whole": [
+      [
+        "Keyboard",
+        "mouse",
+        "can",
+        "table"
+      ],
+      [
+        "Keyboard",
+        "mouse",
+        "can",
+        "marker"
+      ],
+      [
+        "Keyboard",
+        "mouse",
+        "can",
+        "paper"
+      ]
+    ],
+    "crops": {
+      "TL": [
+        "keyboard"
+      ],
+      "TR": [
+        "Laptop",
+        "Soda can"
+      ],
+      "BL": [
+        "Keyboards",
+        "keycaps",
+        "switch"
+      ],
+      "BR": [
+        "Desk",
+        "Highlighter"
+      ],
+      "center": [
+        "Keyboard"
+      ]
+    }
+  },
+  "c2_10_home.jpg": {
+    "whole": [
+      [
+        "Keyboard",
+        "can",
+        "tissue",
+        "laptop",
+        "mouse",
+        "headphones",
+        "computer monitor"
+      ],
+      [
+        "Monitor",
+        "Keyboard",
+        "Computer mouse",
+        "Laptop",
+        "Can",
+        "Earphones",
+        "Tissue",
+        "Tissue box"
+      ],
+      [
+        "Keyboard",
+        "mouse",
+        "can"
+      ]
+    ],
+    "crops": {
+      "TL": [
+        "Monitor",
+        "Bottle",
+        "Keyboard"
+      ],
+      "TR": [
+        "Monitor",
+        "tissue"
+      ],
+      "BL": [
+        "Keyboard",
+        "Monitor",
+        "Bottle",
+        "Speaker"
+      ],
+      "BR": [
+        "Celsius drink can",
+        "laptop keyboard",
+        "mouse",
+        "mousepad",
+        "laptop",
+        "computer monitor",
+        "bottle",
+        "cable",
+        "USB drive"
+      ],
+      "center": [
+        "keyboard",
+        "mouse",
+        "bottle"
+      ]
+    }
+  }
+}

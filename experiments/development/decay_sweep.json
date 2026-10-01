@@ -1,0 +1,1666 @@
+{
+  "0": {
+    "lost": 80,
+    "false": 0,
+    "total": 80,
+    "during_acc": 0.746,
+    "strata": {
+      "4": {
+        "lost": 12,
+        "false": 0,
+        "n": 12,
+        "total": 12
+      },
+      "8": {
+        "lost": 24,
+        "false": 0,
+        "n": 12,
+        "total": 24
+      },
+      "14": {
+        "lost": 44,
+        "false": 0,
+        "n": 12,
+        "total": 44
+      }
+    },
+    "per_episode": {
+      "occlusion_partial_r0_d4": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "occlusion_full_r0_d8": {
+        "lost": 8,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "occlusion_remove_r0_d14": {
+        "lost": 14,
+        "false": 0,
+        "final": "MISSING"
+      },
+      "impostor_same_class_r0_d4": {
+        "lost": 4,
+        "false": 0,
+        "final": "AMBIGUOUS"
+      },
+      "lighting_r0_d8": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "white_balance_r0_d14": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "shadow_r0_d4": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "glare_r0_d8": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "camera_pose_r0_d14": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "scene_rearrange_r0_d4": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "distractor_r0_d8": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "novel_at_target_r0_d14": {
+        "lost": 0,
+        "false": 0,
+        "final": "MISSING"
+      },
+      "occlusion_partial_r1_d8": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "occlusion_full_r1_d14": {
+        "lost": 14,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "occlusion_remove_r1_d4": {
+        "lost": 4,
+        "false": 0,
+        "final": "MISSING"
+      },
+      "impostor_same_class_r1_d8": {
+        "lost": 8,
+        "false": 0,
+        "final": "AMBIGUOUS"
+      },
+      "lighting_r1_d14": {
+        "lost": 2,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "white_balance_r1_d4": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "shadow_r1_d8": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "glare_r1_d14": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "camera_pose_r1_d4": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "scene_rearrange_r1_d8": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "distractor_r1_d14": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "novel_at_target_r1_d4": {
+        "lost": 0,
+        "false": 0,
+        "final": "MISSING"
+      },
+      "occlusion_partial_r2_d14": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "occlusion_full_r2_d4": {
+        "lost": 4,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "occlusion_remove_r2_d8": {
+        "lost": 8,
+        "false": 0,
+        "final": "MISSING"
+      },
+      "impostor_same_class_r2_d14": {
+        "lost": 14,
+        "false": 0,
+        "final": "AMBIGUOUS"
+      },
+      "lighting_r2_d4": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "white_balance_r2_d8": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "shadow_r2_d14": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "glare_r2_d4": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "camera_pose_r2_d8": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "scene_rearrange_r2_d14": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "distractor_r2_d4": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "novel_at_target_r2_d8": {
+        "lost": 0,
+        "false": 0,
+        "final": "MISSING"
+      }
+    }
+  },
+  "2": {
+    "lost": 62,
+    "false": 4,
+    "total": 66,
+    "during_acc": 0.81,
+    "strata": {
+      "4": {
+        "lost": 6,
+        "false": 0,
+        "n": 12,
+        "total": 6
+      },
+      "8": {
+        "lost": 18,
+        "false": 2,
+        "n": 12,
+        "total": 20
+      },
+      "14": {
+        "lost": 38,
+        "false": 2,
+        "n": 12,
+        "total": 40
+      }
+    },
+    "per_episode": {
+      "occlusion_partial_r0_d4": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "occlusion_full_r0_d8": {
+        "lost": 6,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "occlusion_remove_r0_d14": {
+        "lost": 12,
+        "false": 0,
+        "final": "MISSING"
+      },
+      "impostor_same_class_r0_d4": {
+        "lost": 2,
+        "false": 0,
+        "final": "AMBIGUOUS"
+      },
+      "lighting_r0_d8": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "white_balance_r0_d14": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "shadow_r0_d4": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "glare_r0_d8": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "camera_pose_r0_d14": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "scene_rearrange_r0_d4": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "distractor_r0_d8": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "novel_at_target_r0_d14": {
+        "lost": 0,
+        "false": 2,
+        "final": "MISSING"
+      },
+      "occlusion_partial_r1_d8": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "occlusion_full_r1_d14": {
+        "lost": 12,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "occlusion_remove_r1_d4": {
+        "lost": 2,
+        "false": 0,
+        "final": "MISSING"
+      },
+      "impostor_same_class_r1_d8": {
+        "lost": 6,
+        "false": 0,
+        "final": "AMBIGUOUS"
+      },
+      "lighting_r1_d14": {
+        "lost": 2,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "white_balance_r1_d4": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "shadow_r1_d8": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "glare_r1_d14": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "camera_pose_r1_d4": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "scene_rearrange_r1_d8": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "distractor_r1_d14": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "novel_at_target_r1_d4": {
+        "lost": 0,
+        "false": 0,
+        "final": "MISSING"
+      },
+      "occlusion_partial_r2_d14": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "occlusion_full_r2_d4": {
+        "lost": 2,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "occlusion_remove_r2_d8": {
+        "lost": 6,
+        "false": 0,
+        "final": "MISSING"
+      },
+      "impostor_same_class_r2_d14": {
+        "lost": 12,
+        "false": 0,
+        "final": "AMBIGUOUS"
+      },
+      "lighting_r2_d4": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "white_balance_r2_d8": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "shadow_r2_d14": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "glare_r2_d4": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "camera_pose_r2_d8": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "scene_rearrange_r2_d14": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "distractor_r2_d4": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "novel_at_target_r2_d8": {
+        "lost": 0,
+        "false": 2,
+        "final": "MISSING"
+      }
+    }
+  },
+  "4": {
+    "lost": 44,
+    "false": 8,
+    "total": 52,
+    "during_acc": 0.873,
+    "strata": {
+      "4": {
+        "lost": 0,
+        "false": 0,
+        "n": 12,
+        "total": 0
+      },
+      "8": {
+        "lost": 12,
+        "false": 4,
+        "n": 12,
+        "total": 16
+      },
+      "14": {
+        "lost": 32,
+        "false": 4,
+        "n": 12,
+        "total": 36
+      }
+    },
+    "per_episode": {
+      "occlusion_partial_r0_d4": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "occlusion_full_r0_d8": {
+        "lost": 4,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "occlusion_remove_r0_d14": {
+        "lost": 10,
+        "false": 0,
+        "final": "MISSING"
+      },
+      "impostor_same_class_r0_d4": {
+        "lost": 0,
+        "false": 0,
+        "final": "AMBIGUOUS"
+      },
+      "lighting_r0_d8": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "white_balance_r0_d14": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "shadow_r0_d4": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "glare_r0_d8": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "camera_pose_r0_d14": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "scene_rearrange_r0_d4": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "distractor_r0_d8": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "novel_at_target_r0_d14": {
+        "lost": 0,
+        "false": 4,
+        "final": "MISSING"
+      },
+      "occlusion_partial_r1_d8": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "occlusion_full_r1_d14": {
+        "lost": 10,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "occlusion_remove_r1_d4": {
+        "lost": 0,
+        "false": 0,
+        "final": "MISSING"
+      },
+      "impostor_same_class_r1_d8": {
+        "lost": 4,
+        "false": 0,
+        "final": "AMBIGUOUS"
+      },
+      "lighting_r1_d14": {
+        "lost": 2,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "white_balance_r1_d4": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "shadow_r1_d8": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "glare_r1_d14": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "camera_pose_r1_d4": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "scene_rearrange_r1_d8": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "distractor_r1_d14": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "novel_at_target_r1_d4": {
+        "lost": 0,
+        "false": 0,
+        "final": "MISSING"
+      },
+      "occlusion_partial_r2_d14": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "occlusion_full_r2_d4": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "occlusion_remove_r2_d8": {
+        "lost": 4,
+        "false": 0,
+        "final": "MISSING"
+      },
+      "impostor_same_class_r2_d14": {
+        "lost": 10,
+        "false": 0,
+        "final": "AMBIGUOUS"
+      },
+      "lighting_r2_d4": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "white_balance_r2_d8": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "shadow_r2_d14": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "glare_r2_d4": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "camera_pose_r2_d8": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "scene_rearrange_r2_d14": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "distractor_r2_d4": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "novel_at_target_r2_d8": {
+        "lost": 0,
+        "false": 4,
+        "final": "MISSING"
+      }
+    }
+  },
+  "6": {
+    "lost": 32,
+    "false": 12,
+    "total": 44,
+    "during_acc": 0.895,
+    "strata": {
+      "4": {
+        "lost": 0,
+        "false": 0,
+        "n": 12,
+        "total": 0
+      },
+      "8": {
+        "lost": 6,
+        "false": 6,
+        "n": 12,
+        "total": 12
+      },
+      "14": {
+        "lost": 26,
+        "false": 6,
+        "n": 12,
+        "total": 32
+      }
+    },
+    "per_episode": {
+      "occlusion_partial_r0_d4": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "occlusion_full_r0_d8": {
+        "lost": 2,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "occlusion_remove_r0_d14": {
+        "lost": 8,
+        "false": 0,
+        "final": "MISSING"
+      },
+      "impostor_same_class_r0_d4": {
+        "lost": 0,
+        "false": 0,
+        "final": "AMBIGUOUS"
+      },
+      "lighting_r0_d8": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "white_balance_r0_d14": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "shadow_r0_d4": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "glare_r0_d8": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "camera_pose_r0_d14": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "scene_rearrange_r0_d4": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "distractor_r0_d8": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "novel_at_target_r0_d14": {
+        "lost": 0,
+        "false": 6,
+        "final": "MISSING"
+      },
+      "occlusion_partial_r1_d8": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "occlusion_full_r1_d14": {
+        "lost": 8,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "occlusion_remove_r1_d4": {
+        "lost": 0,
+        "false": 0,
+        "final": "MISSING"
+      },
+      "impostor_same_class_r1_d8": {
+        "lost": 2,
+        "false": 0,
+        "final": "AMBIGUOUS"
+      },
+      "lighting_r1_d14": {
+        "lost": 2,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "white_balance_r1_d4": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "shadow_r1_d8": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "glare_r1_d14": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "camera_pose_r1_d4": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "scene_rearrange_r1_d8": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "distractor_r1_d14": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "novel_at_target_r1_d4": {
+        "lost": 0,
+        "false": 0,
+        "final": "MISSING"
+      },
+      "occlusion_partial_r2_d14": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "occlusion_full_r2_d4": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "occlusion_remove_r2_d8": {
+        "lost": 2,
+        "false": 0,
+        "final": "MISSING"
+      },
+      "impostor_same_class_r2_d14": {
+        "lost": 8,
+        "false": 0,
+        "final": "AMBIGUOUS"
+      },
+      "lighting_r2_d4": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "white_balance_r2_d8": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "shadow_r2_d14": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "glare_r2_d4": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "camera_pose_r2_d8": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "scene_rearrange_r2_d14": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "distractor_r2_d4": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "novel_at_target_r2_d8": {
+        "lost": 0,
+        "false": 6,
+        "final": "MISSING"
+      }
+    }
+  },
+  "8": {
+    "lost": 20,
+    "false": 16,
+    "total": 36,
+    "during_acc": 0.917,
+    "strata": {
+      "4": {
+        "lost": 0,
+        "false": 0,
+        "n": 12,
+        "total": 0
+      },
+      "8": {
+        "lost": 0,
+        "false": 8,
+        "n": 12,
+        "total": 8
+      },
+      "14": {
+        "lost": 20,
+        "false": 8,
+        "n": 12,
+        "total": 28
+      }
+    },
+    "per_episode": {
+      "occlusion_partial_r0_d4": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "occlusion_full_r0_d8": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "occlusion_remove_r0_d14": {
+        "lost": 6,
+        "false": 0,
+        "final": "MISSING"
+      },
+      "impostor_same_class_r0_d4": {
+        "lost": 0,
+        "false": 0,
+        "final": "AMBIGUOUS"
+      },
+      "lighting_r0_d8": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "white_balance_r0_d14": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "shadow_r0_d4": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "glare_r0_d8": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "camera_pose_r0_d14": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "scene_rearrange_r0_d4": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "distractor_r0_d8": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "novel_at_target_r0_d14": {
+        "lost": 0,
+        "false": 8,
+        "final": "MISSING"
+      },
+      "occlusion_partial_r1_d8": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "occlusion_full_r1_d14": {
+        "lost": 6,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "occlusion_remove_r1_d4": {
+        "lost": 0,
+        "false": 0,
+        "final": "MISSING"
+      },
+      "impostor_same_class_r1_d8": {
+        "lost": 0,
+        "false": 0,
+        "final": "AMBIGUOUS"
+      },
+      "lighting_r1_d14": {
+        "lost": 2,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "white_balance_r1_d4": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "shadow_r1_d8": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "glare_r1_d14": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "camera_pose_r1_d4": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "scene_rearrange_r1_d8": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "distractor_r1_d14": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "novel_at_target_r1_d4": {
+        "lost": 0,
+        "false": 0,
+        "final": "MISSING"
+      },
+      "occlusion_partial_r2_d14": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "occlusion_full_r2_d4": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "occlusion_remove_r2_d8": {
+        "lost": 0,
+        "false": 0,
+        "final": "MISSING"
+      },
+      "impostor_same_class_r2_d14": {
+        "lost": 6,
+        "false": 0,
+        "final": "AMBIGUOUS"
+      },
+      "lighting_r2_d4": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "white_balance_r2_d8": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "shadow_r2_d14": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "glare_r2_d4": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "camera_pose_r2_d8": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "scene_rearrange_r2_d14": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "distractor_r2_d4": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "novel_at_target_r2_d8": {
+        "lost": 0,
+        "false": 8,
+        "final": "MISSING"
+      }
+    }
+  },
+  "12": {
+    "lost": 8,
+    "false": 24,
+    "total": 32,
+    "during_acc": 0.933,
+    "strata": {
+      "4": {
+        "lost": 0,
+        "false": 0,
+        "n": 12,
+        "total": 0
+      },
+      "8": {
+        "lost": 0,
+        "false": 12,
+        "n": 12,
+        "total": 12
+      },
+      "14": {
+        "lost": 8,
+        "false": 12,
+        "n": 12,
+        "total": 20
+      }
+    },
+    "per_episode": {
+      "occlusion_partial_r0_d4": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "occlusion_full_r0_d8": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "occlusion_remove_r0_d14": {
+        "lost": 2,
+        "false": 0,
+        "final": "MISSING"
+      },
+      "impostor_same_class_r0_d4": {
+        "lost": 0,
+        "false": 0,
+        "final": "AMBIGUOUS"
+      },
+      "lighting_r0_d8": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "white_balance_r0_d14": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "shadow_r0_d4": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "glare_r0_d8": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "camera_pose_r0_d14": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "scene_rearrange_r0_d4": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "distractor_r0_d8": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "novel_at_target_r0_d14": {
+        "lost": 0,
+        "false": 12,
+        "final": "MISSING"
+      },
+      "occlusion_partial_r1_d8": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "occlusion_full_r1_d14": {
+        "lost": 2,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "occlusion_remove_r1_d4": {
+        "lost": 0,
+        "false": 0,
+        "final": "MISSING"
+      },
+      "impostor_same_class_r1_d8": {
+        "lost": 0,
+        "false": 0,
+        "final": "AMBIGUOUS"
+      },
+      "lighting_r1_d14": {
+        "lost": 2,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "white_balance_r1_d4": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "shadow_r1_d8": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "glare_r1_d14": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "camera_pose_r1_d4": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "scene_rearrange_r1_d8": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "distractor_r1_d14": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "novel_at_target_r1_d4": {
+        "lost": 0,
+        "false": 0,
+        "final": "MISSING"
+      },
+      "occlusion_partial_r2_d14": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "occlusion_full_r2_d4": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "occlusion_remove_r2_d8": {
+        "lost": 0,
+        "false": 0,
+        "final": "MISSING"
+      },
+      "impostor_same_class_r2_d14": {
+        "lost": 2,
+        "false": 0,
+        "final": "AMBIGUOUS"
+      },
+      "lighting_r2_d4": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "white_balance_r2_d8": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "shadow_r2_d14": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "glare_r2_d4": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "camera_pose_r2_d8": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "scene_rearrange_r2_d14": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "distractor_r2_d4": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "novel_at_target_r2_d8": {
+        "lost": 0,
+        "false": 12,
+        "final": "MISSING"
+      }
+    }
+  },
+  "18": {
+    "lost": 2,
+    "false": 34,
+    "total": 36,
+    "during_acc": 0.94,
+    "strata": {
+      "4": {
+        "lost": 0,
+        "false": 0,
+        "n": 12,
+        "total": 0
+      },
+      "8": {
+        "lost": 0,
+        "false": 16,
+        "n": 12,
+        "total": 16
+      },
+      "14": {
+        "lost": 2,
+        "false": 18,
+        "n": 12,
+        "total": 20
+      }
+    },
+    "per_episode": {
+      "occlusion_partial_r0_d4": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "occlusion_full_r0_d8": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "occlusion_remove_r0_d14": {
+        "lost": 0,
+        "false": 0,
+        "final": "MISSING"
+      },
+      "impostor_same_class_r0_d4": {
+        "lost": 0,
+        "false": 0,
+        "final": "AMBIGUOUS"
+      },
+      "lighting_r0_d8": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "white_balance_r0_d14": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "shadow_r0_d4": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "glare_r0_d8": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "camera_pose_r0_d14": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "scene_rearrange_r0_d4": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "distractor_r0_d8": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "novel_at_target_r0_d14": {
+        "lost": 0,
+        "false": 18,
+        "final": "MISSING"
+      },
+      "occlusion_partial_r1_d8": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "occlusion_full_r1_d14": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "occlusion_remove_r1_d4": {
+        "lost": 0,
+        "false": 0,
+        "final": "MISSING"
+      },
+      "impostor_same_class_r1_d8": {
+        "lost": 0,
+        "false": 0,
+        "final": "AMBIGUOUS"
+      },
+      "lighting_r1_d14": {
+        "lost": 2,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "white_balance_r1_d4": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "shadow_r1_d8": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "glare_r1_d14": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "camera_pose_r1_d4": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "scene_rearrange_r1_d8": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "distractor_r1_d14": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "novel_at_target_r1_d4": {
+        "lost": 0,
+        "false": 0,
+        "final": "MISSING"
+      },
+      "occlusion_partial_r2_d14": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "occlusion_full_r2_d4": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "occlusion_remove_r2_d8": {
+        "lost": 0,
+        "false": 0,
+        "final": "MISSING"
+      },
+      "impostor_same_class_r2_d14": {
+        "lost": 0,
+        "false": 0,
+        "final": "AMBIGUOUS"
+      },
+      "lighting_r2_d4": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "white_balance_r2_d8": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "shadow_r2_d14": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "glare_r2_d4": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "camera_pose_r2_d8": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "scene_rearrange_r2_d14": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "distractor_r2_d4": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "novel_at_target_r2_d8": {
+        "lost": 0,
+        "false": 16,
+        "final": "OCCLUDED"
+      }
+    }
+  },
+  "26": {
+    "lost": 2,
+    "false": 38,
+    "total": 40,
+    "during_acc": 0.94,
+    "strata": {
+      "4": {
+        "lost": 0,
+        "false": 0,
+        "n": 12,
+        "total": 0
+      },
+      "8": {
+        "lost": 0,
+        "false": 16,
+        "n": 12,
+        "total": 16
+      },
+      "14": {
+        "lost": 2,
+        "false": 22,
+        "n": 12,
+        "total": 24
+      }
+    },
+    "per_episode": {
+      "occlusion_partial_r0_d4": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "occlusion_full_r0_d8": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "occlusion_remove_r0_d14": {
+        "lost": 0,
+        "false": 0,
+        "final": "MISSING"
+      },
+      "impostor_same_class_r0_d4": {
+        "lost": 0,
+        "false": 0,
+        "final": "AMBIGUOUS"
+      },
+      "lighting_r0_d8": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "white_balance_r0_d14": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "shadow_r0_d4": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "glare_r0_d8": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "camera_pose_r0_d14": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "scene_rearrange_r0_d4": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "distractor_r0_d8": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "novel_at_target_r0_d14": {
+        "lost": 0,
+        "false": 22,
+        "final": "OCCLUDED"
+      },
+      "occlusion_partial_r1_d8": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "occlusion_full_r1_d14": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "occlusion_remove_r1_d4": {
+        "lost": 0,
+        "false": 0,
+        "final": "MISSING"
+      },
+      "impostor_same_class_r1_d8": {
+        "lost": 0,
+        "false": 0,
+        "final": "AMBIGUOUS"
+      },
+      "lighting_r1_d14": {
+        "lost": 2,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "white_balance_r1_d4": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "shadow_r1_d8": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "glare_r1_d14": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "camera_pose_r1_d4": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "scene_rearrange_r1_d8": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "distractor_r1_d14": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "novel_at_target_r1_d4": {
+        "lost": 0,
+        "false": 0,
+        "final": "MISSING"
+      },
+      "occlusion_partial_r2_d14": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "occlusion_full_r2_d4": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "occlusion_remove_r2_d8": {
+        "lost": 0,
+        "false": 0,
+        "final": "MISSING"
+      },
+      "impostor_same_class_r2_d14": {
+        "lost": 0,
+        "false": 0,
+        "final": "AMBIGUOUS"
+      },
+      "lighting_r2_d4": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "white_balance_r2_d8": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "shadow_r2_d14": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "glare_r2_d4": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "camera_pose_r2_d8": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "scene_rearrange_r2_d14": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "distractor_r2_d4": {
+        "lost": 0,
+        "false": 0,
+        "final": "CONFIRMED"
+      },
+      "novel_at_target_r2_d8": {
+        "lost": 0,
+        "false": 16,
+        "final": "OCCLUDED"
+      }
+    }
+  }
+}

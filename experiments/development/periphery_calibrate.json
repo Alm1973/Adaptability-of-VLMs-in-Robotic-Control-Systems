@@ -1,0 +1,1283 @@
+[
+  {
+    "label": "still",
+    "global": 14.12,
+    "local": 10.14,
+    "periphery": 15.51,
+    "edge": 0.829
+  },
+  {
+    "label": "still",
+    "global": 14.09,
+    "local": 10.11,
+    "periphery": 15.48,
+    "edge": 0.829
+  },
+  {
+    "label": "still",
+    "global": 14.05,
+    "local": 10.0,
+    "periphery": 15.44,
+    "edge": 0.828
+  },
+  {
+    "label": "still",
+    "global": 13.99,
+    "local": 10.05,
+    "periphery": 15.36,
+    "edge": 0.839
+  },
+  {
+    "label": "still",
+    "global": 13.98,
+    "local": 10.04,
+    "periphery": 15.35,
+    "edge": 0.829
+  },
+  {
+    "label": "still",
+    "global": 13.98,
+    "local": 10.08,
+    "periphery": 15.36,
+    "edge": 0.823
+  },
+  {
+    "label": "still",
+    "global": 13.96,
+    "local": 10.06,
+    "periphery": 15.32,
+    "edge": 0.829
+  },
+  {
+    "label": "still",
+    "global": 14.0,
+    "local": 10.03,
+    "periphery": 15.38,
+    "edge": 0.833
+  },
+  {
+    "label": "still",
+    "global": 14.02,
+    "local": 10.04,
+    "periphery": 15.41,
+    "edge": 0.835
+  },
+  {
+    "label": "still",
+    "global": 14.03,
+    "local": 10.04,
+    "periphery": 15.41,
+    "edge": 0.834
+  },
+  {
+    "label": "still",
+    "global": 13.97,
+    "local": 10.05,
+    "periphery": 15.34,
+    "edge": 0.824
+  },
+  {
+    "label": "still",
+    "global": 14.01,
+    "local": 10.08,
+    "periphery": 15.37,
+    "edge": 0.836
+  },
+  {
+    "label": "still",
+    "global": 14.01,
+    "local": 10.08,
+    "periphery": 15.36,
+    "edge": 0.827
+  },
+  {
+    "label": "still",
+    "global": 14.02,
+    "local": 10.08,
+    "periphery": 15.37,
+    "edge": 0.834
+  },
+  {
+    "label": "still",
+    "global": 14.02,
+    "local": 10.07,
+    "periphery": 15.38,
+    "edge": 0.833
+  },
+  {
+    "label": "still",
+    "global": 14.01,
+    "local": 10.05,
+    "periphery": 15.36,
+    "edge": 0.841
+  },
+  {
+    "label": "still",
+    "global": 14.0,
+    "local": 10.03,
+    "periphery": 15.34,
+    "edge": 0.838
+  },
+  {
+    "label": "still",
+    "global": 14.0,
+    "local": 10.03,
+    "periphery": 15.36,
+    "edge": 0.836
+  },
+  {
+    "label": "still",
+    "global": 14.01,
+    "local": 10.0,
+    "periphery": 15.38,
+    "edge": 0.833
+  },
+  {
+    "label": "still",
+    "global": 13.95,
+    "local": 9.98,
+    "periphery": 15.32,
+    "edge": 0.833
+  },
+  {
+    "label": "still",
+    "global": 13.96,
+    "local": 9.94,
+    "periphery": 15.32,
+    "edge": 0.84
+  },
+  {
+    "label": "still",
+    "global": 13.99,
+    "local": 9.96,
+    "periphery": 15.34,
+    "edge": 0.832
+  },
+  {
+    "label": "still",
+    "global": 13.96,
+    "local": 9.97,
+    "periphery": 15.32,
+    "edge": 0.832
+  },
+  {
+    "label": "still",
+    "global": 14.02,
+    "local": 9.94,
+    "periphery": 15.4,
+    "edge": 0.832
+  },
+  {
+    "label": "still",
+    "global": 13.97,
+    "local": 9.98,
+    "periphery": 15.3,
+    "edge": 0.833
+  },
+  {
+    "label": "still",
+    "global": 14.08,
+    "local": 10.0,
+    "periphery": 15.47,
+    "edge": 0.831
+  },
+  {
+    "label": "still",
+    "global": 14.08,
+    "local": 9.99,
+    "periphery": 15.47,
+    "edge": 0.83
+  },
+  {
+    "label": "still",
+    "global": 14.02,
+    "local": 9.94,
+    "periphery": 15.4,
+    "edge": 0.829
+  },
+  {
+    "label": "still",
+    "global": 14.06,
+    "local": 9.94,
+    "periphery": 15.45,
+    "edge": 0.831
+  },
+  {
+    "label": "still",
+    "global": 14.1,
+    "local": 9.96,
+    "periphery": 15.51,
+    "edge": 0.831
+  },
+  {
+    "label": "still",
+    "global": 14.11,
+    "local": 9.97,
+    "periphery": 15.54,
+    "edge": 0.833
+  },
+  {
+    "label": "still",
+    "global": 14.11,
+    "local": 9.95,
+    "periphery": 15.53,
+    "edge": 0.831
+  },
+  {
+    "label": "still",
+    "global": 14.14,
+    "local": 9.95,
+    "periphery": 15.58,
+    "edge": 0.831
+  },
+  {
+    "label": "still",
+    "global": 14.18,
+    "local": 9.96,
+    "periphery": 15.62,
+    "edge": 0.828
+  },
+  {
+    "label": "still",
+    "global": 14.14,
+    "local": 9.94,
+    "periphery": 15.55,
+    "edge": 0.829
+  },
+  {
+    "label": "still",
+    "global": 14.19,
+    "local": 9.98,
+    "periphery": 15.64,
+    "edge": 0.824
+  },
+  {
+    "label": "still",
+    "global": 14.14,
+    "local": 10.01,
+    "periphery": 15.54,
+    "edge": 0.833
+  },
+  {
+    "label": "still",
+    "global": 14.18,
+    "local": 10.01,
+    "periphery": 15.62,
+    "edge": 0.825
+  },
+  {
+    "label": "still",
+    "global": 14.18,
+    "local": 9.99,
+    "periphery": 15.6,
+    "edge": 0.827
+  },
+  {
+    "label": "still",
+    "global": 14.17,
+    "local": 10.02,
+    "periphery": 15.59,
+    "edge": 0.828
+  },
+  {
+    "label": "still",
+    "global": 14.17,
+    "local": 10.04,
+    "periphery": 15.56,
+    "edge": 0.823
+  },
+  {
+    "label": "still",
+    "global": 14.23,
+    "local": 10.06,
+    "periphery": 15.65,
+    "edge": 0.83
+  },
+  {
+    "label": "still",
+    "global": 14.21,
+    "local": 10.1,
+    "periphery": 15.62,
+    "edge": 0.829
+  },
+  {
+    "label": "still",
+    "global": 14.25,
+    "local": 10.11,
+    "periphery": 15.66,
+    "edge": 0.828
+  },
+  {
+    "label": "still",
+    "global": 14.26,
+    "local": 10.13,
+    "periphery": 15.66,
+    "edge": 0.827
+  },
+  {
+    "label": "still",
+    "global": 14.27,
+    "local": 10.11,
+    "periphery": 15.67,
+    "edge": 0.825
+  },
+  {
+    "label": "still",
+    "global": 14.22,
+    "local": 10.13,
+    "periphery": 15.62,
+    "edge": 0.826
+  },
+  {
+    "label": "still",
+    "global": 14.29,
+    "local": 10.14,
+    "periphery": 15.7,
+    "edge": 0.823
+  },
+  {
+    "label": "still",
+    "global": 14.26,
+    "local": 10.11,
+    "periphery": 15.65,
+    "edge": 0.831
+  },
+  {
+    "label": "still",
+    "global": 14.27,
+    "local": 10.11,
+    "periphery": 15.65,
+    "edge": 0.819
+  },
+  {
+    "label": "still",
+    "global": 14.28,
+    "local": 10.08,
+    "periphery": 15.69,
+    "edge": 0.82
+  },
+  {
+    "label": "still",
+    "global": 14.25,
+    "local": 10.05,
+    "periphery": 15.65,
+    "edge": 0.827
+  },
+  {
+    "label": "still",
+    "global": 14.21,
+    "local": 10.03,
+    "periphery": 15.61,
+    "edge": 0.822
+  },
+  {
+    "label": "still",
+    "global": 14.31,
+    "local": 10.04,
+    "periphery": 15.78,
+    "edge": 0.821
+  },
+  {
+    "label": "still",
+    "global": 14.31,
+    "local": 10.03,
+    "periphery": 15.77,
+    "edge": 0.824
+  },
+  {
+    "label": "still",
+    "global": 14.32,
+    "local": 10.02,
+    "periphery": 15.8,
+    "edge": 0.828
+  },
+  {
+    "label": "still",
+    "global": 14.29,
+    "local": 10.03,
+    "periphery": 15.76,
+    "edge": 0.829
+  },
+  {
+    "label": "still",
+    "global": 14.26,
+    "local": 10.02,
+    "periphery": 15.72,
+    "edge": 0.831
+  },
+  {
+    "label": "still",
+    "global": 14.32,
+    "local": 10.01,
+    "periphery": 15.81,
+    "edge": 0.827
+  },
+  {
+    "label": "still",
+    "global": 14.27,
+    "local": 9.98,
+    "periphery": 15.74,
+    "edge": 0.828
+  },
+  {
+    "label": "still",
+    "global": 14.27,
+    "local": 10.0,
+    "periphery": 15.74,
+    "edge": 0.832
+  },
+  {
+    "label": "hand",
+    "global": 16.44,
+    "local": 10.62,
+    "periphery": 18.91,
+    "edge": 0.826
+  },
+  {
+    "label": "hand",
+    "global": 16.45,
+    "local": 10.67,
+    "periphery": 18.92,
+    "edge": 0.822
+  },
+  {
+    "label": "hand",
+    "global": 16.93,
+    "local": 10.73,
+    "periphery": 19.64,
+    "edge": 0.814
+  },
+  {
+    "label": "hand",
+    "global": 16.87,
+    "local": 10.78,
+    "periphery": 19.55,
+    "edge": 0.813
+  },
+  {
+    "label": "hand",
+    "global": 16.83,
+    "local": 10.82,
+    "periphery": 19.47,
+    "edge": 0.825
+  },
+  {
+    "label": "hand",
+    "global": 16.84,
+    "local": 10.82,
+    "periphery": 19.48,
+    "edge": 0.814
+  },
+  {
+    "label": "hand",
+    "global": 16.79,
+    "local": 10.75,
+    "periphery": 19.41,
+    "edge": 0.824
+  },
+  {
+    "label": "hand",
+    "global": 16.98,
+    "local": 10.8,
+    "periphery": 19.7,
+    "edge": 0.812
+  },
+  {
+    "label": "hand",
+    "global": 17.21,
+    "local": 10.81,
+    "periphery": 20.05,
+    "edge": 0.827
+  },
+  {
+    "label": "hand",
+    "global": 17.27,
+    "local": 10.74,
+    "periphery": 20.2,
+    "edge": 0.826
+  },
+  {
+    "label": "hand",
+    "global": 17.2,
+    "local": 10.76,
+    "periphery": 20.06,
+    "edge": 0.819
+  },
+  {
+    "label": "hand",
+    "global": 17.11,
+    "local": 10.73,
+    "periphery": 19.93,
+    "edge": 0.819
+  },
+  {
+    "label": "hand",
+    "global": 17.08,
+    "local": 10.72,
+    "periphery": 19.9,
+    "edge": 0.831
+  },
+  {
+    "label": "hand",
+    "global": 17.06,
+    "local": 10.73,
+    "periphery": 19.87,
+    "edge": 0.819
+  },
+  {
+    "label": "hand",
+    "global": 17.06,
+    "local": 10.68,
+    "periphery": 19.88,
+    "edge": 0.823
+  },
+  {
+    "label": "hand",
+    "global": 17.04,
+    "local": 10.69,
+    "periphery": 19.84,
+    "edge": 0.816
+  },
+  {
+    "label": "hand",
+    "global": 17.01,
+    "local": 10.68,
+    "periphery": 19.81,
+    "edge": 0.818
+  },
+  {
+    "label": "hand",
+    "global": 17.07,
+    "local": 10.72,
+    "periphery": 19.85,
+    "edge": 0.825
+  },
+  {
+    "label": "hand",
+    "global": 17.11,
+    "local": 10.72,
+    "periphery": 19.94,
+    "edge": 0.818
+  },
+  {
+    "label": "hand",
+    "global": 17.14,
+    "local": 10.72,
+    "periphery": 19.98,
+    "edge": 0.824
+  },
+  {
+    "label": "hand",
+    "global": 17.16,
+    "local": 10.76,
+    "periphery": 20.0,
+    "edge": 0.823
+  },
+  {
+    "label": "hand",
+    "global": 17.14,
+    "local": 10.76,
+    "periphery": 19.97,
+    "edge": 0.819
+  },
+  {
+    "label": "hand",
+    "global": 17.14,
+    "local": 10.73,
+    "periphery": 19.96,
+    "edge": 0.818
+  },
+  {
+    "label": "hand",
+    "global": 17.17,
+    "local": 10.73,
+    "periphery": 20.02,
+    "edge": 0.816
+  },
+  {
+    "label": "hand",
+    "global": 17.2,
+    "local": 10.76,
+    "periphery": 20.05,
+    "edge": 0.814
+  },
+  {
+    "label": "hand",
+    "global": 17.23,
+    "local": 10.76,
+    "periphery": 20.1,
+    "edge": 0.811
+  },
+  {
+    "label": "hand",
+    "global": 17.23,
+    "local": 10.78,
+    "periphery": 20.1,
+    "edge": 0.811
+  },
+  {
+    "label": "hand",
+    "global": 17.24,
+    "local": 10.76,
+    "periphery": 20.11,
+    "edge": 0.823
+  },
+  {
+    "label": "hand",
+    "global": 17.23,
+    "local": 10.76,
+    "periphery": 20.09,
+    "edge": 0.807
+  },
+  {
+    "label": "hand",
+    "global": 17.26,
+    "local": 10.75,
+    "periphery": 20.13,
+    "edge": 0.814
+  },
+  {
+    "label": "hand",
+    "global": 17.22,
+    "local": 10.76,
+    "periphery": 20.09,
+    "edge": 0.816
+  },
+  {
+    "label": "hand",
+    "global": 17.17,
+    "local": 10.79,
+    "periphery": 19.98,
+    "edge": 0.822
+  },
+  {
+    "label": "hand",
+    "global": 17.13,
+    "local": 10.78,
+    "periphery": 19.93,
+    "edge": 0.824
+  },
+  {
+    "label": "hand",
+    "global": 17.09,
+    "local": 10.75,
+    "periphery": 19.87,
+    "edge": 0.824
+  },
+  {
+    "label": "hand",
+    "global": 17.05,
+    "local": 10.78,
+    "periphery": 19.79,
+    "edge": 0.815
+  },
+  {
+    "label": "hand",
+    "global": 17.03,
+    "local": 10.77,
+    "periphery": 19.76,
+    "edge": 0.815
+  },
+  {
+    "label": "hand",
+    "global": 17.16,
+    "local": 10.76,
+    "periphery": 19.98,
+    "edge": 0.814
+  },
+  {
+    "label": "hand",
+    "global": 17.51,
+    "local": 10.76,
+    "periphery": 20.51,
+    "edge": 0.813
+  },
+  {
+    "label": "hand",
+    "global": 17.78,
+    "local": 10.78,
+    "periphery": 20.92,
+    "edge": 0.815
+  },
+  {
+    "label": "hand",
+    "global": 17.82,
+    "local": 10.82,
+    "periphery": 20.96,
+    "edge": 0.809
+  },
+  {
+    "label": "hand",
+    "global": 17.63,
+    "local": 10.8,
+    "periphery": 20.67,
+    "edge": 0.815
+  },
+  {
+    "label": "hand",
+    "global": 17.57,
+    "local": 10.86,
+    "periphery": 20.56,
+    "edge": 0.812
+  },
+  {
+    "label": "hand",
+    "global": 17.66,
+    "local": 10.87,
+    "periphery": 20.7,
+    "edge": 0.814
+  },
+  {
+    "label": "hand",
+    "global": 17.52,
+    "local": 10.97,
+    "periphery": 20.43,
+    "edge": 0.803
+  },
+  {
+    "label": "hand",
+    "global": 17.59,
+    "local": 10.98,
+    "periphery": 20.52,
+    "edge": 0.818
+  },
+  {
+    "label": "hand",
+    "global": 17.49,
+    "local": 10.99,
+    "periphery": 20.34,
+    "edge": 0.807
+  },
+  {
+    "label": "hand",
+    "global": 17.64,
+    "local": 11.02,
+    "periphery": 20.55,
+    "edge": 0.805
+  },
+  {
+    "label": "hand",
+    "global": 17.72,
+    "local": 11.0,
+    "periphery": 20.69,
+    "edge": 0.798
+  },
+  {
+    "label": "hand",
+    "global": 18.28,
+    "local": 11.01,
+    "periphery": 21.58,
+    "edge": 0.802
+  },
+  {
+    "label": "hand",
+    "global": 18.52,
+    "local": 11.05,
+    "periphery": 21.98,
+    "edge": 0.791
+  },
+  {
+    "label": "hand",
+    "global": 18.41,
+    "local": 11.0,
+    "periphery": 21.8,
+    "edge": 0.795
+  },
+  {
+    "label": "hand",
+    "global": 18.48,
+    "local": 11.0,
+    "periphery": 21.9,
+    "edge": 0.795
+  },
+  {
+    "label": "hand",
+    "global": 18.63,
+    "local": 11.04,
+    "periphery": 22.11,
+    "edge": 0.8
+  },
+  {
+    "label": "hand",
+    "global": 18.74,
+    "local": 11.03,
+    "periphery": 22.31,
+    "edge": 0.795
+  },
+  {
+    "label": "hand",
+    "global": 18.83,
+    "local": 11.1,
+    "periphery": 22.42,
+    "edge": 0.807
+  },
+  {
+    "label": "hand",
+    "global": 18.95,
+    "local": 11.15,
+    "periphery": 22.56,
+    "edge": 0.795
+  },
+  {
+    "label": "hand",
+    "global": 18.93,
+    "local": 11.17,
+    "periphery": 22.53,
+    "edge": 0.799
+  },
+  {
+    "label": "hand",
+    "global": 19.0,
+    "local": 11.23,
+    "periphery": 22.62,
+    "edge": 0.793
+  },
+  {
+    "label": "hand",
+    "global": 18.92,
+    "local": 11.27,
+    "periphery": 22.44,
+    "edge": 0.788
+  },
+  {
+    "label": "hand",
+    "global": 18.51,
+    "local": 11.27,
+    "periphery": 21.75,
+    "edge": 0.799
+  },
+  {
+    "label": "hand",
+    "global": 18.11,
+    "local": 11.26,
+    "periphery": 21.12,
+    "edge": 0.797
+  },
+  {
+    "label": "pan",
+    "global": 5.14,
+    "local": 1.96,
+    "periphery": 7.43,
+    "edge": 0.839
+  },
+  {
+    "label": "pan",
+    "global": 18.31,
+    "local": 24.19,
+    "periphery": 19.0,
+    "edge": 0.314
+  },
+  {
+    "label": "pan",
+    "global": 49.39,
+    "local": 61.6,
+    "periphery": 47.74,
+    "edge": 0.061
+  },
+  {
+    "label": "pan",
+    "global": 66.0,
+    "local": 87.89,
+    "periphery": 63.96,
+    "edge": 0.037
+  },
+  {
+    "label": "pan",
+    "global": 72.38,
+    "local": 85.69,
+    "periphery": 73.26,
+    "edge": 0.031
+  },
+  {
+    "label": "pan",
+    "global": 73.89,
+    "local": 85.49,
+    "periphery": 75.39,
+    "edge": 0.012
+  },
+  {
+    "label": "pan",
+    "global": 74.26,
+    "local": 85.7,
+    "periphery": 75.77,
+    "edge": 0.017
+  },
+  {
+    "label": "pan",
+    "global": 74.07,
+    "local": 85.46,
+    "periphery": 75.62,
+    "edge": 0.017
+  },
+  {
+    "label": "pan",
+    "global": 74.03,
+    "local": 85.5,
+    "periphery": 75.43,
+    "edge": 0.02
+  },
+  {
+    "label": "pan",
+    "global": 73.21,
+    "local": 83.37,
+    "periphery": 74.59,
+    "edge": 0.014
+  },
+  {
+    "label": "pan",
+    "global": 73.3,
+    "local": 81.68,
+    "periphery": 74.94,
+    "edge": 0.009
+  },
+  {
+    "label": "pan",
+    "global": 73.25,
+    "local": 81.68,
+    "periphery": 74.89,
+    "edge": 0.009
+  },
+  {
+    "label": "pan",
+    "global": 73.2,
+    "local": 81.7,
+    "periphery": 74.78,
+    "edge": 0.013
+  },
+  {
+    "label": "pan",
+    "global": 73.16,
+    "local": 81.74,
+    "periphery": 74.73,
+    "edge": 0.016
+  },
+  {
+    "label": "pan",
+    "global": 73.11,
+    "local": 81.79,
+    "periphery": 74.62,
+    "edge": 0.018
+  },
+  {
+    "label": "pan",
+    "global": 72.96,
+    "local": 81.79,
+    "periphery": 74.39,
+    "edge": 0.015
+  },
+  {
+    "label": "pan",
+    "global": 72.96,
+    "local": 81.85,
+    "periphery": 74.34,
+    "edge": 0.018
+  },
+  {
+    "label": "pan",
+    "global": 72.98,
+    "local": 81.86,
+    "periphery": 74.44,
+    "edge": 0.017
+  },
+  {
+    "label": "pan",
+    "global": 73.15,
+    "local": 81.84,
+    "periphery": 74.67,
+    "edge": 0.017
+  },
+  {
+    "label": "pan",
+    "global": 73.09,
+    "local": 81.8,
+    "periphery": 74.63,
+    "edge": 0.019
+  },
+  {
+    "label": "pan",
+    "global": 72.97,
+    "local": 81.78,
+    "periphery": 74.42,
+    "edge": 0.019
+  },
+  {
+    "label": "pan",
+    "global": 72.69,
+    "local": 81.68,
+    "periphery": 74.01,
+    "edge": 0.012
+  },
+  {
+    "label": "pan",
+    "global": 72.72,
+    "local": 81.72,
+    "periphery": 74.04,
+    "edge": 0.016
+  },
+  {
+    "label": "pan",
+    "global": 72.66,
+    "local": 81.74,
+    "periphery": 73.92,
+    "edge": 0.018
+  },
+  {
+    "label": "pan",
+    "global": 72.74,
+    "local": 81.78,
+    "periphery": 74.03,
+    "edge": 0.012
+  },
+  {
+    "label": "pan",
+    "global": 72.81,
+    "local": 81.81,
+    "periphery": 74.13,
+    "edge": 0.012
+  },
+  {
+    "label": "pan",
+    "global": 72.8,
+    "local": 81.78,
+    "periphery": 74.1,
+    "edge": 0.014
+  },
+  {
+    "label": "pan",
+    "global": 72.79,
+    "local": 81.8,
+    "periphery": 74.13,
+    "edge": 0.013
+  },
+  {
+    "label": "pan",
+    "global": 72.88,
+    "local": 81.77,
+    "periphery": 74.27,
+    "edge": 0.011
+  },
+  {
+    "label": "pan",
+    "global": 72.98,
+    "local": 81.81,
+    "periphery": 74.42,
+    "edge": 0.019
+  },
+  {
+    "label": "pan",
+    "global": 73.07,
+    "local": 81.85,
+    "periphery": 74.54,
+    "edge": 0.015
+  },
+  {
+    "label": "pan",
+    "global": 73.11,
+    "local": 81.76,
+    "periphery": 74.65,
+    "edge": 0.02
+  },
+  {
+    "label": "pan",
+    "global": 73.12,
+    "local": 81.81,
+    "periphery": 74.66,
+    "edge": 0.019
+  },
+  {
+    "label": "pan",
+    "global": 73.13,
+    "local": 81.81,
+    "periphery": 74.7,
+    "edge": 0.02
+  },
+  {
+    "label": "pan",
+    "global": 73.12,
+    "local": 81.82,
+    "periphery": 74.68,
+    "edge": 0.025
+  },
+  {
+    "label": "pan",
+    "global": 73.2,
+    "local": 81.94,
+    "periphery": 74.76,
+    "edge": 0.02
+  },
+  {
+    "label": "pan",
+    "global": 73.16,
+    "local": 81.91,
+    "periphery": 74.69,
+    "edge": 0.022
+  },
+  {
+    "label": "pan",
+    "global": 73.14,
+    "local": 81.91,
+    "periphery": 74.66,
+    "edge": 0.017
+  },
+  {
+    "label": "pan",
+    "global": 73.13,
+    "local": 81.85,
+    "periphery": 74.66,
+    "edge": 0.018
+  },
+  {
+    "label": "pan",
+    "global": 73.13,
+    "local": 81.83,
+    "periphery": 74.65,
+    "edge": 0.019
+  },
+  {
+    "label": "pan",
+    "global": 73.18,
+    "local": 81.87,
+    "periphery": 74.71,
+    "edge": 0.02
+  },
+  {
+    "label": "pan",
+    "global": 73.15,
+    "local": 81.88,
+    "periphery": 74.67,
+    "edge": 0.018
+  },
+  {
+    "label": "pan",
+    "global": 73.17,
+    "local": 81.93,
+    "periphery": 74.67,
+    "edge": 0.017
+  },
+  {
+    "label": "pan",
+    "global": 73.14,
+    "local": 81.87,
+    "periphery": 74.66,
+    "edge": 0.018
+  },
+  {
+    "label": "pan",
+    "global": 73.13,
+    "local": 81.88,
+    "periphery": 74.64,
+    "edge": 0.021
+  },
+  {
+    "label": "pan",
+    "global": 73.15,
+    "local": 81.91,
+    "periphery": 74.65,
+    "edge": 0.023
+  },
+  {
+    "label": "pan",
+    "global": 73.16,
+    "local": 81.94,
+    "periphery": 74.65,
+    "edge": 0.019
+  },
+  {
+    "label": "pan",
+    "global": 73.14,
+    "local": 81.94,
+    "periphery": 74.65,
+    "edge": 0.017
+  },
+  {
+    "label": "pan",
+    "global": 73.13,
+    "local": 81.97,
+    "periphery": 74.61,
+    "edge": 0.017
+  },
+  {
+    "label": "pan",
+    "global": 73.09,
+    "local": 82.0,
+    "periphery": 74.55,
+    "edge": 0.017
+  },
+  {
+    "label": "pan",
+    "global": 73.07,
+    "local": 81.94,
+    "periphery": 74.53,
+    "edge": 0.019
+  },
+  {
+    "label": "pan",
+    "global": 73.04,
+    "local": 81.99,
+    "periphery": 74.47,
+    "edge": 0.02
+  },
+  {
+    "label": "pan",
+    "global": 72.99,
+    "local": 81.92,
+    "periphery": 74.4,
+    "edge": 0.018
+  },
+  {
+    "label": "pan",
+    "global": 72.97,
+    "local": 81.99,
+    "periphery": 74.39,
+    "edge": 0.017
+  },
+  {
+    "label": "pan",
+    "global": 72.94,
+    "local": 81.86,
+    "periphery": 74.35,
+    "edge": 0.014
+  },
+  {
+    "label": "pan",
+    "global": 72.89,
+    "local": 81.92,
+    "periphery": 74.25,
+    "edge": 0.017
+  },
+  {
+    "label": "pan",
+    "global": 72.87,
+    "local": 81.91,
+    "periphery": 74.22,
+    "edge": 0.014
+  },
+  {
+    "label": "pan",
+    "global": 72.82,
+    "local": 81.94,
+    "periphery": 74.11,
+    "edge": 0.021
+  },
+  {
+    "label": "pan",
+    "global": 72.76,
+    "local": 81.9,
+    "periphery": 74.04,
+    "edge": 0.013
+  },
+  {
+    "label": "pan",
+    "global": 72.77,
+    "local": 81.96,
+    "periphery": 74.06,
+    "edge": 0.02
+  },
+  {
+    "label": "pan",
+    "global": 72.79,
+    "local": 81.82,
+    "periphery": 74.12,
+    "edge": 0.017
+  }
+]

@@ -1,0 +1,98 @@
+{
+  "n_frames": 10,
+  "halluc_hits": 0,
+  "halluc_checks": 40,
+  "halluc_rate": 0.0,
+  "halluc_detail": [],
+  "pos_correct": 3,
+  "pos_total": 8,
+  "pos_misses": [
+    [
+      "c2_07_tilt_b90_t78.jpg",
+      "laptop",
+      1,
+      0
+    ],
+    [
+      "c2_07_tilt_b90_t78.jpg",
+      "water bottle",
+      1,
+      0
+    ],
+    [
+      "c2_07_tilt_b90_t78.jpg",
+      "computer mouse",
+      0,
+      1
+    ],
+    [
+      "c2_10_home.jpg",
+      "laptop",
+      1,
+      0
+    ],
+    [
+      "c2_10_home.jpg",
+      "water bottle",
+      1,
+      0
+    ]
+  ],
+  "med_lat_s": 0.99,
+  "lists": {
+    "c2_01_pan_b60_t90.jpg": [
+      "Monitor",
+      "Screen",
+      "Desk",
+      "Keyboard"
+    ],
+    "c2_02_pan_b72_t90.jpg": [
+      "Monitor"
+    ],
+    "c2_03_pan_b84_t90.jpg": [
+      "Monitor",
+      "Laptop",
+      "Keyboard",
+      "Bottle",
+      "Can"
+    ],
+    "c2_04_pan_b96_t90.jpg": [
+      "Keyboard",
+      "computer",
+      "monitor",
+      "tissue",
+      "laptop",
+      "can",
+      "earphones",
+      "tissue paper"
+    ],
+    "c2_05_pan_b108_t90.jpg": [
+      "Can",
+      "Mouse",
+      "Cans"
+    ],
+    "c2_06_pan_b120_t90.jpg": [
+      "Can of celsius orange"
+    ],
+    "c2_07_tilt_b90_t78.jpg": [
+      "Monitor",
+      "Computer Mouse"
+    ],
+    "c2_08_tilt_b90_t93.jpg": [
+      "computer mouse",
+      "can of celsius",
+      "paper towel"
+    ],
+    "c2_09_tilt_b90_t108.jpg": [
+      "Keyboard",
+      "mouse",
+      "marker",
+      "can"
+    ],
+    "c2_10_home.jpg": [
+      "Can",
+      "Keyboard",
+      "Mouse"
+    ]
+  }
+}

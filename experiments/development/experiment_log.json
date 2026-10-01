@@ -1,0 +1,1161 @@
+{
+  "aborted": null,
+  "poses_completed": 12,
+  "log": [
+    {
+      "idx": 1,
+      "label": "home_ref",
+      "base": 90,
+      "tilt": 90,
+      "file": "exp_01_home_ref_b90_t90.jpg",
+      "frame_mean": 112.9,
+      "frame_diff_vs_prev": null,
+      "techniques": {
+        "t1": {
+          "found": true,
+          "box": [
+            437,
+            205,
+            219,
+            335
+          ],
+          "confidence": 1.0,
+          "meta": {
+            "solidity": 0.788,
+            "aspect": 0.654,
+            "extent": 0.649,
+            "area": 47588.5,
+            "box": [
+              437,
+              205,
+              219,
+              335
+            ]
+          },
+          "latency_ms": 5.7
+        },
+        "t2": {
+          "found": true,
+          "box": [
+            437,
+            205,
+            219,
+            335
+          ],
+          "confidence": 1.0,
+          "meta": {
+            "solidity": 0.788,
+            "aspect": 0.654,
+            "extent": 0.649,
+            "area": 47588.5,
+            "box": [
+              437,
+              205,
+              219,
+              335
+            ],
+            "rejected_for": []
+          },
+          "latency_ms": 4.4
+        },
+        "t3": {
+          "found": false,
+          "box": null,
+          "confidence": 0.125,
+          "meta": {
+            "good_matches": 5,
+            "kp_frame": 1500
+          },
+          "latency_ms": 22.3
+        },
+        "t4": {
+          "found": true,
+          "box": [
+            436,
+            127,
+            229,
+            388
+          ],
+          "confidence": 0.885,
+          "meta": {
+            "best_score": 0.885,
+            "best_scale": 1.0
+          },
+          "latency_ms": 199.1
+        },
+        "t6": {
+          "found": true,
+          "box": [
+            437,
+            205,
+            219,
+            335
+          ],
+          "confidence": 0.75,
+          "meta": {
+            "votes": {
+              "t1": true,
+              "t2": true,
+              "t3": false,
+              "t4": true
+            },
+            "n_yes": 3
+          }
+        }
+      }
+    },
+    {
+      "idx": 2,
+      "label": "verify_small",
+      "base": 98,
+      "tilt": 90,
+      "file": "exp_02_verify_small_b98_t90.jpg",
+      "frame_mean": 101.4,
+      "frame_diff_vs_prev": 64.59,
+      "techniques": {
+        "t1": {
+          "found": true,
+          "box": [
+            824,
+            0,
+            456,
+            703
+          ],
+          "confidence": 1.0,
+          "meta": {
+            "solidity": 0.827,
+            "aspect": 0.649,
+            "extent": 0.48,
+            "area": 153731.5,
+            "box": [
+              824,
+              0,
+              456,
+              703
+            ]
+          },
+          "latency_ms": 3.9
+        },
+        "t2": {
+          "found": true,
+          "box": [
+            824,
+            0,
+            456,
+            703
+          ],
+          "confidence": 1.0,
+          "meta": {
+            "solidity": 0.827,
+            "aspect": 0.649,
+            "extent": 0.48,
+            "area": 153731.5,
+            "box": [
+              824,
+              0,
+              456,
+              703
+            ],
+            "rejected_for": []
+          },
+          "latency_ms": 4.6
+        },
+        "t3": {
+          "found": false,
+          "box": null,
+          "confidence": 0.1,
+          "meta": {
+            "good_matches": 4,
+            "kp_frame": 1500
+          },
+          "latency_ms": 16.2
+        },
+        "t4": {
+          "found": true,
+          "box": [
+            347,
+            226,
+            91,
+            155
+          ],
+          "confidence": 0.666,
+          "meta": {
+            "best_score": 0.666,
+            "best_scale": 0.4
+          },
+          "latency_ms": 170.9
+        },
+        "t6": {
+          "found": true,
+          "box": [
+            824,
+            0,
+            456,
+            703
+          ],
+          "confidence": 0.75,
+          "meta": {
+            "votes": {
+              "t1": true,
+              "t2": true,
+              "t3": false,
+              "t4": true
+            },
+            "n_yes": 3
+          }
+        }
+      }
+    },
+    {
+      "idx": 3,
+      "label": "pan_left_10",
+      "base": 80,
+      "tilt": 90,
+      "file": "exp_03_pan_left_10_b80_t90.jpg",
+      "frame_mean": 101.0,
+      "frame_diff_vs_prev": 68.25,
+      "techniques": {
+        "t1": {
+          "found": true,
+          "box": [
+            0,
+            0,
+            682,
+            501
+          ],
+          "confidence": 1.0,
+          "meta": {
+            "solidity": 0.899,
+            "aspect": 1.361,
+            "extent": 0.678,
+            "area": 231652.5,
+            "box": [
+              0,
+              0,
+              682,
+              501
+            ]
+          },
+          "latency_ms": 5.0
+        },
+        "t2": {
+          "found": true,
+          "box": [
+            0,
+            0,
+            682,
+            501
+          ],
+          "confidence": 1.0,
+          "meta": {
+            "solidity": 0.899,
+            "aspect": 1.361,
+            "extent": 0.678,
+            "area": 231652.5,
+            "box": [
+              0,
+              0,
+              682,
+              501
+            ],
+            "rejected_for": []
+          },
+          "latency_ms": 3.8
+        },
+        "t3": {
+          "found": false,
+          "box": null,
+          "confidence": 0.0,
+          "meta": {
+            "good_matches": 0,
+            "kp_frame": 1500
+          },
+          "latency_ms": 18.3
+        },
+        "t4": {
+          "found": true,
+          "box": [
+            1043,
+            33,
+            125,
+            213
+          ],
+          "confidence": 0.737,
+          "meta": {
+            "best_score": 0.737,
+            "best_scale": 0.55
+          },
+          "latency_ms": 187.1
+        },
+        "t6": {
+          "found": true,
+          "box": [
+            0,
+            0,
+            682,
+            501
+          ],
+          "confidence": 0.75,
+          "meta": {
+            "votes": {
+              "t1": true,
+              "t2": true,
+              "t3": false,
+              "t4": true
+            },
+            "n_yes": 3
+          }
+        }
+      }
+    },
+    {
+      "idx": 4,
+      "label": "pan_left_20",
+      "base": 70,
+      "tilt": 90,
+      "file": "exp_04_pan_left_20_b70_t90.jpg",
+      "frame_mean": 87.4,
+      "frame_diff_vs_prev": 54.67,
+      "techniques": {
+        "t1": {
+          "found": false,
+          "box": null,
+          "confidence": 0.0,
+          "meta": {
+            "area": 162.0
+          },
+          "latency_ms": 3.7
+        },
+        "t2": {
+          "found": false,
+          "box": null,
+          "confidence": 0.0,
+          "meta": {
+            "area": 162.0,
+            "reason": "no_contour"
+          },
+          "latency_ms": 3.3
+        },
+        "t3": {
+          "found": false,
+          "box": null,
+          "confidence": 0.075,
+          "meta": {
+            "good_matches": 3,
+            "kp_frame": 1500
+          },
+          "latency_ms": 13.3
+        },
+        "t4": {
+          "found": true,
+          "box": [
+            1065,
+            212,
+            91,
+            155
+          ],
+          "confidence": 0.668,
+          "meta": {
+            "best_score": 0.668,
+            "best_scale": 0.4
+          },
+          "latency_ms": 172.1
+        },
+        "t6": {
+          "found": false,
+          "box": null,
+          "confidence": 0.25,
+          "meta": {
+            "votes": {
+              "t1": false,
+              "t2": false,
+              "t3": false,
+              "t4": true
+            },
+            "n_yes": 1
+          }
+        }
+      }
+    },
+    {
+      "idx": 5,
+      "label": "pan_right_20",
+      "base": 110,
+      "tilt": 90,
+      "file": "exp_05_pan_right_20_b110_t90.jpg",
+      "frame_mean": 85.7,
+      "frame_diff_vs_prev": 65.43,
+      "techniques": {
+        "t1": {
+          "found": true,
+          "box": [
+            992,
+            0,
+            215,
+            494
+          ],
+          "confidence": 0.924,
+          "meta": {
+            "solidity": 0.624,
+            "aspect": 0.435,
+            "extent": 0.384,
+            "area": 40748.0,
+            "box": [
+              992,
+              0,
+              215,
+              494
+            ]
+          },
+          "latency_ms": 3.9
+        },
+        "t2": {
+          "found": false,
+          "box": null,
+          "confidence": 0.231,
+          "meta": {
+            "solidity": 0.624,
+            "aspect": 0.435,
+            "extent": 0.384,
+            "area": 40748.0,
+            "box": [
+              992,
+              0,
+              215,
+              494
+            ],
+            "rejected_for": [
+              "low_solidity"
+            ]
+          },
+          "latency_ms": 4.0
+        },
+        "t3": {
+          "found": false,
+          "box": null,
+          "confidence": 0.05,
+          "meta": {
+            "good_matches": 2,
+            "kp_frame": 1500
+          },
+          "latency_ms": 17.3
+        },
+        "t4": {
+          "found": true,
+          "box": [
+            386,
+            72,
+            194,
+            329
+          ],
+          "confidence": 0.632,
+          "meta": {
+            "best_score": 0.632,
+            "best_scale": 0.85
+          },
+          "latency_ms": 169.0
+        },
+        "t6": {
+          "found": true,
+          "box": [
+            992,
+            0,
+            215,
+            494
+          ],
+          "confidence": 0.5,
+          "meta": {
+            "votes": {
+              "t1": true,
+              "t2": false,
+              "t3": false,
+              "t4": true
+            },
+            "n_yes": 2
+          }
+        }
+      }
+    },
+    {
+      "idx": 6,
+      "label": "tilt_up_12",
+      "base": 90,
+      "tilt": 78,
+      "file": "exp_06_tilt_up_12_b90_t78.jpg",
+      "frame_mean": 126.8,
+      "frame_diff_vs_prev": 97.01,
+      "techniques": {
+        "t1": {
+          "found": true,
+          "box": [
+            1174,
+            296,
+            106,
+            424
+          ],
+          "confidence": 0.645,
+          "meta": {
+            "solidity": 0.846,
+            "aspect": 0.25,
+            "extent": 0.633,
+            "area": 28438.0,
+            "box": [
+              1174,
+              296,
+              106,
+              424
+            ]
+          },
+          "latency_ms": 4.3
+        },
+        "t2": {
+          "found": true,
+          "box": [
+            1174,
+            296,
+            106,
+            424
+          ],
+          "confidence": 0.645,
+          "meta": {
+            "solidity": 0.846,
+            "aspect": 0.25,
+            "extent": 0.633,
+            "area": 28438.0,
+            "box": [
+              1174,
+              296,
+              106,
+              424
+            ],
+            "rejected_for": []
+          },
+          "latency_ms": 3.7
+        },
+        "t3": {
+          "found": true,
+          "box": [
+            606,
+            467,
+            495,
+            221
+          ],
+          "confidence": 0.275,
+          "meta": {
+            "good_matches": 11,
+            "kp_frame": 1497
+          },
+          "latency_ms": 12.5
+        },
+        "t4": {
+          "found": true,
+          "box": [
+            885,
+            413,
+            91,
+            155
+          ],
+          "confidence": 0.716,
+          "meta": {
+            "best_score": 0.716,
+            "best_scale": 0.4
+          },
+          "latency_ms": 178.1
+        },
+        "t6": {
+          "found": true,
+          "box": [
+            1174,
+            296,
+            106,
+            424
+          ],
+          "confidence": 1.0,
+          "meta": {
+            "votes": {
+              "t1": true,
+              "t2": true,
+              "t3": true,
+              "t4": true
+            },
+            "n_yes": 4
+          }
+        }
+      }
+    },
+    {
+      "idx": 7,
+      "label": "tilt_down_12",
+      "base": 90,
+      "tilt": 102,
+      "file": "exp_07_tilt_down_12_b90_t102.jpg",
+      "frame_mean": 118.6,
+      "frame_diff_vs_prev": 106.89,
+      "techniques": {
+        "t1": {
+          "found": true,
+          "box": [
+            0,
+            456,
+            130,
+            264
+          ],
+          "confidence": 0.54,
+          "meta": {
+            "solidity": 0.805,
+            "aspect": 0.492,
+            "extent": 0.693,
+            "area": 23795.5,
+            "box": [
+              0,
+              456,
+              130,
+              264
+            ]
+          },
+          "latency_ms": 4.2
+        },
+        "t2": {
+          "found": true,
+          "box": [
+            0,
+            456,
+            130,
+            264
+          ],
+          "confidence": 0.54,
+          "meta": {
+            "solidity": 0.805,
+            "aspect": 0.492,
+            "extent": 0.693,
+            "area": 23795.5,
+            "box": [
+              0,
+              456,
+              130,
+              264
+            ],
+            "rejected_for": []
+          },
+          "latency_ms": 3.7
+        },
+        "t3": {
+          "found": false,
+          "box": null,
+          "confidence": 0.075,
+          "meta": {
+            "good_matches": 3,
+            "kp_frame": 1500
+          },
+          "latency_ms": 15.2
+        },
+        "t4": {
+          "found": true,
+          "box": [
+            786,
+            97,
+            91,
+            155
+          ],
+          "confidence": 0.558,
+          "meta": {
+            "best_score": 0.558,
+            "best_scale": 0.4
+          },
+          "latency_ms": 185.4
+        },
+        "t6": {
+          "found": true,
+          "box": [
+            0,
+            456,
+            130,
+            264
+          ],
+          "confidence": 0.75,
+          "meta": {
+            "votes": {
+              "t1": true,
+              "t2": true,
+              "t3": false,
+              "t4": true
+            },
+            "n_yes": 3
+          }
+        }
+      }
+    },
+    {
+      "idx": 8,
+      "label": "diag_upleft",
+      "base": 78,
+      "tilt": 80,
+      "file": "exp_08_diag_upleft_b78_t80.jpg",
+      "frame_mean": 104.1,
+      "frame_diff_vs_prev": 98.33,
+      "techniques": {
+        "t1": {
+          "found": false,
+          "box": null,
+          "confidence": 0.0,
+          "meta": {
+            "area": 1874.0
+          },
+          "latency_ms": 4.0
+        },
+        "t2": {
+          "found": false,
+          "box": null,
+          "confidence": 0.0,
+          "meta": {
+            "area": 1874.0,
+            "reason": "no_contour"
+          },
+          "latency_ms": 3.6
+        },
+        "t3": {
+          "found": false,
+          "box": null,
+          "confidence": 0.05,
+          "meta": {
+            "good_matches": 2,
+            "kp_frame": 1500
+          },
+          "latency_ms": 13.9
+        },
+        "t4": {
+          "found": true,
+          "box": [
+            734,
+            278,
+            160,
+            271
+          ],
+          "confidence": 0.667,
+          "meta": {
+            "best_score": 0.667,
+            "best_scale": 0.7
+          },
+          "latency_ms": 164.7
+        },
+        "t6": {
+          "found": false,
+          "box": null,
+          "confidence": 0.25,
+          "meta": {
+            "votes": {
+              "t1": false,
+              "t2": false,
+              "t3": false,
+              "t4": true
+            },
+            "n_yes": 1
+          }
+        }
+      }
+    },
+    {
+      "idx": 9,
+      "label": "diag_downright",
+      "base": 104,
+      "tilt": 100,
+      "file": "exp_09_diag_downright_b104_t100.jpg",
+      "frame_mean": 82.7,
+      "frame_diff_vs_prev": 82.2,
+      "techniques": {
+        "t1": {
+          "found": true,
+          "box": [
+            1012,
+            0,
+            268,
+            420
+          ],
+          "confidence": 1.0,
+          "meta": {
+            "solidity": 0.849,
+            "aspect": 0.638,
+            "extent": 0.516,
+            "area": 58080.5,
+            "box": [
+              1012,
+              0,
+              268,
+              420
+            ]
+          },
+          "latency_ms": 3.7
+        },
+        "t2": {
+          "found": true,
+          "box": [
+            1012,
+            0,
+            268,
+            420
+          ],
+          "confidence": 1.0,
+          "meta": {
+            "solidity": 0.849,
+            "aspect": 0.638,
+            "extent": 0.516,
+            "area": 58080.5,
+            "box": [
+              1012,
+              0,
+              268,
+              420
+            ],
+            "rejected_for": []
+          },
+          "latency_ms": 4.5
+        },
+        "t3": {
+          "found": false,
+          "box": null,
+          "confidence": 0.0,
+          "meta": {
+            "good_matches": 0,
+            "kp_frame": 1500
+          },
+          "latency_ms": 21.5
+        },
+        "t4": {
+          "found": true,
+          "box": [
+            369,
+            0,
+            91,
+            155
+          ],
+          "confidence": 0.58,
+          "meta": {
+            "best_score": 0.58,
+            "best_scale": 0.4
+          },
+          "latency_ms": 179.1
+        },
+        "t6": {
+          "found": true,
+          "box": [
+            1012,
+            0,
+            268,
+            420
+          ],
+          "confidence": 0.75,
+          "meta": {
+            "votes": {
+              "t1": true,
+              "t2": true,
+              "t3": false,
+              "t4": true
+            },
+            "n_yes": 3
+          }
+        }
+      }
+    },
+    {
+      "idx": 10,
+      "label": "hard_lowleft",
+      "base": 68,
+      "tilt": 102,
+      "file": "exp_10_hard_lowleft_b68_t102.jpg",
+      "frame_mean": 100.0,
+      "frame_diff_vs_prev": 79.75,
+      "techniques": {
+        "t1": {
+          "found": true,
+          "box": [
+            352,
+            464,
+            492,
+            256
+          ],
+          "confidence": 1.0,
+          "meta": {
+            "solidity": 0.565,
+            "aspect": 1.922,
+            "extent": 0.357,
+            "area": 45009.5,
+            "box": [
+              352,
+              464,
+              492,
+              256
+            ]
+          },
+          "latency_ms": 4.4
+        },
+        "t2": {
+          "found": false,
+          "box": null,
+          "confidence": 0.25,
+          "meta": {
+            "solidity": 0.565,
+            "aspect": 1.922,
+            "extent": 0.357,
+            "area": 45009.5,
+            "box": [
+              352,
+              464,
+              492,
+              256
+            ],
+            "rejected_for": [
+              "too_wide",
+              "low_solidity"
+            ]
+          },
+          "latency_ms": 4.7
+        },
+        "t3": {
+          "found": false,
+          "box": null,
+          "confidence": 0.075,
+          "meta": {
+            "good_matches": 3,
+            "kp_frame": 1500
+          },
+          "latency_ms": 17.8
+        },
+        "t4": {
+          "found": true,
+          "box": [
+            30,
+            219,
+            91,
+            155
+          ],
+          "confidence": 0.598,
+          "meta": {
+            "best_score": 0.598,
+            "best_scale": 0.4
+          },
+          "latency_ms": 183.0
+        },
+        "t6": {
+          "found": true,
+          "box": [
+            352,
+            464,
+            492,
+            256
+          ],
+          "confidence": 0.5,
+          "meta": {
+            "votes": {
+              "t1": true,
+              "t2": false,
+              "t3": false,
+              "t4": true
+            },
+            "n_yes": 2
+          }
+        }
+      }
+    },
+    {
+      "idx": 11,
+      "label": "hard_highright",
+      "base": 114,
+      "tilt": 78,
+      "file": "exp_11_hard_highright_b114_t78.jpg",
+      "frame_mean": 104.7,
+      "frame_diff_vs_prev": 90.51,
+      "techniques": {
+        "t1": {
+          "found": true,
+          "box": [
+            1021,
+            178,
+            259,
+            542
+          ],
+          "confidence": 1.0,
+          "meta": {
+            "solidity": 0.816,
+            "aspect": 0.478,
+            "extent": 0.676,
+            "area": 94877.0,
+            "box": [
+              1021,
+              178,
+              259,
+              542
+            ]
+          },
+          "latency_ms": 3.8
+        },
+        "t2": {
+          "found": true,
+          "box": [
+            1021,
+            178,
+            259,
+            542
+          ],
+          "confidence": 1.0,
+          "meta": {
+            "solidity": 0.816,
+            "aspect": 0.478,
+            "extent": 0.676,
+            "area": 94877.0,
+            "box": [
+              1021,
+              178,
+              259,
+              542
+            ],
+            "rejected_for": []
+          },
+          "latency_ms": 4.1
+        },
+        "t3": {
+          "found": false,
+          "box": null,
+          "confidence": 0.175,
+          "meta": {
+            "good_matches": 7,
+            "kp_frame": 1500
+          },
+          "latency_ms": 15.1
+        },
+        "t4": {
+          "found": true,
+          "box": [
+            15,
+            301,
+            160,
+            271
+          ],
+          "confidence": 0.667,
+          "meta": {
+            "best_score": 0.667,
+            "best_scale": 0.7
+          },
+          "latency_ms": 176.5
+        },
+        "t6": {
+          "found": true,
+          "box": [
+            1021,
+            178,
+            259,
+            542
+          ],
+          "confidence": 0.75,
+          "meta": {
+            "votes": {
+              "t1": true,
+              "t2": true,
+              "t3": false,
+              "t4": true
+            },
+            "n_yes": 3
+          }
+        }
+      }
+    },
+    {
+      "idx": 12,
+      "label": "return_home",
+      "base": 90,
+      "tilt": 90,
+      "file": "exp_12_return_home_b90_t90.jpg",
+      "frame_mean": 108.5,
+      "frame_diff_vs_prev": 83.89,
+      "techniques": {
+        "t1": {
+          "found": true,
+          "box": [
+            512,
+            215,
+            140,
+            203
+          ],
+          "confidence": 0.254,
+          "meta": {
+            "solidity": 0.639,
+            "aspect": 0.69,
+            "extent": 0.395,
+            "area": 11215.0,
+            "box": [
+              512,
+              215,
+              140,
+              203
+            ]
+          },
+          "latency_ms": 4.2
+        },
+        "t2": {
+          "found": false,
+          "box": null,
+          "confidence": 0.064,
+          "meta": {
+            "solidity": 0.639,
+            "aspect": 0.69,
+            "extent": 0.395,
+            "area": 11215.0,
+            "box": [
+              512,
+              215,
+              140,
+              203
+            ],
+            "rejected_for": [
+              "low_solidity"
+            ]
+          },
+          "latency_ms": 3.8
+        },
+        "t3": {
+          "found": false,
+          "box": null,
+          "confidence": 0.0,
+          "meta": {
+            "good_matches": 0,
+            "kp_frame": 1500
+          },
+          "latency_ms": 14.6
+        },
+        "t4": {
+          "found": true,
+          "box": [
+            524,
+            62,
+            160,
+            271
+          ],
+          "confidence": 0.679,
+          "meta": {
+            "best_score": 0.679,
+            "best_scale": 0.7
+          },
+          "latency_ms": 172.7
+        },
+        "t6": {
+          "found": true,
+          "box": [
+            512,
+            215,
+            140,
+            203
+          ],
+          "confidence": 0.5,
+          "meta": {
+            "votes": {
+              "t1": true,
+              "t2": false,
+              "t3": false,
+              "t4": true
+            },
+            "n_yes": 2
+          }
+        }
+      }
+    }
+  ]
+}

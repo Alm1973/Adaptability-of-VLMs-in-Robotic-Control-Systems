@@ -1,0 +1,87 @@
+[
+  {
+    "scenario": "occlusion_full",
+    "desc": "a real hand",
+    "truth": true,
+    "real_labels": [
+      "hands",
+      "hands",
+      "hands",
+      "hands",
+      "hands"
+    ],
+    "real_occluder": true,
+    "real_votes": "5/5",
+    "generated_label": "hand",
+    "generated_occluder": true,
+    "agree": true
+  },
+  {
+    "scenario": "occlude_book",
+    "desc": "a real book",
+    "truth": true,
+    "real_labels": [
+      "desk lamp",
+      "purple book",
+      "notebook",
+      "book",
+      "desk lamp"
+    ],
+    "real_occluder": false,
+    "real_votes": "2/5",
+    "generated_label": "book",
+    "generated_occluder": true,
+    "agree": false
+  },
+  {
+    "scenario": "occlude_paper",
+    "desc": "real paper/cloth",
+    "truth": true,
+    "real_labels": [
+      "document",
+      "document",
+      "document",
+      "document",
+      "document"
+    ],
+    "real_occluder": false,
+    "real_votes": "0/5",
+    "generated_label": "paper sheet",
+    "generated_occluder": true,
+    "agree": false
+  },
+  {
+    "scenario": "occlude_box",
+    "desc": "a real cardboard box",
+    "truth": true,
+    "real_labels": [
+      "notebook",
+      "notebook",
+      "notebook",
+      "notebook",
+      "notebook"
+    ],
+    "real_occluder": false,
+    "real_votes": "0/5",
+    "generated_label": "bookend",
+    "generated_occluder": false,
+    "agree": true
+  },
+  {
+    "scenario": "occlude_jacket",
+    "desc": "a real jacket sleeve",
+    "truth": true,
+    "real_labels": [
+      "socks",
+      "socks",
+      "socks",
+      "socks",
+      "socks"
+    ],
+    "real_occluder": false,
+    "real_votes": "0/5",
+    "generated_label": "suit",
+    "generated_occluder": false,
+    "agree": true
+  }
+]

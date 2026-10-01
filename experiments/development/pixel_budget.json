@@ -1,0 +1,32 @@
+{
+  "100352": {
+    "mean_s": 0.507,
+    "acc": 1.0,
+    "degenerate": 0,
+    "peak_mib": 2506
+  },
+  "200704": {
+    "mean_s": 0.644,
+    "acc": 1.0,
+    "degenerate": 0,
+    "peak_mib": 2511
+  },
+  "301056": {
+    "mean_s": 1.526,
+    "acc": 1.0,
+    "degenerate": 0,
+    "peak_mib": 2511
+  },
+  "401408": {
+    "mean_s": 2.043,
+    "acc": 1.0,
+    "degenerate": 0,
+    "peak_mib": 2511
+  },
+  "602112": {
+    "mean_s": 2.209,
+    "acc": 1.0,
+    "degenerate": 0,
+    "peak_mib": 2511
+  }
+}

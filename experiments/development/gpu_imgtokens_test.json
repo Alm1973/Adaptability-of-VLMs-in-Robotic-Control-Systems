@@ -1,0 +1,42 @@
+{
+  "gpu_img256": {
+    "degen": 13,
+    "n": 15,
+    "first_lock_at": 3,
+    "clean": false,
+    "med_lat_s": 2.75,
+    "max_lat_s": 10.24,
+    "img_tokens": 256,
+    "mmproj_cpu": false
+  },
+  "gpu_img512": {
+    "degen": 13,
+    "n": 15,
+    "first_lock_at": 3,
+    "clean": false,
+    "med_lat_s": 13.17,
+    "max_lat_s": 15.94,
+    "img_tokens": 512,
+    "mmproj_cpu": false
+  },
+  "gpu_default": {
+    "degen": 0,
+    "n": 15,
+    "first_lock_at": null,
+    "clean": true,
+    "med_lat_s": 5.08,
+    "max_lat_s": 8.74,
+    "img_tokens": null,
+    "mmproj_cpu": false
+  },
+  "cpu_img256": {
+    "degen": 0,
+    "n": 6,
+    "first_lock_at": null,
+    "clean": true,
+    "med_lat_s": 21.47,
+    "max_lat_s": 24.75,
+    "img_tokens": 256,
+    "mmproj_cpu": true
+  }
+}

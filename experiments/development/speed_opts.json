@@ -1,0 +1,132 @@
+{
+  "detector": {
+    "fp32_ms": 12.06,
+    "fp16_ms": 11.7,
+    "speedup": 1.03,
+    "iou_median": 1.0,
+    "presence_flips": 0,
+    "max_dconf": 0.0
+  },
+  "probe": {
+    "12": {
+      "median_ms": 333.5,
+      "labels": [
+        [
+          "hand",
+          "hand",
+          true
+        ],
+        [
+          "book",
+          "book",
+          true
+        ],
+        [
+          "paper",
+          "paper sheet",
+          true
+        ],
+        [
+          "sleeve",
+          "suit",
+          false
+        ],
+        [
+          "box",
+          "bookend",
+          false
+        ]
+      ]
+    },
+    "8": {
+      "median_ms": 297.0,
+      "labels": [
+        [
+          "hand",
+          "hand",
+          true
+        ],
+        [
+          "book",
+          "book",
+          true
+        ],
+        [
+          "paper",
+          "paper sheet",
+          true
+        ],
+        [
+          "sleeve",
+          "suit",
+          false
+        ],
+        [
+          "box",
+          "bookend",
+          false
+        ]
+      ]
+    },
+    "6": {
+      "median_ms": 259.9,
+      "labels": [
+        [
+          "hand",
+          "hand",
+          true
+        ],
+        [
+          "book",
+          "book",
+          true
+        ],
+        [
+          "paper",
+          "paper sheet",
+          true
+        ],
+        [
+          "sleeve",
+          "suit",
+          false
+        ],
+        [
+          "box",
+          "bookend",
+          false
+        ]
+      ]
+    },
+    "4": {
+      "median_ms": 278.5,
+      "labels": [
+        [
+          "hand",
+          "hand",
+          true
+        ],
+        [
+          "book",
+          "book",
+          true
+        ],
+        [
+          "paper",
+          "paper sheet",
+          true
+        ],
+        [
+          "sleeve",
+          "suit",
+          false
+        ],
+        [
+          "box",
+          "bookend",
+          false
+        ]
+      ]
+    }
+  }
+}

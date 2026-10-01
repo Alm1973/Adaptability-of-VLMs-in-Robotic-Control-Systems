@@ -1,0 +1,30 @@
+{
+  "vlm": {
+    "found": 3,
+    "of": 7,
+    "success_rate": 0.429,
+    "mean_steps_when_found": 3.67,
+    "vlm_calls": 63
+  },
+  "vlm_eps": {
+    "found": 25,
+    "of": 35,
+    "success_rate": 0.714,
+    "mean_steps_when_found": 5.64,
+    "vlm_calls": 161
+  },
+  "sweep": {
+    "found": 3,
+    "of": 7,
+    "success_rate": 0.429,
+    "mean_steps_when_found": 5.0,
+    "vlm_calls": 0
+  },
+  "random": {
+    "found": 27,
+    "of": 35,
+    "success_rate": 0.771,
+    "mean_steps_when_found": 5.96,
+    "vlm_calls": 0
+  }
+}

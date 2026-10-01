@@ -1,0 +1,181 @@
+{
+  "macro_bal_acc": 0.785,
+  "fp_rate": 0.114,
+  "per_object": {
+    "water bottle": 0.667,
+    "keyboard": 0.889,
+    "computer mouse": 0.75,
+    "laptop": 0.833,
+    "banana": null
+  },
+  "calls": 12,
+  "med_lat_per_frame_s": 1.0,
+  "total_lat_s": 27.9,
+  "raw": {
+    "exp_01_home_ref_b90_t90.jpg": {
+      "raw": "keyboard, computer mouse, computer, remote control, computer monitor, cup, water bottle",
+      "items": [
+        "keyboard",
+        "computer mouse",
+        "computer",
+        "remote control",
+        "computer monitor",
+        "cup",
+        "water bottle"
+      ],
+      "lat_s": 8.81
+    },
+    "exp_02_verify_small_b98_t90.jpg": {
+      "raw": "keyboard",
+      "items": [
+        "keyboard"
+      ],
+      "lat_s": 0.56
+    },
+    "exp_03_pan_left_10_b80_t90.jpg": {
+      "raw": "computer screen, computer keyboard, computer mouse, stack of red cups",
+      "items": [
+        "computer screen",
+        "computer keyboard",
+        "computer mouse",
+        "stack of red cups"
+      ],
+      "lat_s": 0.91
+    },
+    "exp_04_pan_left_20_b70_t90.jpg": {
+      "raw": "Keyboard, Monitor, Speaker, Mouse",
+      "items": [
+        "Keyboard",
+        "Monitor",
+        "Speaker",
+        "Mouse"
+      ],
+      "lat_s": 0.96
+    },
+    "exp_05_pan_right_20_b110_t90.jpg": {
+      "raw": "mouse, cup",
+      "items": [
+        "mouse",
+        "cup"
+      ],
+      "lat_s": 0.69
+    },
+    "exp_06_tilt_up_12_b90_t78.jpg": {
+      "raw": "Window, Water bottle, Phone, Cup",
+      "items": [
+        "Window",
+        "Water bottle",
+        "Phone",
+        "Cup"
+      ],
+      "lat_s": 1.04
+    },
+    "exp_07_tilt_down_12_b90_t102.jpg": {
+      "raw": "headphones, keyboard, laptop, monitor, mouse, mousepad, wristband, pen",
+      "items": [
+        "headphones",
+        "keyboard",
+        "laptop",
+        "monitor",
+        "mouse",
+        "mousepad",
+        "wristband",
+        "pen"
+      ],
+      "lat_s": 1.83
+    },
+    "exp_08_diag_upleft_b78_t80.jpg": {
+      "raw": "Screen, cup",
+      "items": [
+        "Screen",
+        "cup"
+      ],
+      "lat_s": 0.78
+    },
+    "exp_09_diag_downright_b104_t100.jpg": {
+      "raw": "Keyboard, mouse, mug, laptop, pliers",
+      "items": [
+        "Keyboard",
+        "mouse",
+        "mug",
+        "laptop",
+        "pliers"
+      ],
+      "lat_s": 1.25
+    },
+    "exp_10_hard_lowleft_b68_t102.jpg": {
+      "raw": "Keyboard, mouse, headphones",
+      "items": [
+        "Keyboard",
+        "mouse",
+        "headphones"
+      ],
+      "lat_s": 0.97
+    },
+    "exp_11_hard_highright_b114_t78.jpg": {
+      "raw": "Plastic cup, bottle, can",
+      "items": [
+        "Plastic cup",
+        "bottle",
+        "can"
+      ],
+      "lat_s": 1.17
+    },
+    "exp_12_return_home_b90_t90.jpg": {
+      "raw": "mouse, mousepad, cup, monitor, monitor, monitor, monitor, monitor, monitor, monitor, monitor, monitor, monitor, monitor, monitor, monitor, monitor, monitor, monitor, monitor, monitor, monitor, monitor, monitor, monitor, monitor, monitor, monitor, monitor, monitor, monitor, monitor, monitor, monitor, monitor, monitor, monitor, monitor, monitor, monitor, monitor, monitor, monitor, monitor, monitor, monitor, monitor, monitor, monitor, monitor",
+      "items": [
+        "mouse",
+        "mousepad",
+        "cup",
+        "monitor",
+        "monitor",
+        "monitor",
+        "monitor",
+        "monitor",
+        "monitor",
+        "monitor",
+        "monitor",
+        "monitor",
+        "monitor",
+        "monitor",
+        "monitor",
+        "monitor",
+        "monitor",
+        "monitor",
+        "monitor",
+        "monitor",
+        "monitor",
+        "monitor",
+        "monitor",
+        "monitor",
+        "monitor",
+        "monitor",
+        "monitor",
+        "monitor",
+        "monitor",
+        "monitor",
+        "monitor",
+        "monitor",
+        "monitor",
+        "monitor",
+        "monitor",
+        "monitor",
+        "monitor",
+        "monitor",
+        "monitor",
+        "monitor",
+        "monitor",
+        "monitor",
+        "monitor",
+        "monitor",
+        "monitor",
+        "monitor",
+        "monitor",
+        "monitor",
+        "monitor",
+        "monitor"
+      ],
+      "lat_s": 8.94
+    }
+  }
+}

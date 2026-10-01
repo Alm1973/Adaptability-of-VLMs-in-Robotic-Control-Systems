@@ -1,0 +1,69 @@
+{
+  "n_frames": 10,
+  "neg_fp": 6,
+  "neg_total": 40,
+  "neg_fp_rate": 0.15,
+  "neg_fp_detail": [
+    [
+      "c2_05_pan_b108_t90.jpg",
+      [
+        "bicycle"
+      ]
+    ],
+    [
+      "c2_06_pan_b120_t90.jpg",
+      [
+        "bicycle"
+      ]
+    ],
+    [
+      "c2_07_tilt_b90_t78.jpg",
+      [
+        "banana"
+      ]
+    ],
+    [
+      "c2_08_tilt_b90_t93.jpg",
+      [
+        "bicycle",
+        "umbrella"
+      ]
+    ],
+    [
+      "c2_10_home.jpg",
+      [
+        "banana"
+      ]
+    ]
+  ],
+  "degenerate": 0,
+  "pos_correct": 4,
+  "pos_total": 8,
+  "pos_misses": [
+    [
+      "c2_07_tilt_b90_t78.jpg",
+      "water bottle",
+      1,
+      0
+    ],
+    [
+      "c2_07_tilt_b90_t78.jpg",
+      "keyboard",
+      0,
+      1
+    ],
+    [
+      "c2_10_home.jpg",
+      "water bottle",
+      1,
+      0
+    ],
+    [
+      "c2_10_home.jpg",
+      "computer mouse",
+      1,
+      0
+    ]
+  ],
+  "med_lat_s": 0.48
+}

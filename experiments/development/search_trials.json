@@ -1,0 +1,201 @@
+{
+  "trials": [
+    {
+      "brightness": 1.0,
+      "offset": [
+        -30,
+        0
+      ],
+      "found": true,
+      "time_to_find": 3.47,
+      "centred": true,
+      "time_to_centre": 4.38,
+      "search_moves": 1,
+      "frames": 12,
+      "final_err_px": 53.1,
+      "vlm_calls": 1,
+      "final_status": "CONFIRMED"
+    },
+    {
+      "brightness": 1.0,
+      "offset": [
+        30,
+        0
+      ],
+      "found": true,
+      "time_to_find": 0.45,
+      "centred": true,
+      "time_to_centre": 0.45,
+      "search_moves": 0,
+      "frames": 1,
+      "final_err_px": 84.6,
+      "vlm_calls": 1,
+      "final_status": "CONFIRMED"
+    },
+    {
+      "brightness": 0.5,
+      "offset": [
+        -30,
+        0
+      ],
+      "found": true,
+      "time_to_find": 1.65,
+      "centred": false,
+      "time_to_centre": null,
+      "search_moves": 8,
+      "frames": 10,
+      "final_err_px": 589.0,
+      "vlm_calls": 2,
+      "final_status": "MISSING"
+    },
+    {
+      "brightness": 0.5,
+      "offset": [
+        30,
+        0
+      ],
+      "found": true,
+      "time_to_find": 0.48,
+      "centred": false,
+      "time_to_centre": null,
+      "search_moves": 0,
+      "frames": 148,
+      "final_err_px": 186.4,
+      "vlm_calls": 144,
+      "final_status": "AMBIGUOUS"
+    },
+    {
+      "brightness": 0.25,
+      "offset": [
+        -30,
+        0
+      ],
+      "found": true,
+      "time_to_find": 0.64,
+      "centred": true,
+      "time_to_centre": 1.89,
+      "search_moves": 0,
+      "frames": 15,
+      "final_err_px": 89.7,
+      "vlm_calls": 3,
+      "final_status": "CONFIRMED"
+    },
+    {
+      "brightness": 0.25,
+      "offset": [
+        30,
+        0
+      ],
+      "found": true,
+      "time_to_find": 0.39,
+      "centred": false,
+      "time_to_centre": null,
+      "search_moves": 0,
+      "frames": 391,
+      "final_err_px": 171.4,
+      "vlm_calls": 4,
+      "final_status": "AMBIGUOUS"
+    },
+    {
+      "brightness": 0.12,
+      "offset": [
+        -30,
+        0
+      ],
+      "found": true,
+      "time_to_find": 5.56,
+      "centred": false,
+      "time_to_centre": null,
+      "search_moves": 4,
+      "frames": 351,
+      "final_err_px": 384.7,
+      "vlm_calls": 1,
+      "final_status": "AMBIGUOUS"
+    },
+    {
+      "brightness": 0.12,
+      "offset": [
+        30,
+        0
+      ],
+      "found": false,
+      "time_to_find": null,
+      "centred": false,
+      "time_to_centre": null,
+      "search_moves": 8,
+      "frames": 9,
+      "final_err_px": null,
+      "vlm_calls": 0,
+      "final_status": "MISSING"
+    },
+    {
+      "brightness": 0.06,
+      "offset": [
+        -30,
+        0
+      ],
+      "found": false,
+      "time_to_find": null,
+      "centred": false,
+      "time_to_centre": null,
+      "search_moves": 8,
+      "frames": 10,
+      "final_err_px": null,
+      "vlm_calls": 1,
+      "final_status": "MISSING"
+    },
+    {
+      "brightness": 0.06,
+      "offset": [
+        30,
+        0
+      ],
+      "found": false,
+      "time_to_find": null,
+      "centred": false,
+      "time_to_centre": null,
+      "search_moves": 8,
+      "frames": 9,
+      "final_err_px": null,
+      "vlm_calls": 0,
+      "final_status": "MISSING"
+    }
+  ],
+  "summary": {
+    "1.0": {
+      "n": 2,
+      "found": 2,
+      "centred": 2,
+      "median_time": 1.96,
+      "median_moves": 0.5
+    },
+    "0.5": {
+      "n": 2,
+      "found": 2,
+      "centred": 0,
+      "median_time": 1.06,
+      "median_moves": 4.0
+    },
+    "0.25": {
+      "n": 2,
+      "found": 2,
+      "centred": 1,
+      "median_time": 0.52,
+      "median_moves": 0.0
+    },
+    "0.12": {
+      "n": 2,
+      "found": 1,
+      "centred": 0,
+      "median_time": 5.56,
+      "median_moves": 6.0
+    },
+    "0.06": {
+      "n": 2,
+      "found": 0,
+      "centred": 0,
+      "median_time": null,
+      "median_moves": 8.0
+    }
+  }
+}

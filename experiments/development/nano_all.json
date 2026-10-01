@@ -1,0 +1,898 @@
+{
+  "clear": [
+    {
+      "brightness": 1.0,
+      "offset": [
+        -50,
+        0
+      ],
+      "search_valid": true,
+      "found": false,
+      "time_to_find": null,
+      "centred": false,
+      "time_to_centre": null,
+      "search_moves": 9,
+      "frames": 19,
+      "final_err_px": null,
+      "vlm_calls": 0,
+      "final_status": "MISSING",
+      "condition": "clear"
+    },
+    {
+      "brightness": 1.0,
+      "offset": [
+        50,
+        0
+      ],
+      "search_valid": true,
+      "found": true,
+      "time_to_find": 1.05,
+      "centred": true,
+      "time_to_centre": 2.39,
+      "search_moves": 0,
+      "frames": 16,
+      "final_err_px": 60.5,
+      "vlm_calls": 1,
+      "final_status": "CONFIRMED",
+      "condition": "clear"
+    },
+    {
+      "brightness": 1.0,
+      "offset": [
+        -50,
+        0
+      ],
+      "search_valid": true,
+      "found": true,
+      "time_to_find": 0.74,
+      "centred": false,
+      "time_to_centre": null,
+      "search_moves": 8,
+      "frames": 21,
+      "final_err_px": 464.1,
+      "vlm_calls": 3,
+      "final_status": "MISSING",
+      "condition": "clear"
+    }
+  ],
+  "dark_50": [
+    {
+      "brightness": 0.5,
+      "offset": [
+        -50,
+        0
+      ],
+      "search_valid": true,
+      "found": true,
+      "time_to_find": 0.41,
+      "centred": true,
+      "time_to_centre": 1.04,
+      "search_moves": 0,
+      "frames": 8,
+      "final_err_px": 81.7,
+      "vlm_calls": 1,
+      "final_status": "CONFIRMED",
+      "condition": "dark_50"
+    },
+    {
+      "brightness": 0.5,
+      "offset": [
+        50,
+        0
+      ],
+      "search_valid": false,
+      "found": true,
+      "time_to_find": 4.72,
+      "centred": false,
+      "time_to_centre": null,
+      "search_moves": 9,
+      "frames": 103,
+      "final_err_px": 454.1,
+      "vlm_calls": 8,
+      "final_status": "MISSING",
+      "condition": "dark_50"
+    },
+    {
+      "brightness": 0.5,
+      "offset": [
+        -50,
+        0
+      ],
+      "search_valid": true,
+      "found": true,
+      "time_to_find": 0.38,
+      "centred": true,
+      "time_to_centre": 1.78,
+      "search_moves": 0,
+      "frames": 16,
+      "final_err_px": 56.6,
+      "vlm_calls": 1,
+      "final_status": "CONFIRMED",
+      "condition": "dark_50"
+    }
+  ],
+  "dark_25": [
+    {
+      "brightness": 0.25,
+      "offset": [
+        -50,
+        0
+      ],
+      "search_valid": true,
+      "found": true,
+      "time_to_find": 6.89,
+      "centred": true,
+      "time_to_centre": 10.25,
+      "search_moves": 6,
+      "frames": 48,
+      "final_err_px": 56.1,
+      "vlm_calls": 2,
+      "final_status": "CONFIRMED",
+      "condition": "dark_25"
+    },
+    {
+      "brightness": 0.25,
+      "offset": [
+        50,
+        0
+      ],
+      "search_valid": false,
+      "found": false,
+      "time_to_find": null,
+      "centred": false,
+      "time_to_centre": null,
+      "search_moves": 9,
+      "frames": 19,
+      "final_err_px": null,
+      "vlm_calls": 0,
+      "final_status": "MISSING",
+      "condition": "dark_25"
+    },
+    {
+      "brightness": 0.25,
+      "offset": [
+        -50,
+        0
+      ],
+      "search_valid": true,
+      "found": true,
+      "time_to_find": 0.53,
+      "centred": true,
+      "time_to_centre": 1.94,
+      "search_moves": 0,
+      "frames": 16,
+      "final_err_px": 63.5,
+      "vlm_calls": 1,
+      "final_status": "CONFIRMED",
+      "condition": "dark_25"
+    }
+  ],
+  "dark_12": [
+    {
+      "brightness": 0.12,
+      "offset": [
+        -50,
+        0
+      ],
+      "search_valid": true,
+      "found": true,
+      "time_to_find": 0.47,
+      "centred": true,
+      "time_to_centre": 2.02,
+      "search_moves": 0,
+      "frames": 17,
+      "final_err_px": 53.2,
+      "vlm_calls": 2,
+      "final_status": "CONFIRMED",
+      "condition": "dark_12"
+    },
+    {
+      "brightness": 0.12,
+      "offset": [
+        50,
+        0
+      ],
+      "search_valid": true,
+      "found": true,
+      "time_to_find": 0.4,
+      "centred": true,
+      "time_to_centre": 2.3,
+      "search_moves": 0,
+      "frames": 20,
+      "final_err_px": 84.6,
+      "vlm_calls": 2,
+      "final_status": "CONFIRMED",
+      "condition": "dark_12"
+    },
+    {
+      "brightness": 0.12,
+      "offset": [
+        -50,
+        0
+      ],
+      "search_valid": true,
+      "found": true,
+      "time_to_find": 13.27,
+      "centred": true,
+      "time_to_centre": 15.34,
+      "search_moves": 12,
+      "frames": 44,
+      "final_err_px": 73.1,
+      "vlm_calls": 3,
+      "final_status": "CONFIRMED",
+      "condition": "dark_12"
+    }
+  ],
+  "dark_06": [
+    {
+      "brightness": 0.06,
+      "offset": [
+        -50,
+        0
+      ],
+      "search_valid": true,
+      "found": true,
+      "time_to_find": 20.9,
+      "centred": false,
+      "time_to_centre": null,
+      "search_moves": 20,
+      "frames": 68,
+      "final_err_px": 141.2,
+      "vlm_calls": 6,
+      "final_status": "CONFIRMED",
+      "condition": "dark_06"
+    },
+    {
+      "brightness": 0.06,
+      "offset": [
+        50,
+        0
+      ],
+      "search_valid": false,
+      "found": false,
+      "time_to_find": null,
+      "centred": false,
+      "time_to_centre": null,
+      "search_moves": 7,
+      "frames": 15,
+      "final_err_px": null,
+      "vlm_calls": 0,
+      "final_status": "MISSING",
+      "condition": "dark_06"
+    },
+    {
+      "brightness": 0.06,
+      "offset": [
+        -50,
+        0
+      ],
+      "search_valid": true,
+      "found": true,
+      "time_to_find": 0.42,
+      "centred": true,
+      "time_to_centre": 2.59,
+      "search_moves": 0,
+      "frames": 20,
+      "final_err_px": 64.6,
+      "vlm_calls": 5,
+      "final_status": "CONFIRMED",
+      "condition": "dark_06"
+    }
+  ],
+  "partial": [
+    {
+      "brightness": 1.0,
+      "offset": [
+        -50,
+        0
+      ],
+      "search_valid": true,
+      "found": false,
+      "time_to_find": null,
+      "centred": false,
+      "time_to_centre": null,
+      "search_moves": 17,
+      "frames": 35,
+      "final_err_px": null,
+      "vlm_calls": 0,
+      "final_status": "MISSING",
+      "condition": "partial"
+    },
+    {
+      "brightness": 1.0,
+      "offset": [
+        50,
+        0
+      ],
+      "search_valid": true,
+      "found": true,
+      "time_to_find": 0.89,
+      "centred": true,
+      "time_to_centre": 2.54,
+      "search_moves": 0,
+      "frames": 20,
+      "final_err_px": 57.8,
+      "vlm_calls": 3,
+      "final_status": "CONFIRMED",
+      "condition": "partial"
+    },
+    {
+      "brightness": 1.0,
+      "offset": [
+        -50,
+        0
+      ],
+      "search_valid": true,
+      "found": true,
+      "time_to_find": 0.64,
+      "centred": false,
+      "time_to_centre": null,
+      "search_moves": 11,
+      "frames": 27,
+      "final_err_px": 456.8,
+      "vlm_calls": 3,
+      "final_status": "MISSING",
+      "condition": "partial"
+    }
+  ],
+  "mostly": [
+    {
+      "brightness": 1.0,
+      "offset": [
+        -50,
+        0
+      ],
+      "search_valid": true,
+      "found": true,
+      "time_to_find": 0.32,
+      "centred": true,
+      "time_to_centre": 12.39,
+      "search_moves": 3,
+      "frames": 78,
+      "final_err_px": 89.2,
+      "vlm_calls": 26,
+      "final_status": "CONFIRMED",
+      "condition": "mostly"
+    },
+    {
+      "brightness": 1.0,
+      "offset": [
+        50,
+        0
+      ],
+      "search_valid": true,
+      "found": true,
+      "time_to_find": 8.62,
+      "centred": true,
+      "time_to_centre": 11.27,
+      "search_moves": 9,
+      "frames": 36,
+      "final_err_px": 81.9,
+      "vlm_calls": 3,
+      "final_status": "CONFIRMED",
+      "condition": "mostly"
+    },
+    {
+      "brightness": 1.0,
+      "offset": [
+        -50,
+        0
+      ],
+      "search_valid": true,
+      "found": false,
+      "time_to_find": null,
+      "centred": false,
+      "time_to_centre": null,
+      "search_moves": 14,
+      "frames": 29,
+      "final_err_px": null,
+      "vlm_calls": 0,
+      "final_status": "MISSING",
+      "condition": "mostly"
+    }
+  ],
+  "box": [
+    {
+      "brightness": 1.0,
+      "offset": [
+        -50,
+        0
+      ],
+      "search_valid": true,
+      "found": false,
+      "time_to_find": null,
+      "centred": false,
+      "time_to_centre": null,
+      "search_moves": 19,
+      "frames": 62,
+      "final_err_px": null,
+      "vlm_calls": 24,
+      "final_status": "AMBIGUOUS",
+      "condition": "box"
+    },
+    {
+      "brightness": 1.0,
+      "offset": [
+        50,
+        0
+      ],
+      "search_valid": true,
+      "found": false,
+      "time_to_find": null,
+      "centred": false,
+      "time_to_centre": null,
+      "search_moves": 1,
+      "frames": 90,
+      "final_err_px": null,
+      "vlm_calls": 89,
+      "final_status": "AMBIGUOUS",
+      "condition": "box"
+    },
+    {
+      "brightness": 1.0,
+      "offset": [
+        -50,
+        0
+      ],
+      "search_valid": true,
+      "found": false,
+      "time_to_find": null,
+      "centred": false,
+      "time_to_centre": null,
+      "search_moves": 24,
+      "frames": 49,
+      "final_err_px": null,
+      "vlm_calls": 0,
+      "final_status": "MISSING",
+      "condition": "box"
+    }
+  ],
+  "cloth": [
+    {
+      "brightness": 1.0,
+      "offset": [
+        -50,
+        0
+      ],
+      "search_valid": true,
+      "found": false,
+      "time_to_find": null,
+      "centred": false,
+      "time_to_centre": null,
+      "search_moves": 24,
+      "frames": 50,
+      "final_err_px": null,
+      "vlm_calls": 1,
+      "final_status": "MISSING",
+      "condition": "cloth"
+    },
+    {
+      "brightness": 1.0,
+      "offset": [
+        50,
+        0
+      ],
+      "search_valid": true,
+      "found": false,
+      "time_to_find": null,
+      "centred": false,
+      "time_to_centre": null,
+      "search_moves": 22,
+      "frames": 54,
+      "final_err_px": null,
+      "vlm_calls": 11,
+      "final_status": "MISSING",
+      "condition": "cloth"
+    },
+    {
+      "brightness": 1.0,
+      "offset": [
+        -50,
+        0
+      ],
+      "search_valid": true,
+      "found": false,
+      "time_to_find": null,
+      "centred": false,
+      "time_to_centre": null,
+      "search_moves": 24,
+      "frames": 50,
+      "final_err_px": null,
+      "vlm_calls": 1,
+      "final_status": "MISSING",
+      "condition": "cloth"
+    }
+  ],
+  "thin": [
+    {
+      "brightness": 1.0,
+      "offset": [
+        -50,
+        0
+      ],
+      "search_valid": true,
+      "found": true,
+      "time_to_find": 0.36,
+      "centred": true,
+      "time_to_centre": 2.96,
+      "search_moves": 0,
+      "frames": 27,
+      "final_err_px": 64.2,
+      "vlm_calls": 3,
+      "final_status": "CONFIRMED",
+      "condition": "thin"
+    },
+    {
+      "brightness": 1.0,
+      "offset": [
+        50,
+        0
+      ],
+      "search_valid": true,
+      "found": false,
+      "time_to_find": null,
+      "centred": false,
+      "time_to_centre": null,
+      "search_moves": 4,
+      "frames": 100,
+      "final_err_px": null,
+      "vlm_calls": 93,
+      "final_status": "AMBIGUOUS",
+      "condition": "thin"
+    },
+    {
+      "brightness": 1.0,
+      "offset": [
+        -50,
+        0
+      ],
+      "search_valid": true,
+      "found": false,
+      "time_to_find": null,
+      "centred": false,
+      "time_to_centre": null,
+      "search_moves": 8,
+      "frames": 17,
+      "final_err_px": null,
+      "vlm_calls": 0,
+      "final_status": "MISSING",
+      "condition": "thin"
+    }
+  ],
+  "transparent": [
+    {
+      "brightness": 1.0,
+      "offset": [
+        -50,
+        0
+      ],
+      "search_valid": true,
+      "found": true,
+      "time_to_find": 0.39,
+      "centred": true,
+      "time_to_centre": 0.87,
+      "search_moves": 0,
+      "frames": 7,
+      "final_err_px": 45.1,
+      "vlm_calls": 1,
+      "final_status": "CONFIRMED",
+      "condition": "transparent"
+    },
+    {
+      "brightness": 1.0,
+      "offset": [
+        50,
+        0
+      ],
+      "search_valid": true,
+      "found": false,
+      "time_to_find": null,
+      "centred": false,
+      "time_to_centre": null,
+      "search_moves": 9,
+      "frames": 19,
+      "final_err_px": null,
+      "vlm_calls": 0,
+      "final_status": "MISSING",
+      "condition": "transparent"
+    },
+    {
+      "brightness": 1.0,
+      "offset": [
+        -50,
+        0
+      ],
+      "search_valid": true,
+      "found": true,
+      "time_to_find": 1.27,
+      "centred": true,
+      "time_to_centre": 1.72,
+      "search_moves": 1,
+      "frames": 8,
+      "final_err_px": 82.8,
+      "vlm_calls": 1,
+      "final_status": "CONFIRMED",
+      "condition": "transparent"
+    }
+  ],
+  "far": [
+    {
+      "brightness": 1.0,
+      "offset": [
+        -50,
+        0
+      ],
+      "search_valid": true,
+      "found": false,
+      "time_to_find": null,
+      "centred": false,
+      "time_to_centre": null,
+      "search_moves": 24,
+      "frames": 49,
+      "final_err_px": null,
+      "vlm_calls": 0,
+      "final_status": "MISSING",
+      "condition": "far"
+    },
+    {
+      "brightness": 1.0,
+      "offset": [
+        50,
+        0
+      ],
+      "search_valid": true,
+      "found": true,
+      "time_to_find": 0.33,
+      "centred": true,
+      "time_to_centre": 0.89,
+      "search_moves": 0,
+      "frames": 8,
+      "final_err_px": 62.2,
+      "vlm_calls": 1,
+      "final_status": "CONFIRMED",
+      "condition": "far"
+    },
+    {
+      "brightness": 1.0,
+      "offset": [
+        -50,
+        0
+      ],
+      "search_valid": true,
+      "found": false,
+      "time_to_find": null,
+      "centred": false,
+      "time_to_centre": null,
+      "search_moves": 24,
+      "frames": 49,
+      "final_err_px": null,
+      "vlm_calls": 0,
+      "final_status": "MISSING",
+      "condition": "far"
+    }
+  ],
+  "clutter": [
+    {
+      "brightness": 1.0,
+      "offset": [
+        -50,
+        0
+      ],
+      "search_valid": true,
+      "found": true,
+      "time_to_find": 0.33,
+      "centred": false,
+      "time_to_centre": null,
+      "search_moves": 0,
+      "frames": 250,
+      "final_err_px": 101.7,
+      "vlm_calls": 1,
+      "final_status": "CONFIRMED",
+      "condition": "clutter"
+    },
+    {
+      "brightness": 1.0,
+      "offset": [
+        50,
+        0
+      ],
+      "search_valid": true,
+      "found": false,
+      "time_to_find": null,
+      "centred": false,
+      "time_to_centre": null,
+      "search_moves": 6,
+      "frames": 13,
+      "final_err_px": null,
+      "vlm_calls": 0,
+      "final_status": "MISSING",
+      "condition": "clutter"
+    },
+    {
+      "brightness": 1.0,
+      "offset": [
+        -50,
+        0
+      ],
+      "search_valid": true,
+      "found": true,
+      "time_to_find": 0.65,
+      "centred": true,
+      "time_to_centre": 0.7,
+      "search_moves": 0,
+      "frames": 4,
+      "final_err_px": 52.0,
+      "vlm_calls": 2,
+      "final_status": "CONFIRMED",
+      "condition": "clutter"
+    }
+  ],
+  "impostor": [
+    {
+      "brightness": 1.0,
+      "offset": [
+        -50,
+        0
+      ],
+      "search_valid": true,
+      "found": false,
+      "time_to_find": null,
+      "centred": false,
+      "time_to_centre": null,
+      "search_moves": 6,
+      "frames": 13,
+      "final_err_px": null,
+      "vlm_calls": 0,
+      "final_status": "MISSING",
+      "condition": "impostor"
+    },
+    {
+      "brightness": 1.0,
+      "offset": [
+        50,
+        0
+      ],
+      "search_valid": true,
+      "found": false,
+      "time_to_find": null,
+      "centred": false,
+      "time_to_centre": null,
+      "search_moves": 1,
+      "frames": 93,
+      "final_err_px": null,
+      "vlm_calls": 92,
+      "final_status": "AMBIGUOUS",
+      "condition": "impostor"
+    },
+    {
+      "brightness": 1.0,
+      "offset": [
+        -50,
+        0
+      ],
+      "search_valid": true,
+      "found": false,
+      "time_to_find": null,
+      "centred": false,
+      "time_to_centre": null,
+      "search_moves": 6,
+      "frames": 13,
+      "final_err_px": null,
+      "vlm_calls": 0,
+      "final_status": "MISSING",
+      "condition": "impostor"
+    }
+  ],
+  "shadow": [
+    {
+      "brightness": 1.0,
+      "offset": [
+        -50,
+        0
+      ],
+      "search_valid": true,
+      "found": false,
+      "time_to_find": null,
+      "centred": false,
+      "time_to_centre": null,
+      "search_moves": 0,
+      "frames": 85,
+      "final_err_px": null,
+      "vlm_calls": 85,
+      "final_status": "AMBIGUOUS",
+      "condition": "shadow"
+    },
+    {
+      "brightness": 1.0,
+      "offset": [
+        50,
+        0
+      ],
+      "search_valid": true,
+      "found": false,
+      "time_to_find": null,
+      "centred": false,
+      "time_to_centre": null,
+      "search_moves": 5,
+      "frames": 95,
+      "final_err_px": null,
+      "vlm_calls": 86,
+      "final_status": "MISSING",
+      "condition": "shadow"
+    },
+    {
+      "brightness": 1.0,
+      "offset": [
+        -50,
+        0
+      ],
+      "search_valid": true,
+      "found": false,
+      "time_to_find": null,
+      "centred": false,
+      "time_to_centre": null,
+      "search_moves": 0,
+      "frames": 92,
+      "final_err_px": null,
+      "vlm_calls": 92,
+      "final_status": "AMBIGUOUS",
+      "condition": "shadow"
+    }
+  ],
+  "glare": [
+    {
+      "brightness": 1.0,
+      "offset": [
+        -50,
+        0
+      ],
+      "search_valid": true,
+      "found": false,
+      "time_to_find": null,
+      "centred": false,
+      "time_to_centre": null,
+      "search_moves": 6,
+      "frames": 13,
+      "final_err_px": null,
+      "vlm_calls": 0,
+      "final_status": "MISSING",
+      "condition": "glare"
+    },
+    {
+      "brightness": 1.0,
+      "offset": [
+        50,
+        0
+      ],
+      "search_valid": true,
+      "found": false,
+      "time_to_find": null,
+      "centred": false,
+      "time_to_centre": null,
+      "search_moves": 0,
+      "frames": 104,
+      "final_err_px": null,
+      "vlm_calls": 104,
+      "final_status": "AMBIGUOUS",
+      "condition": "glare"
+    },
+    {
+      "brightness": 1.0,
+      "offset": [
+        -50,
+        0
+      ],
+      "search_valid": true,
+      "found": false,
+      "time_to_find": null,
+      "centred": false,
+      "time_to_centre": null,
+      "search_moves": 7,
+      "frames": 15,
+      "final_err_px": null,
+      "vlm_calls": 0,
+      "final_status": "MISSING",
+      "condition": "glare"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "frame": "baseline\\baseline_00_233710.jpg",
+    "detected": true,
+    "conf": 0.977,
+    "mean_brightness": 144.1
+  },
+  {
+    "frame": "baseline\\baseline_01_233710.jpg",
+    "detected": true,
+    "conf": 0.974,
+    "mean_brightness": 144.1
+  },
+  {
+    "frame": "baseline\\baseline_02_233710.jpg",
+    "detected": true,
+    "conf": 0.977,
+    "mean_brightness": 144.1
+  },
+  {
+    "frame": "baseline\\baseline_03_233710.jpg",
+    "detected": true,
+    "conf": 0.976,
+    "mean_brightness": 144.1
+  },
+  {
+    "frame": "baseline\\baseline_04_233710.jpg",
+    "detected": true,
+    "conf": 0.976,
+    "mean_brightness": 144.1
+  },
+  {
+    "frame": "baseline\\baseline_05_233710.jpg",
+    "detected": true,
+    "conf": 0.974,
+    "mean_brightness": 144.2
+  },
+  {
+    "frame": "baseline\\baseline_06_233711.jpg",
+    "detected": true,
+    "conf": 0.977,
+    "mean_brightness": 144.1
+  },
+  {
+    "frame": "baseline\\baseline_07_233711.jpg",
+    "detected": true,
+    "conf": 0.974,
+    "mean_brightness": 144.2
+  },
+  {
+    "frame": "baseline\\baseline_08_233711.jpg",
+    "detected": true,
+    "conf": 0.978,
+    "mean_brightness": 144.2
+  },
+  {
+    "frame": "baseline\\baseline_09_233711.jpg",
+    "detected": true,
+    "conf": 0.977,
+    "mean_brightness": 144.1
+  }
+]

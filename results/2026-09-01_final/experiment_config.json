@@ -1,0 +1,296 @@
+{
+  "created": "2026-09-01_233533",
+  "hypothesis_primary": "The VLM's contribution is confined to refusing false presence; it does not maintain belief through occlusion.",
+  "independent_live": [
+    "disruption",
+    "clutter"
+  ],
+  "independent_offline": [
+    "ablation (D_full vs E_no_vlm)"
+  ],
+  "dependent_primary": "false_belief_frames",
+  "dependent_secondary": [
+    "during_disruption_acc",
+    "lost_while_present",
+    "spurious_reacquisition"
+  ],
+  "held_constant": [
+    "camera pose (homed 90/90 each trial)",
+    "lighting",
+    "target position",
+    "occluder set",
+    "phase durations",
+    "target string"
+  ],
+  "success_criteria": {
+    "PASS": "acc >= 0.7 and false_belief == 0",
+    "PARTIAL": "acc >= 0.4 and false_belief == 0",
+    "FAIL": "otherwise, or any false belief at all"
+  },
+  "scenarios": [
+    "control",
+    "occlude_hand",
+    "occlude_object",
+    "removal",
+    "substitution",
+    "identity_swap",
+    "lighting",
+    "camera_pose"
+  ],
+  "reps": 3,
+  "clutter_levels": [
+    "none",
+    "high"
+  ],
+  "clutter_definitions": {
+    "none": "BARE rig. Only the red cup on the marked centre position. Nothing else anywhere in frame.",
+    "high": "SIX to EIGHT other objects in frame, including at least TWO other cups or mugs of different colours, crowded around the marked centre position without covering the red cup. Keep the same set all session and write down what they are."
+  },
+  "seed": 20260901,
+  "phase_seconds": 6.0,
+  "edge_seconds": 1.0,
+  "target": "red cup",
+  "smoke": false,
+  "order": [
+    [
+      "camera_pose",
+      1,
+      "none"
+    ],
+    [
+      "removal",
+      1,
+      "none"
+    ],
+    [
+      "occlude_hand",
+      1,
+      "none"
+    ],
+    [
+      "occlude_object",
+      1,
+      "none"
+    ],
+    [
+      "identity_swap",
+      1,
+      "none"
+    ],
+    [
+      "substitution",
+      1,
+      "none"
+    ],
+    [
+      "lighting",
+      1,
+      "none"
+    ],
+    [
+      "control",
+      1,
+      "none"
+    ],
+    [
+      "identity_swap",
+      1,
+      "high"
+    ],
+    [
+      "occlude_hand",
+      1,
+      "high"
+    ],
+    [
+      "control",
+      1,
+      "high"
+    ],
+    [
+      "substitution",
+      1,
+      "high"
+    ],
+    [
+      "camera_pose",
+      1,
+      "high"
+    ],
+    [
+      "removal",
+      1,
+      "high"
+    ],
+    [
+      "lighting",
+      1,
+      "high"
+    ],
+    [
+      "occlude_object",
+      1,
+      "high"
+    ],
+    [
+      "occlude_hand",
+      2,
+      "none"
+    ],
+    [
+      "control",
+      2,
+      "none"
+    ],
+    [
+      "lighting",
+      2,
+      "none"
+    ],
+    [
+      "identity_swap",
+      2,
+      "none"
+    ],
+    [
+      "occlude_object",
+      2,
+      "none"
+    ],
+    [
+      "removal",
+      2,
+      "none"
+    ],
+    [
+      "camera_pose",
+      2,
+      "none"
+    ],
+    [
+      "substitution",
+      2,
+      "none"
+    ],
+    [
+      "camera_pose",
+      2,
+      "high"
+    ],
+    [
+      "lighting",
+      2,
+      "high"
+    ],
+    [
+      "occlude_object",
+      2,
+      "high"
+    ],
+    [
+      "control",
+      2,
+      "high"
+    ],
+    [
+      "removal",
+      2,
+      "high"
+    ],
+    [
+      "identity_swap",
+      2,
+      "high"
+    ],
+    [
+      "substitution",
+      2,
+      "high"
+    ],
+    [
+      "occlude_hand",
+      2,
+      "high"
+    ],
+    [
+      "occlude_hand",
+      3,
+      "none"
+    ],
+    [
+      "camera_pose",
+      3,
+      "none"
+    ],
+    [
+      "occlude_object",
+      3,
+      "none"
+    ],
+    [
+      "removal",
+      3,
+      "none"
+    ],
+    [
+      "identity_swap",
+      3,
+      "none"
+    ],
+    [
+      "control",
+      3,
+      "none"
+    ],
+    [
+      "substitution",
+      3,
+      "none"
+    ],
+    [
+      "lighting",
+      3,
+      "none"
+    ],
+    [
+      "control",
+      3,
+      "high"
+    ],
+    [
+      "camera_pose",
+      3,
+      "high"
+    ],
+    [
+      "lighting",
+      3,
+      "high"
+    ],
+    [
+      "occlude_object",
+      3,
+      "high"
+    ],
+    [
+      "identity_swap",
+      3,
+      "high"
+    ],
+    [
+      "removal",
+      3,
+      "high"
+    ],
+    [
+      "substitution",
+      3,
+      "high"
+    ],
+    [
+      "occlude_hand",
+      3,
+      "high"
+    ]
+  ]
+}

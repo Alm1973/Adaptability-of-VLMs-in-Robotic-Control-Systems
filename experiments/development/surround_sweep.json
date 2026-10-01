@@ -1,0 +1,74 @@
+{
+  "0.3": {
+    "lost": 8,
+    "false": 12,
+    "total": 20,
+    "occ_lost": 6,
+    "occ_false": 0,
+    "occ_total": 6,
+    "during_acc": 0.956
+  },
+  "0.4": {
+    "lost": 8,
+    "false": 12,
+    "total": 20,
+    "occ_lost": 6,
+    "occ_false": 0,
+    "occ_total": 6,
+    "during_acc": 0.956
+  },
+  "0.5": {
+    "lost": 8,
+    "false": 24,
+    "total": 32,
+    "occ_lost": 6,
+    "occ_false": 0,
+    "occ_total": 6,
+    "during_acc": 0.933
+  },
+  "0.55": {
+    "lost": 8,
+    "false": 24,
+    "total": 32,
+    "occ_lost": 6,
+    "occ_false": 0,
+    "occ_total": 6,
+    "during_acc": 0.933
+  },
+  "0.6": {
+    "lost": 8,
+    "false": 24,
+    "total": 32,
+    "occ_lost": 6,
+    "occ_false": 0,
+    "occ_total": 6,
+    "during_acc": 0.933
+  },
+  "0.7": {
+    "lost": 8,
+    "false": 24,
+    "total": 32,
+    "occ_lost": 6,
+    "occ_false": 0,
+    "occ_total": 6,
+    "during_acc": 0.933
+  },
+  "0.8": {
+    "lost": 8,
+    "false": 36,
+    "total": 44,
+    "occ_lost": 6,
+    "occ_false": 0,
+    "occ_total": 6,
+    "during_acc": 0.905
+  },
+  "0.9": {
+    "lost": 8,
+    "false": 48,
+    "total": 56,
+    "occ_lost": 6,
+    "occ_false": 12,
+    "occ_total": 18,
+    "during_acc": 0.905
+  }
+}

@@ -1,0 +1,19 @@
+# Full robot pipeline (avi/). Needs an NVIDIA GPU with CUDA for the VLM.
+# Versions marked "recorded" were read from the lab laptop on 2026-09-27,
+# after the run. They were not logged at run time, so treat them as the
+# environment at time of writing. Unpinned packages were not recorded.
+# Python 3.13 (recorded: 3.13.13)
+
+torch==2.13.0          # recorded (+cu126 build; install from the PyTorch index for your CUDA)
+ultralytics==8.4.116   # recorded; YOLO-World weights yolov8s-worldv2.pt download on first use
+opencv-python==5.0.0   # recorded
+transformers           # Qwen/Qwen2.5-VL-3B-Instruct
+accelerate
+bitsandbytes           # 4-bit NF4 loading
+pillow
+numpy
+pyserial               # Arduino link (COM port set in avi/arm.py)
+
+# Analysis only (results/analysis/analyze.py). Also needs ffmpeg on PATH.
+scipy
+matplotlib

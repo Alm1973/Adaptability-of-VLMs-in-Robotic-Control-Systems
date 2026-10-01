@@ -1,0 +1,47 @@
+{
+  "control": {
+    "flags": [],
+    "degen": 17,
+    "n": 60,
+    "first_lock_at": 44,
+    "unique_images": 60,
+    "lat_p50": 0.57,
+    "lat_mean": 0.85
+  },
+  "cache_ram_0": {
+    "flags": [
+      "--cache-ram",
+      "0"
+    ],
+    "degen": 17,
+    "n": 60,
+    "first_lock_at": 44,
+    "unique_images": 60,
+    "lat_p50": 2.1,
+    "lat_mean": 2.51
+  },
+  "no_idle_slots": {
+    "flags": [
+      "--no-cache-idle-slots"
+    ],
+    "degen": 17,
+    "n": 60,
+    "first_lock_at": 44,
+    "unique_images": 60,
+    "lat_p50": 2.69,
+    "lat_mean": 3.09
+  },
+  "both": {
+    "flags": [
+      "--cache-ram",
+      "0",
+      "--no-cache-idle-slots"
+    ],
+    "degen": 17,
+    "n": 60,
+    "first_lock_at": 44,
+    "unique_images": 60,
+    "lat_p50": 2.45,
+    "lat_mean": 2.88
+  }
+}

@@ -1,0 +1,289 @@
+[
+  {
+    "source": "real-occ:occlusion_full",
+    "word": "hands",
+    "truth_occluder": true,
+    "kw": true,
+    "clip_text": true
+  },
+  {
+    "source": "real-occ:occlusion_full",
+    "word": "hands",
+    "truth_occluder": true,
+    "kw": true,
+    "clip_text": true
+  },
+  {
+    "source": "real-occ:occlusion_full",
+    "word": "hands",
+    "truth_occluder": true,
+    "kw": true,
+    "clip_text": true
+  },
+  {
+    "source": "real-occ:occlusion_full",
+    "word": "hands",
+    "truth_occluder": true,
+    "kw": true,
+    "clip_text": true
+  },
+  {
+    "source": "real-occ:occlusion_full",
+    "word": "hands",
+    "truth_occluder": true,
+    "kw": true,
+    "clip_text": true
+  },
+  {
+    "source": "real-occ:occlude_book",
+    "word": "desk lamp",
+    "truth_occluder": true,
+    "kw": false,
+    "clip_text": false
+  },
+  {
+    "source": "real-occ:occlude_book",
+    "word": "purple book",
+    "truth_occluder": true,
+    "kw": true,
+    "clip_text": true
+  },
+  {
+    "source": "real-occ:occlude_book",
+    "word": "notebook",
+    "truth_occluder": true,
+    "kw": false,
+    "clip_text": true
+  },
+  {
+    "source": "real-occ:occlude_book",
+    "word": "book",
+    "truth_occluder": true,
+    "kw": true,
+    "clip_text": true
+  },
+  {
+    "source": "real-occ:occlude_book",
+    "word": "desk lamp",
+    "truth_occluder": true,
+    "kw": false,
+    "clip_text": false
+  },
+  {
+    "source": "real-occ:occlude_paper",
+    "word": "document",
+    "truth_occluder": true,
+    "kw": false,
+    "clip_text": true
+  },
+  {
+    "source": "real-occ:occlude_paper",
+    "word": "document",
+    "truth_occluder": true,
+    "kw": false,
+    "clip_text": true
+  },
+  {
+    "source": "real-occ:occlude_paper",
+    "word": "document",
+    "truth_occluder": true,
+    "kw": false,
+    "clip_text": true
+  },
+  {
+    "source": "real-occ:occlude_paper",
+    "word": "document",
+    "truth_occluder": true,
+    "kw": false,
+    "clip_text": true
+  },
+  {
+    "source": "real-occ:occlude_paper",
+    "word": "document",
+    "truth_occluder": true,
+    "kw": false,
+    "clip_text": true
+  },
+  {
+    "source": "real-occ:occlude_box",
+    "word": "notebook",
+    "truth_occluder": true,
+    "kw": false,
+    "clip_text": true
+  },
+  {
+    "source": "real-occ:occlude_box",
+    "word": "notebook",
+    "truth_occluder": true,
+    "kw": false,
+    "clip_text": true
+  },
+  {
+    "source": "real-occ:occlude_box",
+    "word": "notebook",
+    "truth_occluder": true,
+    "kw": false,
+    "clip_text": true
+  },
+  {
+    "source": "real-occ:occlude_box",
+    "word": "notebook",
+    "truth_occluder": true,
+    "kw": false,
+    "clip_text": true
+  },
+  {
+    "source": "real-occ:occlude_box",
+    "word": "notebook",
+    "truth_occluder": true,
+    "kw": false,
+    "clip_text": true
+  },
+  {
+    "source": "real-occ:occlude_jacket",
+    "word": "socks",
+    "truth_occluder": true,
+    "kw": false,
+    "clip_text": true
+  },
+  {
+    "source": "real-occ:occlude_jacket",
+    "word": "socks",
+    "truth_occluder": true,
+    "kw": false,
+    "clip_text": true
+  },
+  {
+    "source": "real-occ:occlude_jacket",
+    "word": "socks",
+    "truth_occluder": true,
+    "kw": false,
+    "clip_text": true
+  },
+  {
+    "source": "real-occ:occlude_jacket",
+    "word": "socks",
+    "truth_occluder": true,
+    "kw": false,
+    "clip_text": true
+  },
+  {
+    "source": "real-occ:occlude_jacket",
+    "word": "socks",
+    "truth_occluder": true,
+    "kw": false,
+    "clip_text": true
+  },
+  {
+    "source": "real-rep:impostor/recover",
+    "word": "hand",
+    "truth_occluder": false,
+    "kw": true,
+    "clip_text": true
+  },
+  {
+    "source": "real-rep:impostor/recover",
+    "word": "coco water",
+    "truth_occluder": false,
+    "kw": false,
+    "clip_text": false
+  },
+  {
+    "source": "real-rep:impostor/recover",
+    "word": "coconut water",
+    "truth_occluder": false,
+    "kw": false,
+    "clip_text": false
+  },
+  {
+    "source": "real-rep:impostor/recover",
+    "word": "coconut water",
+    "truth_occluder": false,
+    "kw": false,
+    "clip_text": false
+  },
+  {
+    "source": "real-rep:impostor/recover",
+    "word": "coconut water bottle",
+    "truth_occluder": false,
+    "kw": false,
+    "clip_text": false
+  },
+  {
+    "source": "real-rep:impostor/recover",
+    "word": "hands",
+    "truth_occluder": false,
+    "kw": true,
+    "clip_text": true
+  },
+  {
+    "source": "real-rep:impostor/recover",
+    "word": "coconut water",
+    "truth_occluder": false,
+    "kw": false,
+    "clip_text": false
+  },
+  {
+    "source": "real-rep:impostor/recover",
+    "word": "coconut water",
+    "truth_occluder": false,
+    "kw": false,
+    "clip_text": false
+  },
+  {
+    "source": "real-rep:occlusion_remove/recover",
+    "word": "mouse",
+    "truth_occluder": false,
+    "kw": false,
+    "clip_text": false
+  },
+  {
+    "source": "real-rep:occlusion_remove/recover",
+    "word": "mouse",
+    "truth_occluder": false,
+    "kw": false,
+    "clip_text": false
+  },
+  {
+    "source": "real-rep:occlusion_remove/recover",
+    "word": "mouse",
+    "truth_occluder": false,
+    "kw": false,
+    "clip_text": false
+  },
+  {
+    "source": "real-rep:occlusion_remove/recover",
+    "word": "mouse",
+    "truth_occluder": false,
+    "kw": false,
+    "clip_text": false
+  },
+  {
+    "source": "real-rep:occlusion_remove/recover",
+    "word": "mouse",
+    "truth_occluder": false,
+    "kw": false,
+    "clip_text": false
+  },
+  {
+    "source": "real-rep:occlusion_remove/recover",
+    "word": "mouse",
+    "truth_occluder": false,
+    "kw": false,
+    "clip_text": false
+  },
+  {
+    "source": "real-rep:occlusion_remove/recover",
+    "word": "mouse",
+    "truth_occluder": false,
+    "kw": false,
+    "clip_text": false
+  },
+  {
+    "source": "real-rep:occlusion_remove/recover",
+    "word": "mouse",
+    "truth_occluder": false,
+    "kw": false,
+    "clip_text": false
+  }
+]

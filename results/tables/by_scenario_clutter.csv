@@ -1,0 +1,17 @@
+scenario,clutter,n,D_false,E_false,D_durAcc_mean,E_durAcc_mean,D_vlm_calls,verdicts_replay
+control,none,3,0,0,1.0,1.0,3,PASS PASS PASS
+control,high,3,0,0,1.0,1.0,3,PASS PASS PASS
+lighting,none,3,0,0,1.0,1.0,3,PASS PASS PASS
+lighting,high,3,0,0,1.0,1.0,3,PASS PASS PASS
+camera_pose,none,3,0,0,1.0,1.0,3,PASS PASS PASS
+camera_pose,high,3,0,0,1.0,1.0,3,PASS PASS PASS
+occlude_hand,none,3,0,0,0.05,0.05,6,FAIL FAIL FAIL
+occlude_hand,high,3,0,0,0.919,0.747,12,PASS PASS PASS
+occlude_object,none,3,0,0,0.333,0.333,13,FAIL PASS FAIL
+occlude_object,high,3,0,0,0.991,1.0,6,PASS PASS PASS
+removal,none,3,5,5,0.059,0.059,5,FAIL FAIL FAIL
+removal,high,3,55,113,0.743,0.933,21,FAIL FAIL FAIL
+substitution,none,3,14,14,0.05,0.05,4,FAIL FAIL FAIL
+substitution,high,3,86,89,0.733,0.667,8,FAIL FAIL FAIL
+identity_swap,none,3,0,0,0.05,0.05,9,FAIL FAIL FAIL
+identity_swap,high,3,36,76,0.315,0.552,30,FAIL FAIL FAIL

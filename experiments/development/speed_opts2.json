@@ -1,0 +1,36 @@
+{
+  "detector_imgsz": {
+    "imgsz=640 (default)": {
+      "median_ms": 12.19,
+      "speedup": 1.0,
+      "iou_gt09": 30,
+      "n": 30,
+      "presence_flips": 0,
+      "median_iou": 1.0
+    },
+    "imgsz=576": {
+      "median_ms": 11.72,
+      "speedup": 1.04,
+      "iou_gt09": 30,
+      "n": 30,
+      "presence_flips": 0,
+      "median_iou": 0.9719
+    },
+    "imgsz=512": {
+      "median_ms": 12.01,
+      "speedup": 1.015,
+      "iou_gt09": 30,
+      "n": 30,
+      "presence_flips": 0,
+      "median_iou": 0.9829
+    },
+    "imgsz=448": {
+      "median_ms": 11.75,
+      "speedup": 1.038,
+      "iou_gt09": 30,
+      "n": 30,
+      "presence_flips": 0,
+      "median_iou": 0.9673
+    }
+  }
+}

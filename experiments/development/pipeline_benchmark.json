@@ -1,0 +1,36 @@
+{
+  "target": "water bottle",
+  "placement": "GPU",
+  "n_frames": 12,
+  "baseline": {
+    "score": {
+      "tp": 4,
+      "tn": 3,
+      "fp": 0,
+      "fn": 5,
+      "sens": 0.444,
+      "spec": 1.0,
+      "balanced": 0.722
+    },
+    "total_s": 43.89,
+    "per_frame_s": 3.658,
+    "vlm_calls": 36
+  },
+  "new": {
+    "score": {
+      "tp": 3,
+      "tn": 3,
+      "fp": 0,
+      "fn": 6,
+      "sens": 0.333,
+      "spec": 1.0,
+      "balanced": 0.667
+    },
+    "total_s": 21.12,
+    "config_s": 1.36,
+    "opencv_per_frame_ms": 5.18,
+    "verify_calls": 12,
+    "verify_mean_s": 1.641,
+    "vlm_calls": 14
+  }
+}

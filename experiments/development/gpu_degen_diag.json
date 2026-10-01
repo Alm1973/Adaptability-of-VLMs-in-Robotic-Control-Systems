@@ -1,0 +1,18 @@
+{
+  "baseline_default": {
+    "degen": 10,
+    "n_frames": 12,
+    "raw_acc": 0.167,
+    "unparseable": 50,
+    "med_lat_s": 3.14,
+    "max_lat_s": 12.47
+  },
+  "greedy_t0": {
+    "degen": 12,
+    "n_frames": 12,
+    "raw_acc": 0.0,
+    "unparseable": 60,
+    "med_lat_s": 3.72,
+    "max_lat_s": 4.88
+  }
+}

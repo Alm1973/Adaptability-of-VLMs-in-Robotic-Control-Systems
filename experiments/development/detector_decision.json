@@ -1,0 +1,150 @@
+{
+  "keyboard": {
+    "category": "coco",
+    "in_coco": true,
+    "fired": true,
+    "conf": 0.919,
+    "box": [
+      0,
+      390,
+      517,
+      719
+    ]
+  },
+  "cup": {
+    "category": "coco",
+    "in_coco": true,
+    "fired": true,
+    "conf": 0.924,
+    "box": [
+      595,
+      123,
+      754,
+      321
+    ]
+  },
+  "mouse": {
+    "category": "coco",
+    "in_coco": true,
+    "fired": true,
+    "conf": 0.38,
+    "box": [
+      590,
+      352,
+      860,
+      463
+    ]
+  },
+  "bottle": {
+    "category": "coco",
+    "in_coco": true,
+    "fired": true,
+    "conf": 0.198,
+    "box": [
+      1130,
+      1,
+      1278,
+      332
+    ]
+  },
+  "red cup": {
+    "category": "attribute",
+    "in_coco": false,
+    "fired": true,
+    "conf": 0.977,
+    "box": [
+      595,
+      122,
+      754,
+      321
+    ]
+  },
+  "blue cup": {
+    "category": "attribute-absent",
+    "in_coco": false,
+    "fired": true,
+    "conf": 0.712,
+    "box": [
+      596,
+      122,
+      753,
+      320
+    ]
+  },
+  "green backlit keyboard": {
+    "category": "attribute",
+    "in_coco": false,
+    "fired": false,
+    "conf": 0.0,
+    "box": null
+  },
+  "black computer mouse": {
+    "category": "attribute",
+    "in_coco": false,
+    "fired": true,
+    "conf": 0.638,
+    "box": [
+      591,
+      353,
+      859,
+      462
+    ]
+  },
+  "coconut water carton": {
+    "category": "open",
+    "in_coco": false,
+    "fired": false,
+    "conf": 0.0,
+    "box": null
+  },
+  "screwdriver": {
+    "category": "open",
+    "in_coco": false,
+    "fired": true,
+    "conf": 0.113,
+    "box": [
+      429,
+      515,
+      571,
+      671
+    ]
+  },
+  "usb hub": {
+    "category": "open",
+    "in_coco": false,
+    "fired": true,
+    "conf": 0.277,
+    "box": [
+      404,
+      309,
+      574,
+      372
+    ]
+  },
+  "computer monitor": {
+    "category": "open",
+    "in_coco": false,
+    "fired": true,
+    "conf": 0.64,
+    "box": [
+      0,
+      0,
+      261,
+      390
+    ]
+  },
+  "elephant": {
+    "category": "absent",
+    "in_coco": true,
+    "fired": false,
+    "conf": 0.0,
+    "box": null
+  },
+  "bicycle": {
+    "category": "absent",
+    "in_coco": true,
+    "fired": false,
+    "conf": 0.0,
+    "box": null
+  }
+}

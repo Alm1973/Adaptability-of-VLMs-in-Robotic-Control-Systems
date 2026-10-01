@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "whole_maj3(base)": {
+      "tp": 9,
+      "fp": 1,
+      "tn": 4,
+      "fn": 2,
+      "acc": 0.812,
+      "sens": 0.818,
+      "spec": 0.8
+    },
+    "blind_union": {
+      "tp": 10,
+      "fp": 3,
+      "tn": 2,
+      "fn": 1,
+      "acc": 0.75,
+      "sens": 0.909,
+      "spec": 0.4
+    },
+    "blind_vote2": {
+      "tp": 9,
+      "fp": 0,
+      "tn": 5,
+      "fn": 2,
+      "acc": 0.875,
+      "sens": 0.818,
+      "spec": 1.0
+    },
+    "prop_union": {
+      "tp": 7,
+      "fp": 1,
+      "tn": 4,
+      "fn": 4,
+      "acc": 0.688,
+      "sens": 0.636,
+      "spec": 0.8
+    },
+    "prop_vote2": {
+      "tp": 2,
+      "fp": 0,
+      "tn": 5,
+      "fn": 9,
+      "acc": 0.438,
+      "sens": 0.182,
+      "spec": 1.0
+    },
+    "wholemaj3+prop_v2": {
+      "tp": 9,
+      "fp": 1,
+      "tn": 4,
+      "fn": 2,
+      "acc": 0.812,
+      "sens": 0.818,
+      "spec": 0.8
+    },
+    "wholemaj3+blind_v2": {
+      "tp": 11,
+      "fp": 1,
+      "tn": 4,
+      "fn": 0,
+      "acc": 0.938,
+      "sens": 1.0,
+      "spec": 0.8
+    }
+  },
+  "halluc": {
+    "blind": 0,
+    "prop": 0,
+    "detail": []
+  },
+  "cost": {
+    "c2_05_pan_b108_t90.jpg": {
+      "blind_crops": 5,
+      "prop_crops": 1
+    },
+    "c2_07_tilt_b90_t78.jpg": {
+      "blind_crops": 5,
+      "prop_crops": 3
+    },
+    "c2_09_tilt_b90_t108.jpg": {
+      "blind_crops": 5,
+      "prop_crops": 1
+    },
+    "c2_10_home.jpg": {
+      "blind_crops": 5,
+      "prop_crops": 3
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "100352": {
+    "mean_s": 0.25,
+    "acc": 1.0,
+    "correct": 24,
+    "n": 24,
+    "per_bucket": {
+      "target": "12/12",
+      "empty": "3/3",
+      "impostor+20": "3/3",
+      "impostor+30": "3/3",
+      "impostor+45": "3/3"
+    }
+  },
+  "200704": {
+    "mean_s": 0.331,
+    "acc": 1.0,
+    "correct": 24,
+    "n": 24,
+    "per_bucket": {
+      "target": "12/12",
+      "empty": "3/3",
+      "impostor+20": "3/3",
+      "impostor+30": "3/3",
+      "impostor+45": "3/3"
+    }
+  }
+}

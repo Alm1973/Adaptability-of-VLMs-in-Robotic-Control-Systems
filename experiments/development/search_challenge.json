@@ -1,0 +1,338 @@
+{
+  "edge_clip_left": {
+    "desc": "target slides off the LEFT frame edge (camera pans right)",
+    "rows": [
+      {
+        "level": 0.0,
+        "det_rate": 1.0,
+        "mean_conf": 0.984,
+        "mean_iou": 1.0,
+        "vlm_yes": 1.0
+      },
+      {
+        "level": 0.2,
+        "det_rate": 1.0,
+        "mean_conf": 0.969,
+        "mean_iou": 0.0,
+        "vlm_yes": 1.0
+      },
+      {
+        "level": 0.4,
+        "det_rate": 1.0,
+        "mean_conf": 0.948,
+        "mean_iou": 0.0,
+        "vlm_yes": 1.0
+      },
+      {
+        "level": 0.6,
+        "det_rate": 1.0,
+        "mean_conf": 0.921,
+        "mean_iou": 0.0,
+        "vlm_yes": 1.0
+      },
+      {
+        "level": 0.8,
+        "det_rate": 1.0,
+        "mean_conf": 0.88,
+        "mean_iou": 0.0,
+        "vlm_yes": 1.0
+      },
+      {
+        "level": 0.9,
+        "det_rate": 0.8,
+        "mean_conf": 0.663,
+        "mean_iou": 0.0,
+        "vlm_yes": 0.6
+      }
+    ],
+    "breaks_at": null
+  },
+  "edge_clip_right": {
+    "desc": "target slides off the RIGHT frame edge (camera pans left)",
+    "rows": [
+      {
+        "level": 0.0,
+        "det_rate": 1.0,
+        "mean_conf": 0.984,
+        "mean_iou": 1.0,
+        "vlm_yes": 1.0
+      },
+      {
+        "level": 0.2,
+        "det_rate": 1.0,
+        "mean_conf": 0.983,
+        "mean_iou": 0.0,
+        "vlm_yes": 1.0
+      },
+      {
+        "level": 0.4,
+        "det_rate": 1.0,
+        "mean_conf": 0.98,
+        "mean_iou": 0.0,
+        "vlm_yes": 1.0
+      },
+      {
+        "level": 0.6,
+        "det_rate": 1.0,
+        "mean_conf": 0.975,
+        "mean_iou": 0.0,
+        "vlm_yes": 1.0
+      },
+      {
+        "level": 0.8,
+        "det_rate": 1.0,
+        "mean_conf": 0.905,
+        "mean_iou": 0.0,
+        "vlm_yes": 1.0
+      },
+      {
+        "level": 0.9,
+        "det_rate": 0.6,
+        "mean_conf": 0.369,
+        "mean_iou": 0.0,
+        "vlm_yes": 0.0
+      }
+    ],
+    "breaks_at": null
+  },
+  "cover_top": {
+    "desc": "rim visible, body hidden",
+    "rows": [
+      {
+        "level": 0.0,
+        "det_rate": 1.0,
+        "mean_conf": 0.984,
+        "mean_iou": 1.0,
+        "vlm_yes": 1.0
+      },
+      {
+        "level": 0.2,
+        "det_rate": 1.0,
+        "mean_conf": 0.975,
+        "mean_iou": 0.804,
+        "vlm_yes": 1.0
+      },
+      {
+        "level": 0.4,
+        "det_rate": 1.0,
+        "mean_conf": 0.936,
+        "mean_iou": 0.601,
+        "vlm_yes": 1.0
+      },
+      {
+        "level": 0.6,
+        "det_rate": 1.0,
+        "mean_conf": 0.887,
+        "mean_iou": 0.4,
+        "vlm_yes": 1.0
+      },
+      {
+        "level": 0.8,
+        "det_rate": 0.8,
+        "mean_conf": 0.426,
+        "mean_iou": 0.421,
+        "vlm_yes": 0.0
+      },
+      {
+        "level": 0.9,
+        "det_rate": 0.2,
+        "mean_conf": 0.099,
+        "mean_iou": 0.0,
+        "vlm_yes": 0.0
+      }
+    ],
+    "breaks_at": 0.9
+  },
+  "cover_bottom": {
+    "desc": "RIM HIDDEN, body visible",
+    "rows": [
+      {
+        "level": 0.0,
+        "det_rate": 1.0,
+        "mean_conf": 0.984,
+        "mean_iou": 1.0,
+        "vlm_yes": 1.0
+      },
+      {
+        "level": 0.2,
+        "det_rate": 1.0,
+        "mean_conf": 0.972,
+        "mean_iou": 0.931,
+        "vlm_yes": 1.0
+      },
+      {
+        "level": 0.4,
+        "det_rate": 1.0,
+        "mean_conf": 0.865,
+        "mean_iou": 0.871,
+        "vlm_yes": 1.0
+      },
+      {
+        "level": 0.6,
+        "det_rate": 1.0,
+        "mean_conf": 0.862,
+        "mean_iou": 0.467,
+        "vlm_yes": 1.0
+      },
+      {
+        "level": 0.8,
+        "det_rate": 1.0,
+        "mean_conf": 0.651,
+        "mean_iou": 0.137,
+        "vlm_yes": 1.0
+      },
+      {
+        "level": 0.9,
+        "det_rate": 0.2,
+        "mean_conf": 0.144,
+        "mean_iou": 0.0,
+        "vlm_yes": 0.2
+      }
+    ],
+    "breaks_at": 0.9
+  },
+  "cover_side": {
+    "desc": "half the silhouette hidden",
+    "rows": [
+      {
+        "level": 0.0,
+        "det_rate": 1.0,
+        "mean_conf": 0.984,
+        "mean_iou": 1.0,
+        "vlm_yes": 1.0
+      },
+      {
+        "level": 0.2,
+        "det_rate": 1.0,
+        "mean_conf": 0.968,
+        "mean_iou": 0.822,
+        "vlm_yes": 1.0
+      },
+      {
+        "level": 0.4,
+        "det_rate": 1.0,
+        "mean_conf": 0.938,
+        "mean_iou": 0.832,
+        "vlm_yes": 1.0
+      },
+      {
+        "level": 0.6,
+        "det_rate": 1.0,
+        "mean_conf": 0.903,
+        "mean_iou": 0.752,
+        "vlm_yes": 1.0
+      },
+      {
+        "level": 0.8,
+        "det_rate": 0.8,
+        "mean_conf": 0.496,
+        "mean_iou": 0.141,
+        "vlm_yes": 1.0
+      },
+      {
+        "level": 0.9,
+        "det_rate": 0.2,
+        "mean_conf": 0.143,
+        "mean_iou": 0.0,
+        "vlm_yes": 0.0
+      }
+    ],
+    "breaks_at": 0.9
+  },
+  "local_shadow": {
+    "desc": "shadow across the target only",
+    "rows": [
+      {
+        "level": 0.0,
+        "det_rate": 1.0,
+        "mean_conf": 0.984,
+        "mean_iou": 1.0,
+        "vlm_yes": 1.0
+      },
+      {
+        "level": 0.2,
+        "det_rate": 1.0,
+        "mean_conf": 0.985,
+        "mean_iou": 0.994,
+        "vlm_yes": 1.0
+      },
+      {
+        "level": 0.4,
+        "det_rate": 1.0,
+        "mean_conf": 0.985,
+        "mean_iou": 0.994,
+        "vlm_yes": 1.0
+      },
+      {
+        "level": 0.6,
+        "det_rate": 1.0,
+        "mean_conf": 0.985,
+        "mean_iou": 0.988,
+        "vlm_yes": 1.0
+      },
+      {
+        "level": 0.8,
+        "det_rate": 1.0,
+        "mean_conf": 0.982,
+        "mean_iou": 0.984,
+        "vlm_yes": 1.0
+      },
+      {
+        "level": 0.9,
+        "det_rate": 1.0,
+        "mean_conf": 0.953,
+        "mean_iou": 0.98,
+        "vlm_yes": 0.4
+      }
+    ],
+    "breaks_at": null
+  },
+  "glare": {
+    "desc": "specular blowout on the target",
+    "rows": [
+      {
+        "level": 0.0,
+        "det_rate": 1.0,
+        "mean_conf": 0.984,
+        "mean_iou": 1.0,
+        "vlm_yes": 1.0
+      },
+      {
+        "level": 0.2,
+        "det_rate": 1.0,
+        "mean_conf": 0.983,
+        "mean_iou": 0.995,
+        "vlm_yes": 1.0
+      },
+      {
+        "level": 0.4,
+        "det_rate": 1.0,
+        "mean_conf": 0.977,
+        "mean_iou": 0.982,
+        "vlm_yes": 1.0
+      },
+      {
+        "level": 0.6,
+        "det_rate": 1.0,
+        "mean_conf": 0.942,
+        "mean_iou": 0.92,
+        "vlm_yes": 1.0
+      },
+      {
+        "level": 0.8,
+        "det_rate": 1.0,
+        "mean_conf": 0.811,
+        "mean_iou": 0.891,
+        "vlm_yes": 0.8
+      },
+      {
+        "level": 0.9,
+        "det_rate": 0.8,
+        "mean_conf": 0.351,
+        "mean_iou": 0.439,
+        "vlm_yes": 0.4
+      }
+    ],
+    "breaks_at": null
+  }
+}

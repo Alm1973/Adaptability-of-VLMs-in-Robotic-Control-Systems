@@ -1,0 +1,32 @@
+{
+  "scenario": "occlusion_full",
+  "frames": 156,
+  "total_s": 5.309,
+  "fps": 29.385,
+  "stages": {
+    "detect": {
+      "calls": 156,
+      "total_s": 2.1711,
+      "ms_per_call": 13.92,
+      "ms_per_frame": 13.917
+    },
+    "verify": {
+      "calls": 1,
+      "total_s": 0.1811,
+      "ms_per_call": 181.13,
+      "ms_per_frame": 1.161
+    },
+    "diagnose": {
+      "calls": 61,
+      "total_s": 0.7111,
+      "ms_per_call": 11.66,
+      "ms_per_frame": 4.558
+    },
+    "probe": {
+      "calls": 8,
+      "total_s": 2.1645,
+      "ms_per_call": 270.56,
+      "ms_per_frame": 13.875
+    }
+  }
+}

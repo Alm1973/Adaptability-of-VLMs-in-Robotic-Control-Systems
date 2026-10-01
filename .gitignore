@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.venv-yolo/
+robotenv/
+pyvenv.cfg
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local settings and secrets (never commit)
+config.local.yaml
+.env
+*.token
+*_token*
+credentials.json
+
+# Model weights (large; download from the source instead)
+*.pt
+*.safetensors
+*.onnx
+*.gguf
+weights/
+
+# Raw captures. The full 3.1 GB run and the August desk frames stay off GitHub.
+# The desk frames were shot in a private room and are not published.
+runs/**/trials/
+live_disruption_frames/
+nano_frames/
+search_trial_frames/
+generated_frames/
+generated_occlusions/
+generated_corpus/
+live_exp_frames/
+episodes/
+cycle_runs/
+
+# Scratch
+*.log
+*.bak-*
+_log_*.txt
+*.7z
+
+# Run folders written by avi/final_experiment.py
+avi/runs/

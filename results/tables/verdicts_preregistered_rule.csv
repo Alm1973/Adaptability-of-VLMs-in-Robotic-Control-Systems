@@ -1,0 +1,3 @@
+condition,PASS,PARTIAL,FAIL (false belief),"FAIL (accuracy < 0.4, no false belief)"
+D_full,25,0,10,13
+E_no_vlm,24,0,12,12

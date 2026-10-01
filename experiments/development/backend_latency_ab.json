@@ -1,0 +1,22 @@
+{
+  "a_ollama": {
+    "n": 15,
+    "degen": 13,
+    "cold_call1_s": 0.585,
+    "median_all_s": 0.521,
+    "median_tail_s": 0.52,
+    "p90_tail_s": 0.523,
+    "max_s": 0.585,
+    "min_s": 0.388
+  },
+  "b_b10326": {
+    "n": 15,
+    "degen": 1,
+    "cold_call1_s": 0.832,
+    "median_all_s": 0.393,
+    "median_tail_s": 0.391,
+    "p90_tail_s": 0.414,
+    "max_s": 0.832,
+    "min_s": 0.377
+  }
+}

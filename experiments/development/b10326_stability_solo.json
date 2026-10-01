@@ -1,0 +1,26 @@
+[
+  {
+    "first_lock": null,
+    "degen": 0,
+    "n": 15,
+    "seq": "..............."
+  },
+  {
+    "first_lock": 3,
+    "degen": 13,
+    "n": 15,
+    "seq": "..DDDDDDDDDDDDD"
+  },
+  {
+    "first_lock": 4,
+    "degen": 12,
+    "n": 15,
+    "seq": "...DDDDDDDDDDDD"
+  },
+  {
+    "first_lock": 3,
+    "degen": 13,
+    "n": 15,
+    "seq": "..DDDDDDDDDDDDD"
+  }
+]

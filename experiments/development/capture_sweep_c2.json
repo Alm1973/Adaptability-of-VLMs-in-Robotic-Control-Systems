@@ -1,0 +1,86 @@
+{
+  "aborted": null,
+  "poses": 10,
+  "log": [
+    {
+      "i": 1,
+      "label": "pan_b60_t90",
+      "base": 60,
+      "tilt": 90,
+      "file": "c2_01_pan_b60_t90.jpg",
+      "frame_mean": 85.8
+    },
+    {
+      "i": 2,
+      "label": "pan_b72_t90",
+      "base": 72,
+      "tilt": 90,
+      "file": "c2_02_pan_b72_t90.jpg",
+      "frame_mean": 82.1
+    },
+    {
+      "i": 3,
+      "label": "pan_b84_t90",
+      "base": 84,
+      "tilt": 90,
+      "file": "c2_03_pan_b84_t90.jpg",
+      "frame_mean": 97.8
+    },
+    {
+      "i": 4,
+      "label": "pan_b96_t90",
+      "base": 96,
+      "tilt": 90,
+      "file": "c2_04_pan_b96_t90.jpg",
+      "frame_mean": 114.7
+    },
+    {
+      "i": 5,
+      "label": "pan_b108_t90",
+      "base": 108,
+      "tilt": 90,
+      "file": "c2_05_pan_b108_t90.jpg",
+      "frame_mean": 115.3
+    },
+    {
+      "i": 6,
+      "label": "pan_b120_t90",
+      "base": 120,
+      "tilt": 90,
+      "file": "c2_06_pan_b120_t90.jpg",
+      "frame_mean": 85.1
+    },
+    {
+      "i": 7,
+      "label": "tilt_b90_t78",
+      "base": 90,
+      "tilt": 78,
+      "file": "c2_07_tilt_b90_t78.jpg",
+      "frame_mean": 132.4
+    },
+    {
+      "i": 8,
+      "label": "tilt_b90_t93",
+      "base": 90,
+      "tilt": 93,
+      "file": "c2_08_tilt_b90_t93.jpg",
+      "frame_mean": 116.8
+    },
+    {
+      "i": 9,
+      "label": "tilt_b90_t108",
+      "base": 90,
+      "tilt": 108,
+      "file": "c2_09_tilt_b90_t108.jpg",
+      "frame_mean": 136.0
+    },
+    {
+      "i": 10,
+      "label": "home",
+      "base": 90,
+      "tilt": 90,
+      "file": "c2_10_home.jpg",
+      "frame_mean": 123.8
+    }
+  ]
+}

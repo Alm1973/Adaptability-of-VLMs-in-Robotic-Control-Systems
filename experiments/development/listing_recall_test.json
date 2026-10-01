@@ -1,0 +1,134 @@
+{
+  "current": {
+    "macro_bal_acc": 0.802,
+    "fp_rate": 0.086,
+    "mean_items": 3.3,
+    "med_lat_s": 0.82,
+    "per_object": {
+      "water bottle": {
+        "bal": 0.722,
+        "sens": 0.444,
+        "spec": 1.0
+      },
+      "keyboard": {
+        "bal": 1.0,
+        "sens": 1.0,
+        "spec": 1.0
+      },
+      "computer mouse": {
+        "bal": 0.875,
+        "sens": 1.0,
+        "spec": 0.75
+      },
+      "laptop": {
+        "bal": 0.611,
+        "sens": 0.333,
+        "spec": 0.889
+      },
+      "banana": {
+        "bal": null,
+        "sens": null,
+        "spec": 1.0
+      }
+    }
+  },
+  "exhaustive": {
+    "macro_bal_acc": 0.852,
+    "fp_rate": 0.2,
+    "mean_items": 12.7,
+    "med_lat_s": 13.27,
+    "per_object": {
+      "water bottle": {
+        "bal": 0.833,
+        "sens": 0.667,
+        "spec": 1.0
+      },
+      "keyboard": {
+        "bal": 1.0,
+        "sens": 1.0,
+        "spec": 1.0
+      },
+      "computer mouse": {
+        "bal": 0.688,
+        "sens": 1.0,
+        "spec": 0.375
+      },
+      "laptop": {
+        "bal": 0.889,
+        "sens": 1.0,
+        "spec": 0.778
+      },
+      "banana": {
+        "bal": null,
+        "sens": null,
+        "spec": 1.0
+      }
+    }
+  },
+  "count_hint": {
+    "macro_bal_acc": 0.868,
+    "fp_rate": 0.143,
+    "mean_items": 7.3,
+    "med_lat_s": 4.2,
+    "per_object": {
+      "water bottle": {
+        "bal": 0.778,
+        "sens": 0.556,
+        "spec": 1.0
+      },
+      "keyboard": {
+        "bal": 1.0,
+        "sens": 1.0,
+        "spec": 1.0
+      },
+      "computer mouse": {
+        "bal": 0.75,
+        "sens": 1.0,
+        "spec": 0.5
+      },
+      "laptop": {
+        "bal": 0.944,
+        "sens": 1.0,
+        "spec": 0.889
+      },
+      "banana": {
+        "bal": null,
+        "sens": null,
+        "spec": 1.0
+      }
+    }
+  },
+  "regions": {
+    "macro_bal_acc": 0.727,
+    "fp_rate": 0.114,
+    "mean_items": 3.7,
+    "med_lat_s": 3.65,
+    "per_object": {
+      "water bottle": {
+        "bal": 0.722,
+        "sens": 0.444,
+        "spec": 1.0
+      },
+      "keyboard": {
+        "bal": 0.889,
+        "sens": 0.778,
+        "spec": 1.0
+      },
+      "computer mouse": {
+        "bal": 0.688,
+        "sens": 0.75,
+        "spec": 0.625
+      },
+      "laptop": {
+        "bal": 0.611,
+        "sens": 0.333,
+        "spec": 0.889
+      },
+      "banana": {
+        "bal": null,
+        "sens": null,
+        "spec": 1.0
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "480x360": {
+    "macro_bal_acc": 0.632,
+    "fp_rate": 0.314,
+    "degenerate": 0,
+    "per_object": {
+      "water bottle": 0.778,
+      "keyboard": 0.667,
+      "computer mouse": 0.75,
+      "laptop": 0.333,
+      "banana": null
+    },
+    "med_lat_s": 2.57,
+    "total_lat_s": 162.6
+  },
+  "640x480": {
+    "macro_bal_acc": 0.089,
+    "fp_rate": 0.886,
+    "degenerate": 49,
+    "per_object": {
+      "water bottle": 0.056,
+      "keyboard": 0.111,
+      "computer mouse": 0.188,
+      "laptop": 0.0,
+      "banana": null
+    },
+    "med_lat_s": 6.29,
+    "total_lat_s": 384.3
+  }
+}

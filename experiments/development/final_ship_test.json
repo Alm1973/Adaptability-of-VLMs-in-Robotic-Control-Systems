@@ -1,0 +1,38 @@
+{
+  "576x432": {
+    "soak_degen": 0,
+    "n": 20,
+    "first_lock_at": null,
+    "med_lat_s": 3.69,
+    "macro_bal_acc": 0.655,
+    "fp_rate": 0.343,
+    "acc_degen": 0,
+    "per_object": {
+      "water bottle": 0.667,
+      "keyboard": 0.611,
+      "computer mouse": 0.562,
+      "laptop": 0.778,
+      "banana": null
+    },
+    "med_acc_lat_s": 3.78,
+    "total_lat_s": 236.1
+  },
+  "480x360": {
+    "soak_degen": 0,
+    "n": 20,
+    "first_lock_at": null,
+    "med_lat_s": 2.82,
+    "macro_bal_acc": 0.701,
+    "fp_rate": 0.343,
+    "acc_degen": 0,
+    "per_object": {
+      "water bottle": 0.944,
+      "keyboard": 0.833,
+      "computer mouse": 0.75,
+      "laptop": 0.278,
+      "banana": null
+    },
+    "med_acc_lat_s": 2.73,
+    "total_lat_s": 176.2
+  }
+}

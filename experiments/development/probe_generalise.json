@@ -1,0 +1,42 @@
+[
+  {
+    "name": "hand",
+    "truth_occluder": true,
+    "vlm_label": "hand",
+    "classified_occluder": true,
+    "correct": true,
+    "file": "generated_occlusions\\occ_hand.png"
+  },
+  {
+    "name": "book",
+    "truth_occluder": true,
+    "vlm_label": "book",
+    "classified_occluder": true,
+    "correct": true,
+    "file": "generated_occlusions\\occ_book.png"
+  },
+  {
+    "name": "paper",
+    "truth_occluder": true,
+    "vlm_label": "paper sheet",
+    "classified_occluder": true,
+    "correct": true,
+    "file": "generated_occlusions\\occ_paper.png"
+  },
+  {
+    "name": "sleeve",
+    "truth_occluder": true,
+    "vlm_label": "suit",
+    "classified_occluder": false,
+    "correct": false,
+    "file": "generated_occlusions\\occ_sleeve.png"
+  },
+  {
+    "name": "box",
+    "truth_occluder": true,
+    "vlm_label": "bookend",
+    "classified_occluder": false,
+    "correct": false,
+    "file": "generated_occlusions\\occ_box.png"
+  }
+]

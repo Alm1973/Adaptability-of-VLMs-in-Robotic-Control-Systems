@@ -1,0 +1,89 @@
+{
+  "single": [
+    {
+      "acc": 0.688,
+      "correct": 11,
+      "total": 16,
+      "calls": 4,
+      "calls_per_frame": 1.0,
+      "wall_s": 8.9,
+      "s_per_frame": 2.22
+    },
+    {
+      "acc": 0.625,
+      "correct": 10,
+      "total": 16,
+      "calls": 4,
+      "calls_per_frame": 1.0,
+      "wall_s": 1.8,
+      "s_per_frame": 0.45
+    },
+    {
+      "acc": 0.812,
+      "correct": 13,
+      "total": 16,
+      "calls": 4,
+      "calls_per_frame": 1.0,
+      "wall_s": 1.8,
+      "s_per_frame": 0.44
+    }
+  ],
+  "fixed3": [
+    {
+      "acc": 0.812,
+      "correct": 13,
+      "total": 16,
+      "calls": 12,
+      "calls_per_frame": 3.0,
+      "wall_s": 13.7,
+      "s_per_frame": 3.43
+    },
+    {
+      "acc": 0.875,
+      "correct": 14,
+      "total": 16,
+      "calls": 12,
+      "calls_per_frame": 3.0,
+      "wall_s": 12.3,
+      "s_per_frame": 3.08
+    },
+    {
+      "acc": 0.688,
+      "correct": 11,
+      "total": 16,
+      "calls": 12,
+      "calls_per_frame": 3.0,
+      "wall_s": 12.5,
+      "s_per_frame": 3.14
+    }
+  ],
+  "adaptive": [
+    {
+      "acc": 0.812,
+      "correct": 13,
+      "total": 16,
+      "calls": 10,
+      "calls_per_frame": 2.5,
+      "wall_s": 12.4,
+      "s_per_frame": 3.09
+    },
+    {
+      "acc": 0.75,
+      "correct": 12,
+      "total": 16,
+      "calls": 11,
+      "calls_per_frame": 2.75,
+      "wall_s": 12.9,
+      "s_per_frame": 3.22
+    },
+    {
+      "acc": 0.75,
+      "correct": 12,
+      "total": 16,
+      "calls": 11,
+      "calls_per_frame": 2.75,
+      "wall_s": 12.9,
+      "s_per_frame": 3.23
+    }
+  ]
+}

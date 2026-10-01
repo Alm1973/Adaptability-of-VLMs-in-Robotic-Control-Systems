@@ -1,0 +1,76 @@
+{
+  "results": {
+    "current": {
+      "n": 40,
+      "correct": 20,
+      "accuracy": 0.5,
+      "chance": 0.5,
+      "answers": {
+        "left": 40
+      },
+      "prompt": "A camera is looking for a {t}, which is NOT in view. Based on what you can see, which way should the camera turn to find it? Already tried: none. Answer with exactly one word: left, right, up, or down."
+    },
+    "no_options_list": {
+      "n": 40,
+      "correct": 22,
+      "accuracy": 0.55,
+      "chance": 0.5,
+      "answers": {
+        "left": 38,
+        "right": 2
+      },
+      "prompt": "A camera is looking for a {t}. It is not in this view. Which direction should the camera turn? Answer left or right."
+    },
+    "describe_then_choose": {
+      "n": 40,
+      "correct": 3,
+      "accuracy": 0.075,
+      "chance": 0.5,
+      "answers": {
+        "left": 21,
+        "right": 19
+      },
+      "prompt": "This is the {side} portion of a wider scene. A {t} is just outside this view. Is it off the left edge or the right edge? Answer left or right."
+    },
+    "edge_cue": {
+      "n": 40,
+      "correct": 20,
+      "accuracy": 0.5,
+      "chance": 0.5,
+      "answers": {
+        "right": 40
+      },
+      "prompt": "Look at this image. A {t} is just outside the frame, immediately beyond one of the vertical edges. Which edge is it beyond -- the left edge or the right edge? Answer with one word."
+    },
+    "spatial_continuation": {
+      "n": 40,
+      "correct": 20,
+      "accuracy": 0.5,
+      "chance": 0.5,
+      "answers": {
+        "right": 40
+      },
+      "prompt": "The desk in this photo continues past one side of the frame. A {t} sits on the part of the desk you cannot see. Which side does the desk continue toward? Answer left or right."
+    },
+    "forced_choice_swapped": {
+      "n": 40,
+      "correct": 17,
+      "accuracy": 0.425,
+      "chance": 0.5,
+      "answers": {
+        "right": 27,
+        "left": 13
+      },
+      "prompt": "A camera is looking for a {t}, which is NOT in view. Which way should the camera turn to find it? Answer with exactly one word: right or left."
+    }
+  },
+  "truth_balance": {
+    "right": 20,
+    "left": 20
+  },
+  "params": {
+    "N": 40,
+    "SEED": 20260828,
+    "SIDE_FRAC": 0.55
+  }
+}

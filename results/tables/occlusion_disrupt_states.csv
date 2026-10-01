@@ -1,0 +1,13 @@
+trial,scenario,clutter,disrupt_frames,belief_correct,detector_fired,CONFIRMED,OCCLUDED,MISSING,DISPLACED,AMBIGUOUS
+3,occlude_hand,none,40,0.05,0.0,0,2,38,0,0
+4,occlude_object,none,40,0.0,0.0,0,0,0,40,0
+10,occlude_hand,high,33,0.788,0.0,0,26,0,0,7
+16,occlude_object,high,40,1.0,1.0,40,0,0,0,0
+17,occlude_hand,none,40,0.05,0.0,0,2,38,0,0
+21,occlude_object,none,40,1.0,1.0,40,0,0,0,0
+27,occlude_object,high,37,0.973,0.946,35,1,0,0,1
+32,occlude_hand,high,40,1.0,1.0,40,0,0,0,0
+33,occlude_hand,none,40,0.05,0.0,0,2,38,0,0
+35,occlude_object,none,40,0.0,0.0,0,0,0,40,0
+44,occlude_object,high,40,1.0,1.0,40,0,0,0,0
+48,occlude_hand,high,40,1.0,1.0,40,0,0,0,0

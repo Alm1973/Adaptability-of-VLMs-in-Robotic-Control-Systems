@@ -1,0 +1,426 @@
+{
+  "darkness": {
+    "unit": "brightness multiplier",
+    "rows": [
+      {
+        "level": 1.0,
+        "det_rate": 1.0,
+        "mean_conf": 0.984,
+        "mean_iou": 1.0,
+        "vlm_yes": 1.0
+      },
+      {
+        "level": 0.7,
+        "det_rate": 1.0,
+        "mean_conf": 0.985,
+        "mean_iou": 0.996,
+        "vlm_yes": 1.0
+      },
+      {
+        "level": 0.5,
+        "det_rate": 1.0,
+        "mean_conf": 0.985,
+        "mean_iou": 0.993,
+        "vlm_yes": 1.0
+      },
+      {
+        "level": 0.35,
+        "det_rate": 1.0,
+        "mean_conf": 0.984,
+        "mean_iou": 0.987,
+        "vlm_yes": 1.0
+      },
+      {
+        "level": 0.25,
+        "det_rate": 1.0,
+        "mean_conf": 0.982,
+        "mean_iou": 0.983,
+        "vlm_yes": 1.0
+      },
+      {
+        "level": 0.15,
+        "det_rate": 1.0,
+        "mean_conf": 0.955,
+        "mean_iou": 0.981,
+        "vlm_yes": 1.0
+      },
+      {
+        "level": 0.08,
+        "det_rate": 1.0,
+        "mean_conf": 0.735,
+        "mean_iou": 0.983,
+        "vlm_yes": 1.0
+      }
+    ]
+  },
+  "blur": {
+    "unit": "gaussian radius px",
+    "rows": [
+      {
+        "level": 0,
+        "det_rate": 1.0,
+        "mean_conf": 0.984,
+        "mean_iou": 1.0,
+        "vlm_yes": 1.0
+      },
+      {
+        "level": 2,
+        "det_rate": 1.0,
+        "mean_conf": 0.982,
+        "mean_iou": 0.992,
+        "vlm_yes": 1.0
+      },
+      {
+        "level": 4,
+        "det_rate": 1.0,
+        "mean_conf": 0.98,
+        "mean_iou": 0.985,
+        "vlm_yes": 1.0
+      },
+      {
+        "level": 7,
+        "det_rate": 1.0,
+        "mean_conf": 0.978,
+        "mean_iou": 0.982,
+        "vlm_yes": 1.0
+      },
+      {
+        "level": 11,
+        "det_rate": 1.0,
+        "mean_conf": 0.977,
+        "mean_iou": 0.974,
+        "vlm_yes": 1.0
+      },
+      {
+        "level": 16,
+        "det_rate": 1.0,
+        "mean_conf": 0.972,
+        "mean_iou": 0.966,
+        "vlm_yes": 1.0
+      },
+      {
+        "level": 22,
+        "det_rate": 1.0,
+        "mean_conf": 0.971,
+        "mean_iou": 0.949,
+        "vlm_yes": 1.0
+      }
+    ]
+  },
+  "motion_blur": {
+    "unit": "streak px",
+    "rows": [
+      {
+        "level": 1,
+        "det_rate": 1.0,
+        "mean_conf": 0.984,
+        "mean_iou": 1.0,
+        "vlm_yes": 1.0
+      },
+      {
+        "level": 5,
+        "det_rate": 1.0,
+        "mean_conf": 0.981,
+        "mean_iou": 0.99,
+        "vlm_yes": 1.0
+      },
+      {
+        "level": 11,
+        "det_rate": 1.0,
+        "mean_conf": 0.975,
+        "mean_iou": 0.974,
+        "vlm_yes": 1.0
+      },
+      {
+        "level": 21,
+        "det_rate": 1.0,
+        "mean_conf": 0.959,
+        "mean_iou": 0.968,
+        "vlm_yes": 1.0
+      },
+      {
+        "level": 35,
+        "det_rate": 1.0,
+        "mean_conf": 0.971,
+        "mean_iou": 0.948,
+        "vlm_yes": 1.0
+      },
+      {
+        "level": 51,
+        "det_rate": 1.0,
+        "mean_conf": 0.946,
+        "mean_iou": 0.913,
+        "vlm_yes": 1.0
+      },
+      {
+        "level": 71,
+        "det_rate": 1.0,
+        "mean_conf": 0.606,
+        "mean_iou": 0.775,
+        "vlm_yes": 1.0
+      }
+    ]
+  },
+  "noise": {
+    "unit": "gaussian sigma",
+    "rows": [
+      {
+        "level": 0,
+        "det_rate": 1.0,
+        "mean_conf": 0.984,
+        "mean_iou": 1.0,
+        "vlm_yes": 1.0
+      },
+      {
+        "level": 10,
+        "det_rate": 1.0,
+        "mean_conf": 0.985,
+        "mean_iou": 0.992,
+        "vlm_yes": 1.0
+      },
+      {
+        "level": 20,
+        "det_rate": 1.0,
+        "mean_conf": 0.978,
+        "mean_iou": 0.988,
+        "vlm_yes": 1.0
+      },
+      {
+        "level": 35,
+        "det_rate": 1.0,
+        "mean_conf": 0.948,
+        "mean_iou": 0.982,
+        "vlm_yes": 1.0
+      },
+      {
+        "level": 55,
+        "det_rate": 1.0,
+        "mean_conf": 0.852,
+        "mean_iou": 0.977,
+        "vlm_yes": 1.0
+      },
+      {
+        "level": 80,
+        "det_rate": 1.0,
+        "mean_conf": 0.628,
+        "mean_iou": 0.971,
+        "vlm_yes": 1.0
+      },
+      {
+        "level": 110,
+        "det_rate": 0.6,
+        "mean_conf": 0.258,
+        "mean_iou": 0.575,
+        "vlm_yes": 1.0
+      }
+    ]
+  },
+  "downscale": {
+    "unit": "resolution factor",
+    "rows": [
+      {
+        "level": 1.0,
+        "det_rate": 1.0,
+        "mean_conf": 0.984,
+        "mean_iou": 1.0,
+        "vlm_yes": 1.0
+      },
+      {
+        "level": 0.5,
+        "det_rate": 1.0,
+        "mean_conf": 0.984,
+        "mean_iou": 1.0,
+        "vlm_yes": 1.0
+      },
+      {
+        "level": 0.3,
+        "det_rate": 1.0,
+        "mean_conf": 0.974,
+        "mean_iou": 0.981,
+        "vlm_yes": 1.0
+      },
+      {
+        "level": 0.2,
+        "det_rate": 0.8,
+        "mean_conf": 0.528,
+        "mean_iou": 0.739,
+        "vlm_yes": 1.0
+      },
+      {
+        "level": 0.12,
+        "det_rate": 0.0,
+        "mean_conf": 0.051,
+        "mean_iou": 0.0,
+        "vlm_yes": 1.0
+      },
+      {
+        "level": 0.08,
+        "det_rate": 0.0,
+        "mean_conf": 0.035,
+        "mean_iou": 0.0,
+        "vlm_yes": 1.0
+      },
+      {
+        "level": 0.05,
+        "det_rate": 0.0,
+        "mean_conf": 0.0,
+        "mean_iou": 0.0,
+        "vlm_yes": 1.0
+      }
+    ]
+  },
+  "coverage": {
+    "hand": [
+      {
+        "coverage": 0.0,
+        "conf": 0.983,
+        "iou": 1.0,
+        "vlm_yes": true
+      },
+      {
+        "coverage": 0.25,
+        "conf": 0.975,
+        "iou": 0.749,
+        "vlm_yes": true
+      },
+      {
+        "coverage": 0.5,
+        "conf": 0.968,
+        "iou": 0.502,
+        "vlm_yes": true
+      },
+      {
+        "coverage": 0.7,
+        "conf": 0.919,
+        "iou": 0.292,
+        "vlm_yes": true
+      },
+      {
+        "coverage": 0.85,
+        "conf": 0.684,
+        "iou": 0.141,
+        "vlm_yes": false
+      },
+      {
+        "coverage": 1.0,
+        "conf": 0.0,
+        "iou": 0.0,
+        "vlm_yes": false
+      }
+    ],
+    "book": [
+      {
+        "coverage": 0.0,
+        "conf": 0.983,
+        "iou": 1.0,
+        "vlm_yes": true
+      },
+      {
+        "coverage": 0.25,
+        "conf": 0.982,
+        "iou": 0.971,
+        "vlm_yes": true
+      },
+      {
+        "coverage": 0.5,
+        "conf": 0.899,
+        "iou": 0.498,
+        "vlm_yes": true
+      },
+      {
+        "coverage": 0.7,
+        "conf": 0.923,
+        "iou": 0.288,
+        "vlm_yes": true
+      },
+      {
+        "coverage": 0.85,
+        "conf": 0.954,
+        "iou": 0.957,
+        "vlm_yes": true
+      },
+      {
+        "coverage": 1.0,
+        "conf": 0.13,
+        "iou": 0.963,
+        "vlm_yes": true
+      }
+    ],
+    "box": [
+      {
+        "coverage": 0.0,
+        "conf": 0.981,
+        "iou": 1.0,
+        "vlm_yes": true
+      },
+      {
+        "coverage": 0.25,
+        "conf": 0.97,
+        "iou": 0.753,
+        "vlm_yes": true
+      },
+      {
+        "coverage": 0.5,
+        "conf": 0.926,
+        "iou": 0.498,
+        "vlm_yes": true
+      },
+      {
+        "coverage": 0.7,
+        "conf": 0.922,
+        "iou": 0.288,
+        "vlm_yes": true
+      },
+      {
+        "coverage": 0.85,
+        "conf": 0.345,
+        "iou": 0.964,
+        "vlm_yes": false
+      },
+      {
+        "coverage": 1.0,
+        "conf": 0.0,
+        "iou": 0.0,
+        "vlm_yes": false
+      }
+    ],
+    "jacket": [
+      {
+        "coverage": 0.0,
+        "conf": 0.983,
+        "iou": 1.0,
+        "vlm_yes": true
+      },
+      {
+        "coverage": 0.25,
+        "conf": 0.978,
+        "iou": 0.76,
+        "vlm_yes": true
+      },
+      {
+        "coverage": 0.5,
+        "conf": 0.901,
+        "iou": 0.512,
+        "vlm_yes": true
+      },
+      {
+        "coverage": 0.7,
+        "conf": 0.793,
+        "iou": 0.296,
+        "vlm_yes": true
+      },
+      {
+        "coverage": 0.85,
+        "conf": 0.0,
+        "iou": 0.0,
+        "vlm_yes": false
+      },
+      {
+        "coverage": 1.0,
+        "conf": 0.0,
+        "iou": 0.0,
+        "vlm_yes": false
+      }
+    ]
+  }
+}

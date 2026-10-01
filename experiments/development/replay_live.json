@@ -1,0 +1,146 @@
+{
+  "distractor/baseline": {
+    "n": 58,
+    "before": {
+      "CONFIRMED": 58
+    },
+    "after": {
+      "CONFIRMED": 58
+    },
+    "probe": {}
+  },
+  "impostor/baseline": {
+    "n": 58,
+    "before": {
+      "CONFIRMED": 58
+    },
+    "after": {
+      "CONFIRMED": 58
+    },
+    "probe": {}
+  },
+  "impostor/disrupt": {
+    "n": 37,
+    "before": {
+      "CONFIRMED": 23,
+      "AMBIGUOUS": 11,
+      "OCCLUDED": 1,
+      "MISSING": 1,
+      "DISPLACED": 1
+    },
+    "after": {
+      "CONFIRMED": 23,
+      "AMBIGUOUS": 12,
+      "OCCLUDED": 1,
+      "MISSING": 1
+    },
+    "probe": {}
+  },
+  "impostor/recover": {
+    "n": 55,
+    "before": {
+      "CONFIRMED": 52,
+      "DISPLACED": 1,
+      "OCCLUDED": 1,
+      "MISSING": 1
+    },
+    "after": {
+      "CONFIRMED": 52,
+      "OCCLUDED": 2,
+      "MISSING": 1
+    },
+    "probe": {}
+  },
+  "lighting/baseline": {
+    "n": 57,
+    "before": {
+      "CONFIRMED": 57
+    },
+    "after": {
+      "CONFIRMED": 57
+    },
+    "probe": {}
+  },
+  "lighting/disrupt": {
+    "n": 61,
+    "before": {
+      "CONFIRMED": 61
+    },
+    "after": {
+      "CONFIRMED": 61
+    },
+    "probe": {}
+  },
+  "lighting/recover": {
+    "n": 61,
+    "before": {
+      "CONFIRMED": 61
+    },
+    "after": {
+      "CONFIRMED": 61
+    },
+    "probe": {}
+  },
+  "occlusion_full/baseline": {
+    "n": 37,
+    "before": {
+      "CONFIRMED": 37
+    },
+    "after": {
+      "CONFIRMED": 37
+    },
+    "probe": {}
+  },
+  "occlusion_full/disrupt": {
+    "n": 61,
+    "before": {
+      "DISPLACED": 61
+    },
+    "after": {
+      "OCCLUDED": 12,
+      "MISSING": 49
+    },
+    "probe": {}
+  },
+  "occlusion_full/recover": {
+    "n": 59,
+    "before": {
+      "CONFIRMED": 59
+    },
+    "after": {
+      "CONFIRMED": 59
+    },
+    "probe": {}
+  },
+  "occlusion_remove/baseline": {
+    "n": 59,
+    "before": {
+      "CONFIRMED": 59
+    },
+    "after": {
+      "CONFIRMED": 59
+    },
+    "probe": {}
+  },
+  "occlusion_remove/disrupt": {
+    "n": 60,
+    "before": {
+      "DISPLACED": 60
+    },
+    "after": {
+      "OCCLUDED": 12,
+      "MISSING": 48
+    },
+    "probe": {}
+  },
+  "occlusion_remove/recover": {
+    "n": 60,
+    "before": {
+      "MISSING": 60
+    },
+    "after": {
+      "MISSING": 60
+    },
+    "probe": {}
+  }
+}

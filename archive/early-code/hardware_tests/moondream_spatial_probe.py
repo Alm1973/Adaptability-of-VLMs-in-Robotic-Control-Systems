@@ -1,0 +1,49 @@
+"""
+
+
+"""
+
+import ollama
+
+QUESTIONS = [
+    "Where in the frame is the {color} object - left, center, or right?",
+    "Is the {color} object closer to the top or bottom of the image?",
+]
+
+TWO_OBJECT_QUESTION = (
+    "There are two objects in the image, a {color_a} one and a {color_b} one. "
+    "Which one is further to the left?"
+)
+
+
+def probe_single(image_path, color, true_lr, true_tb):
+    results = {}
+    for template in QUESTIONS:
+        q = template.format(color=color)
+        response = ollama.chat(
+            model="moondream",
+            messages=[{"role": "user", "content": q, "images": [image_path]}],
+        )
+        results[q] = response["message"]["content"].strip()
+
+    print(f"--- {image_path} ---")
+    for q, a in results.items():
+        print(f"Q: {q}\nA: {a}")
+    print(f"(Expected: left/right={true_lr}, top/bottom={true_tb})\n")
+    return results
+
+
+def probe_two_object(image_path, color_a, color_b, true_answer):
+    q = TWO_OBJECT_QUESTION.format(color_a=color_a, color_b=color_b)
+    response = ollama.chat(
+        model="moondream",
+        messages=[{"role": "user", "content": q, "images": [image_path]}],
+    )
+    answer = response["message"]["content"].strip()
+    print(f"--- {image_path} ---\nQ: {q}\nA: {answer}\n(Expected: {true_answer})\n")
+    return answer
+
+
+if __name__ == "__main__":
+    pass
+    # probe_two_object("frames/red_and_blue.jpg", "red", "blue", "red")

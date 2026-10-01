@@ -1,0 +1,84 @@
+FRAMES NOT COPIED — runs/2026-09-01_233533/trials/
+=================================================
+
+Per the task instructions, the full per-trial frame folders (raw + annotated
+JPEGs for all 48 trials) were NOT copied into the repo. Total: 16,867 files,
+3.1 GB (source: <HOME>\avi\runs\2026-09-01_233533\trials\,
+abbreviated <HOME> below).
+
+In their place:
+  - The project's own curated evidence set (<HOME>\avi\figures\, 13 MB) was
+    copied in full: 48 per-trial contact sheets (16 frames each, sampled
+    evenly across the episode) + 9 trial/scenario videos + the baseline scan.
+    See avi/figures/README.md for how these were built (make_figures.py).
+  - A hand-picked raw-frame sample (36 annotated JPEGs, 8.0 MB) was copied
+    from the 6 trials called out in the task (9, 14, 29, 31, 45, 46 — the
+    trials where the detector mis-identified another object as the red cup):
+    6 evenly-spaced disruption-phase annotated frames per trial. See
+    avi/runs/2026-09-01_233533/trials_sample/.
+
+Per-trial counts and sizes of what was NOT copied (raw+annotated, both
+phases, all 48 trials):
+
+trial_001_camera_pose      344 files   53 MB
+trial_002_removal          348 files   53 MB
+trial_003_occlude_hand     348 files   56 MB
+trial_004_occlude_object   354 files   52 MB
+trial_005_identity_swap    354 files   58 MB
+trial_006_substitution     354 files   55 MB
+trial_007_lighting         354 files   56 MB
+trial_008_control          356 files   54 MB
+trial_009_identity_swap    324 files   69 MB   <- sampled (6 frames copied)
+trial_010_occlude_hand     334 files   72 MB
+trial_011_control          352 files   76 MB
+trial_012_substitution     338 files   71 MB
+trial_013_camera_pose      356 files   78 MB
+trial_014_removal          330 files   72 MB   <- sampled (6 frames copied)
+trial_015_lighting         356 files   78 MB
+trial_016_occlude_object   356 files   76 MB
+trial_017_occlude_hand     352 files   56 MB
+trial_018_control          358 files   54 MB
+trial_019_lighting         356 files   56 MB
+trial_020_identity_swap    354 files   58 MB
+trial_021_occlude_object   340 files   52 MB
+trial_022_removal          350 files   56 MB
+trial_023_camera_pose      360 files   55 MB
+trial_024_substitution     356 files   58 MB
+trial_025_camera_pose      360 files   76 MB
+trial_026_lighting         358 files   79 MB
+trial_027_occlude_object   340 files   75 MB
+trial_028_control          358 files   80 MB
+trial_029_removal          344 files   77 MB   <- sampled (6 frames copied)
+trial_030_identity_swap    342 files   77 MB
+trial_031_substitution     354 files   78 MB   <- sampled (6 frames copied)
+trial_032_occlude_hand     356 files   79 MB
+trial_033_occlude_hand     352 files   56 MB
+trial_034_camera_pose      362 files   56 MB
+trial_035_occlude_object   352 files   52 MB
+trial_036_removal          354 files   57 MB
+trial_037_identity_swap    344 files   56 MB
+trial_038_control          356 files   54 MB
+trial_039_substitution     348 files   57 MB
+trial_040_lighting         358 files   56 MB
+trial_041_control          358 files   78 MB
+trial_042_camera_pose      360 files   78 MB
+trial_043_lighting         356 files   78 MB
+trial_044_occlude_object   344 files   75 MB
+trial_045_identity_swap    346 files   78 MB   <- sampled (6 frames copied)
+trial_046_removal          360 files   78 MB   <- sampled (6 frames copied)
+trial_047_substitution     354 files   78 MB
+trial_048_occlude_hand     356 files   77 MB
+
+baseline/ (10 reference JPEGs, 1.5 MB) WAS copied in full — small and
+explicitly requested in the task (Step 1a lists "baseline\" as a folder to
+retrieve intact, unlike "trials\" which was to be sampled).
+
+Note on privacy: <HOME>\avi\.gitignore documents that the desk/bedroom frame
+corpus from other parts of this project is deliberately never committed
+(shows a private room, an open laptop, the operator). The controlled-rig
+run 2026-09-01_233533 (plain background, cup/box/pliers/mugs, 16,856-file /
+3.1 GB raw capture matching this run almost exactly) is explicitly exempted
+from that restriction as of 2026-09-02 per the same file — the operator
+cleared it for publication. The frame sample and figures/ copied here are
+consistent with that existing, dated decision; see DECISIONS.md for the
+verification performed before copying any frame content.

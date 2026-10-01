@@ -1,0 +1,475 @@
+{
+  "D_baseline": {
+    "label": "D_full (timer=12)",
+    "aggregate": 0.299,
+    "lost": 160,
+    "false": 5,
+    "per_episode": {
+      "occlusion_full": {
+        "durAcc": 0.05,
+        "lost": 38,
+        "false": 0
+      },
+      "occlusion_remove": {
+        "durAcc": 0.05,
+        "lost": 38,
+        "false": 0
+      },
+      "occlude_book": {
+        "durAcc": 0.562,
+        "lost": 14,
+        "false": 0
+      },
+      "occlude_paper": {
+        "durAcc": 0.0,
+        "lost": 25,
+        "false": 0
+      },
+      "occlude_box": {
+        "durAcc": 0.387,
+        "lost": 19,
+        "false": 0
+      },
+      "occlude_jacket": {
+        "durAcc": 0.429,
+        "lost": 16,
+        "false": 0
+      },
+      "identity_same_class": {
+        "durAcc": 0.615,
+        "lost": 10,
+        "false": 5
+      }
+    }
+  },
+  "F_baseline": {
+    "label": "F_probe (current vocab)",
+    "aggregate": 0.504,
+    "lost": 98,
+    "false": 5,
+    "per_episode": {
+      "occlusion_full": {
+        "durAcc": 1.0,
+        "lost": 0,
+        "false": 0
+      },
+      "occlusion_remove": {
+        "durAcc": 1.0,
+        "lost": 0,
+        "false": 0
+      },
+      "occlude_book": {
+        "durAcc": 0.562,
+        "lost": 14,
+        "false": 0
+      },
+      "occlude_paper": {
+        "durAcc": 0.0,
+        "lost": 25,
+        "false": 0
+      },
+      "occlude_box": {
+        "durAcc": 0.129,
+        "lost": 27,
+        "false": 0
+      },
+      "occlude_jacket": {
+        "durAcc": 0.143,
+        "lost": 24,
+        "false": 0
+      },
+      "identity_same_class": {
+        "durAcc": 0.692,
+        "lost": 8,
+        "false": 5
+      }
+    }
+  },
+  "F_nohand": {
+    "label": "F_probe (no hand words)",
+    "aggregate": 0.141,
+    "lost": 192,
+    "false": 5,
+    "per_episode": {
+      "occlusion_full": {
+        "durAcc": 0.0,
+        "lost": 40,
+        "false": 0
+      },
+      "occlusion_remove": {
+        "durAcc": 0.0,
+        "lost": 40,
+        "false": 0
+      },
+      "occlude_book": {
+        "durAcc": 0.562,
+        "lost": 14,
+        "false": 0
+      },
+      "occlude_paper": {
+        "durAcc": 0.0,
+        "lost": 25,
+        "false": 0
+      },
+      "occlude_box": {
+        "durAcc": 0.129,
+        "lost": 27,
+        "false": 0
+      },
+      "occlude_jacket": {
+        "durAcc": 0.143,
+        "lost": 24,
+        "false": 0
+      },
+      "identity_same_class": {
+        "durAcc": 0.154,
+        "lost": 22,
+        "false": 5
+      }
+    }
+  },
+  "D_decay12": {
+    "label": "D_full (timer=12)",
+    "aggregate": 0.299,
+    "lost": 160,
+    "false": 5,
+    "per_episode": {
+      "occlusion_full": {
+        "durAcc": 0.05,
+        "lost": 38,
+        "false": 0
+      },
+      "occlusion_remove": {
+        "durAcc": 0.05,
+        "lost": 38,
+        "false": 0
+      },
+      "occlude_book": {
+        "durAcc": 0.562,
+        "lost": 14,
+        "false": 0
+      },
+      "occlude_paper": {
+        "durAcc": 0.0,
+        "lost": 25,
+        "false": 0
+      },
+      "occlude_box": {
+        "durAcc": 0.387,
+        "lost": 19,
+        "false": 0
+      },
+      "occlude_jacket": {
+        "durAcc": 0.429,
+        "lost": 16,
+        "false": 0
+      },
+      "identity_same_class": {
+        "durAcc": 0.615,
+        "lost": 10,
+        "false": 5
+      }
+    }
+  },
+  "D_decay20": {
+    "label": "D_full (timer=20)",
+    "aggregate": 0.445,
+    "lost": 126,
+    "false": 5,
+    "per_episode": {
+      "occlusion_full": {
+        "durAcc": 0.25,
+        "lost": 30,
+        "false": 0
+      },
+      "occlusion_remove": {
+        "durAcc": 0.25,
+        "lost": 30,
+        "false": 0
+      },
+      "occlude_book": {
+        "durAcc": 0.562,
+        "lost": 14,
+        "false": 0
+      },
+      "occlude_paper": {
+        "durAcc": 0.0,
+        "lost": 25,
+        "false": 0
+      },
+      "occlude_box": {
+        "durAcc": 0.645,
+        "lost": 11,
+        "false": 0
+      },
+      "occlude_jacket": {
+        "durAcc": 0.714,
+        "lost": 8,
+        "false": 0
+      },
+      "identity_same_class": {
+        "durAcc": 0.692,
+        "lost": 8,
+        "false": 5
+      }
+    }
+  },
+  "D_decay30": {
+    "label": "D_full (timer=30)",
+    "aggregate": 0.554,
+    "lost": 98,
+    "false": 5,
+    "per_episode": {
+      "occlusion_full": {
+        "durAcc": 0.5,
+        "lost": 20,
+        "false": 0
+      },
+      "occlusion_remove": {
+        "durAcc": 0.5,
+        "lost": 20,
+        "false": 0
+      },
+      "occlude_book": {
+        "durAcc": 0.562,
+        "lost": 14,
+        "false": 0
+      },
+      "occlude_paper": {
+        "durAcc": 0.0,
+        "lost": 25,
+        "false": 0
+      },
+      "occlude_box": {
+        "durAcc": 0.839,
+        "lost": 5,
+        "false": 0
+      },
+      "occlude_jacket": {
+        "durAcc": 0.786,
+        "lost": 6,
+        "false": 0
+      },
+      "identity_same_class": {
+        "durAcc": 0.692,
+        "lost": 8,
+        "false": 5
+      }
+    }
+  },
+  "D_decay45": {
+    "label": "D_full (timer=45)",
+    "aggregate": 0.661,
+    "lost": 68,
+    "false": 5,
+    "per_episode": {
+      "occlusion_full": {
+        "durAcc": 0.875,
+        "lost": 5,
+        "false": 0
+      },
+      "occlusion_remove": {
+        "durAcc": 0.875,
+        "lost": 5,
+        "false": 0
+      },
+      "occlude_book": {
+        "durAcc": 0.562,
+        "lost": 14,
+        "false": 0
+      },
+      "occlude_paper": {
+        "durAcc": 0.0,
+        "lost": 25,
+        "false": 0
+      },
+      "occlude_box": {
+        "durAcc": 0.839,
+        "lost": 5,
+        "false": 0
+      },
+      "occlude_jacket": {
+        "durAcc": 0.786,
+        "lost": 6,
+        "false": 0
+      },
+      "identity_same_class": {
+        "durAcc": 0.692,
+        "lost": 8,
+        "false": 5
+      }
+    }
+  },
+  "D_decay60": {
+    "label": "D_full (timer=60)",
+    "aggregate": 0.697,
+    "lost": 58,
+    "false": 5,
+    "per_episode": {
+      "occlusion_full": {
+        "durAcc": 1.0,
+        "lost": 0,
+        "false": 0
+      },
+      "occlusion_remove": {
+        "durAcc": 1.0,
+        "lost": 0,
+        "false": 0
+      },
+      "occlude_book": {
+        "durAcc": 0.562,
+        "lost": 14,
+        "false": 0
+      },
+      "occlude_paper": {
+        "durAcc": 0.0,
+        "lost": 25,
+        "false": 0
+      },
+      "occlude_box": {
+        "durAcc": 0.839,
+        "lost": 5,
+        "false": 0
+      },
+      "occlude_jacket": {
+        "durAcc": 0.786,
+        "lost": 6,
+        "false": 0
+      },
+      "identity_same_class": {
+        "durAcc": 0.692,
+        "lost": 8,
+        "false": 5
+      }
+    }
+  },
+  "D_decay9999": {
+    "label": "D_full (timer=INFINITE)",
+    "aggregate": 0.697,
+    "lost": 58,
+    "false": 5,
+    "per_episode": {
+      "occlusion_full": {
+        "durAcc": 1.0,
+        "lost": 0,
+        "false": 0
+      },
+      "occlusion_remove": {
+        "durAcc": 1.0,
+        "lost": 0,
+        "false": 0
+      },
+      "occlude_book": {
+        "durAcc": 0.562,
+        "lost": 14,
+        "false": 0
+      },
+      "occlude_paper": {
+        "durAcc": 0.0,
+        "lost": 25,
+        "false": 0
+      },
+      "occlude_box": {
+        "durAcc": 0.839,
+        "lost": 5,
+        "false": 0
+      },
+      "occlude_jacket": {
+        "durAcc": 0.786,
+        "lost": 6,
+        "false": 0
+      },
+      "identity_same_class": {
+        "durAcc": 0.692,
+        "lost": 8,
+        "false": 5
+      }
+    }
+  },
+  "F_oracle_vocab": {
+    "label": "F_probe (oracle vocab)",
+    "aggregate": 0.697,
+    "lost": 58,
+    "false": 5,
+    "per_episode": {
+      "occlusion_full": {
+        "durAcc": 1.0,
+        "lost": 0,
+        "false": 0
+      },
+      "occlusion_remove": {
+        "durAcc": 1.0,
+        "lost": 0,
+        "false": 0
+      },
+      "occlude_book": {
+        "durAcc": 0.562,
+        "lost": 14,
+        "false": 0
+      },
+      "occlude_paper": {
+        "durAcc": 0.0,
+        "lost": 25,
+        "false": 0
+      },
+      "occlude_box": {
+        "durAcc": 0.839,
+        "lost": 5,
+        "false": 0
+      },
+      "occlude_jacket": {
+        "durAcc": 0.786,
+        "lost": 6,
+        "false": 0
+      },
+      "identity_same_class": {
+        "durAcc": 0.692,
+        "lost": 8,
+        "false": 5
+      }
+    }
+  },
+  "F_oracle_probe": {
+    "label": "F_probe (oracle always-occluder)",
+    "aggregate": 0.697,
+    "lost": 58,
+    "false": 5,
+    "per_episode": {
+      "occlusion_full": {
+        "durAcc": 1.0,
+        "lost": 0,
+        "false": 0
+      },
+      "occlusion_remove": {
+        "durAcc": 1.0,
+        "lost": 0,
+        "false": 0
+      },
+      "occlude_book": {
+        "durAcc": 0.562,
+        "lost": 14,
+        "false": 0
+      },
+      "occlude_paper": {
+        "durAcc": 0.0,
+        "lost": 25,
+        "false": 0
+      },
+      "occlude_box": {
+        "durAcc": 0.839,
+        "lost": 5,
+        "false": 0
+      },
+      "occlude_jacket": {
+        "durAcc": 0.786,
+        "lost": 6,
+        "false": 0
+      },
+      "identity_same_class": {
+        "durAcc": 0.692,
+        "lost": 8,
+        "false": 5
+      }
+    }
+  }
+}

@@ -1,0 +1,2428 @@
+{
+  "conditions": [
+    "D_full",
+    "E_no_vlm",
+    "D_full(decay=12)",
+    "D_full(decay=30)",
+    "D_full(decay=60)"
+  ],
+  "per_episode": {
+    "D_full": {
+      "001_camera_pose_rep1": {
+        "scenario": "camera_pose",
+        "rep": 1,
+        "axis": "environment",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 1
+      },
+      "002_removal_rep1": {
+        "scenario": "removal",
+        "rep": 1,
+        "axis": "occlusion",
+        "durAcc": 0.051,
+        "false": 0,
+        "lost": 37,
+        "spurious": false,
+        "vlm_calls": 1
+      },
+      "003_occlude_hand_rep1": {
+        "scenario": "occlude_hand",
+        "rep": 1,
+        "axis": "occlusion",
+        "durAcc": 0.05,
+        "false": 0,
+        "lost": 38,
+        "spurious": false,
+        "vlm_calls": 2
+      },
+      "004_occlude_object_rep1": {
+        "scenario": "occlude_object",
+        "rep": 1,
+        "axis": "occlusion",
+        "durAcc": 0.0,
+        "false": 0,
+        "lost": 40,
+        "spurious": false,
+        "vlm_calls": 2
+      },
+      "005_identity_swap_rep1": {
+        "scenario": "identity_swap",
+        "rep": 1,
+        "axis": "identity",
+        "durAcc": 0.05,
+        "false": 0,
+        "lost": 38,
+        "spurious": false,
+        "vlm_calls": 3
+      },
+      "006_substitution_rep1": {
+        "scenario": "substitution",
+        "rep": 1,
+        "axis": "unexpected",
+        "durAcc": 0.05,
+        "false": 0,
+        "lost": 38,
+        "spurious": false,
+        "vlm_calls": 1
+      },
+      "007_lighting_rep1": {
+        "scenario": "lighting",
+        "rep": 1,
+        "axis": "environment",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 1
+      },
+      "008_control_rep1": {
+        "scenario": "control",
+        "rep": 1,
+        "axis": "control",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 1
+      },
+      "009_identity_swap_rep1": {
+        "scenario": "identity_swap",
+        "rep": 1,
+        "axis": "identity",
+        "durAcc": 0.0,
+        "false": 0,
+        "lost": 35,
+        "spurious": false,
+        "vlm_calls": 17
+      },
+      "010_occlude_hand_rep1": {
+        "scenario": "occlude_hand",
+        "rep": 1,
+        "axis": "occlusion",
+        "durAcc": 0.758,
+        "false": 0,
+        "lost": 8,
+        "spurious": false,
+        "vlm_calls": 10
+      },
+      "011_control_rep1": {
+        "scenario": "control",
+        "rep": 1,
+        "axis": "control",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 1
+      },
+      "012_substitution_rep1": {
+        "scenario": "substitution",
+        "rep": 1,
+        "axis": "unexpected",
+        "durAcc": 0.2,
+        "false": 6,
+        "lost": 32,
+        "spurious": false,
+        "vlm_calls": 5
+      },
+      "013_camera_pose_rep1": {
+        "scenario": "camera_pose",
+        "rep": 1,
+        "axis": "environment",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 1
+      },
+      "014_removal_rep1": {
+        "scenario": "removal",
+        "rep": 1,
+        "axis": "occlusion",
+        "durAcc": 0.229,
+        "false": 0,
+        "lost": 27,
+        "spurious": false,
+        "vlm_calls": 14
+      },
+      "015_lighting_rep1": {
+        "scenario": "lighting",
+        "rep": 1,
+        "axis": "environment",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 1
+      },
+      "016_occlude_object_rep1": {
+        "scenario": "occlude_object",
+        "rep": 1,
+        "axis": "occlusion",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 1
+      },
+      "017_occlude_hand_rep2": {
+        "scenario": "occlude_hand",
+        "rep": 2,
+        "axis": "occlusion",
+        "durAcc": 0.05,
+        "false": 0,
+        "lost": 38,
+        "spurious": false,
+        "vlm_calls": 2
+      },
+      "018_control_rep2": {
+        "scenario": "control",
+        "rep": 2,
+        "axis": "control",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 1
+      },
+      "019_lighting_rep2": {
+        "scenario": "lighting",
+        "rep": 2,
+        "axis": "environment",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 1
+      },
+      "020_identity_swap_rep2": {
+        "scenario": "identity_swap",
+        "rep": 2,
+        "axis": "identity",
+        "durAcc": 0.05,
+        "false": 0,
+        "lost": 38,
+        "spurious": false,
+        "vlm_calls": 2
+      },
+      "021_occlude_object_rep2": {
+        "scenario": "occlude_object",
+        "rep": 2,
+        "axis": "occlusion",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 33,
+        "spurious": false,
+        "vlm_calls": 9
+      },
+      "022_removal_rep2": {
+        "scenario": "removal",
+        "rep": 2,
+        "axis": "occlusion",
+        "durAcc": 0.075,
+        "false": 3,
+        "lost": 37,
+        "spurious": false,
+        "vlm_calls": 2
+      },
+      "023_camera_pose_rep2": {
+        "scenario": "camera_pose",
+        "rep": 2,
+        "axis": "environment",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 1
+      },
+      "024_substitution_rep2": {
+        "scenario": "substitution",
+        "rep": 2,
+        "axis": "unexpected",
+        "durAcc": 0.05,
+        "false": 0,
+        "lost": 38,
+        "spurious": false,
+        "vlm_calls": 1
+      },
+      "025_camera_pose_rep2": {
+        "scenario": "camera_pose",
+        "rep": 2,
+        "axis": "environment",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 1
+      },
+      "026_lighting_rep2": {
+        "scenario": "lighting",
+        "rep": 2,
+        "axis": "environment",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 1
+      },
+      "027_occlude_object_rep2": {
+        "scenario": "occlude_object",
+        "rep": 2,
+        "axis": "occlusion",
+        "durAcc": 0.973,
+        "false": 0,
+        "lost": 1,
+        "spurious": false,
+        "vlm_calls": 4
+      },
+      "028_control_rep2": {
+        "scenario": "control",
+        "rep": 2,
+        "axis": "control",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 1
+      },
+      "029_removal_rep2": {
+        "scenario": "removal",
+        "rep": 2,
+        "axis": "occlusion",
+        "durAcc": 1.0,
+        "false": 15,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 6
+      },
+      "030_identity_swap_rep2": {
+        "scenario": "identity_swap",
+        "rep": 2,
+        "axis": "identity",
+        "durAcc": 0.895,
+        "false": 19,
+        "lost": 4,
+        "spurious": false,
+        "vlm_calls": 7
+      },
+      "031_substitution_rep2": {
+        "scenario": "substitution",
+        "rep": 2,
+        "axis": "unexpected",
+        "durAcc": 1.0,
+        "false": 40,
+        "lost": 0,
+        "spurious": true,
+        "vlm_calls": 1
+      },
+      "032_occlude_hand_rep2": {
+        "scenario": "occlude_hand",
+        "rep": 2,
+        "axis": "occlusion",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 1
+      },
+      "033_occlude_hand_rep3": {
+        "scenario": "occlude_hand",
+        "rep": 3,
+        "axis": "occlusion",
+        "durAcc": 0.05,
+        "false": 0,
+        "lost": 38,
+        "spurious": false,
+        "vlm_calls": 2
+      },
+      "034_camera_pose_rep3": {
+        "scenario": "camera_pose",
+        "rep": 3,
+        "axis": "environment",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 1
+      },
+      "035_occlude_object_rep3": {
+        "scenario": "occlude_object",
+        "rep": 3,
+        "axis": "occlusion",
+        "durAcc": 0.0,
+        "false": 0,
+        "lost": 40,
+        "spurious": false,
+        "vlm_calls": 2
+      },
+      "036_removal_rep3": {
+        "scenario": "removal",
+        "rep": 3,
+        "axis": "occlusion",
+        "durAcc": 0.05,
+        "false": 2,
+        "lost": 38,
+        "spurious": false,
+        "vlm_calls": 2
+      },
+      "037_identity_swap_rep3": {
+        "scenario": "identity_swap",
+        "rep": 3,
+        "axis": "identity",
+        "durAcc": 0.051,
+        "false": 0,
+        "lost": 37,
+        "spurious": false,
+        "vlm_calls": 4
+      },
+      "038_control_rep3": {
+        "scenario": "control",
+        "rep": 3,
+        "axis": "control",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 1
+      },
+      "039_substitution_rep3": {
+        "scenario": "substitution",
+        "rep": 3,
+        "axis": "unexpected",
+        "durAcc": 0.05,
+        "false": 14,
+        "lost": 38,
+        "spurious": false,
+        "vlm_calls": 2
+      },
+      "040_lighting_rep3": {
+        "scenario": "lighting",
+        "rep": 3,
+        "axis": "environment",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 1
+      },
+      "041_control_rep3": {
+        "scenario": "control",
+        "rep": 3,
+        "axis": "control",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 1
+      },
+      "042_camera_pose_rep3": {
+        "scenario": "camera_pose",
+        "rep": 3,
+        "axis": "environment",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 1
+      },
+      "043_lighting_rep3": {
+        "scenario": "lighting",
+        "rep": 3,
+        "axis": "environment",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 1
+      },
+      "044_occlude_object_rep3": {
+        "scenario": "occlude_object",
+        "rep": 3,
+        "axis": "occlusion",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 1
+      },
+      "045_identity_swap_rep3": {
+        "scenario": "identity_swap",
+        "rep": 3,
+        "axis": "identity",
+        "durAcc": 0.05,
+        "false": 17,
+        "lost": 38,
+        "spurious": false,
+        "vlm_calls": 6
+      },
+      "046_removal_rep3": {
+        "scenario": "removal",
+        "rep": 3,
+        "axis": "occlusion",
+        "durAcc": 1.0,
+        "false": 40,
+        "lost": 0,
+        "spurious": true,
+        "vlm_calls": 1
+      },
+      "047_substitution_rep3": {
+        "scenario": "substitution",
+        "rep": 3,
+        "axis": "unexpected",
+        "durAcc": 1.0,
+        "false": 40,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 2
+      },
+      "048_occlude_hand_rep3": {
+        "scenario": "occlude_hand",
+        "rep": 3,
+        "axis": "occlusion",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 1
+      }
+    },
+    "E_no_vlm": {
+      "001_camera_pose_rep1": {
+        "scenario": "camera_pose",
+        "rep": 1,
+        "axis": "environment",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 0
+      },
+      "002_removal_rep1": {
+        "scenario": "removal",
+        "rep": 1,
+        "axis": "occlusion",
+        "durAcc": 0.051,
+        "false": 0,
+        "lost": 37,
+        "spurious": false,
+        "vlm_calls": 0
+      },
+      "003_occlude_hand_rep1": {
+        "scenario": "occlude_hand",
+        "rep": 1,
+        "axis": "occlusion",
+        "durAcc": 0.05,
+        "false": 0,
+        "lost": 38,
+        "spurious": false,
+        "vlm_calls": 0
+      },
+      "004_occlude_object_rep1": {
+        "scenario": "occlude_object",
+        "rep": 1,
+        "axis": "occlusion",
+        "durAcc": 0.0,
+        "false": 0,
+        "lost": 40,
+        "spurious": false,
+        "vlm_calls": 0
+      },
+      "005_identity_swap_rep1": {
+        "scenario": "identity_swap",
+        "rep": 1,
+        "axis": "identity",
+        "durAcc": 0.05,
+        "false": 0,
+        "lost": 38,
+        "spurious": true,
+        "vlm_calls": 0
+      },
+      "006_substitution_rep1": {
+        "scenario": "substitution",
+        "rep": 1,
+        "axis": "unexpected",
+        "durAcc": 0.05,
+        "false": 0,
+        "lost": 38,
+        "spurious": false,
+        "vlm_calls": 0
+      },
+      "007_lighting_rep1": {
+        "scenario": "lighting",
+        "rep": 1,
+        "axis": "environment",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 0
+      },
+      "008_control_rep1": {
+        "scenario": "control",
+        "rep": 1,
+        "axis": "control",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 0
+      },
+      "009_identity_swap_rep1": {
+        "scenario": "identity_swap",
+        "rep": 1,
+        "axis": "identity",
+        "durAcc": 0.686,
+        "false": 26,
+        "lost": 11,
+        "spurious": true,
+        "vlm_calls": 0
+      },
+      "010_occlude_hand_rep1": {
+        "scenario": "occlude_hand",
+        "rep": 1,
+        "axis": "occlusion",
+        "durAcc": 0.242,
+        "false": 0,
+        "lost": 25,
+        "spurious": false,
+        "vlm_calls": 0
+      },
+      "011_control_rep1": {
+        "scenario": "control",
+        "rep": 1,
+        "axis": "control",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 0
+      },
+      "012_substitution_rep1": {
+        "scenario": "substitution",
+        "rep": 1,
+        "axis": "unexpected",
+        "durAcc": 0.0,
+        "false": 9,
+        "lost": 40,
+        "spurious": true,
+        "vlm_calls": 0
+      },
+      "013_camera_pose_rep1": {
+        "scenario": "camera_pose",
+        "rep": 1,
+        "axis": "environment",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 0
+      },
+      "014_removal_rep1": {
+        "scenario": "removal",
+        "rep": 1,
+        "axis": "occlusion",
+        "durAcc": 0.8,
+        "false": 37,
+        "lost": 7,
+        "spurious": true,
+        "vlm_calls": 0
+      },
+      "015_lighting_rep1": {
+        "scenario": "lighting",
+        "rep": 1,
+        "axis": "environment",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 0
+      },
+      "016_occlude_object_rep1": {
+        "scenario": "occlude_object",
+        "rep": 1,
+        "axis": "occlusion",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 0
+      },
+      "017_occlude_hand_rep2": {
+        "scenario": "occlude_hand",
+        "rep": 2,
+        "axis": "occlusion",
+        "durAcc": 0.05,
+        "false": 0,
+        "lost": 38,
+        "spurious": false,
+        "vlm_calls": 0
+      },
+      "018_control_rep2": {
+        "scenario": "control",
+        "rep": 2,
+        "axis": "control",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 0
+      },
+      "019_lighting_rep2": {
+        "scenario": "lighting",
+        "rep": 2,
+        "axis": "environment",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 0
+      },
+      "020_identity_swap_rep2": {
+        "scenario": "identity_swap",
+        "rep": 2,
+        "axis": "identity",
+        "durAcc": 0.05,
+        "false": 0,
+        "lost": 38,
+        "spurious": true,
+        "vlm_calls": 0
+      },
+      "021_occlude_object_rep2": {
+        "scenario": "occlude_object",
+        "rep": 2,
+        "axis": "occlusion",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 0
+      },
+      "022_removal_rep2": {
+        "scenario": "removal",
+        "rep": 2,
+        "axis": "occlusion",
+        "durAcc": 0.075,
+        "false": 3,
+        "lost": 37,
+        "spurious": false,
+        "vlm_calls": 0
+      },
+      "023_camera_pose_rep2": {
+        "scenario": "camera_pose",
+        "rep": 2,
+        "axis": "environment",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 0
+      },
+      "024_substitution_rep2": {
+        "scenario": "substitution",
+        "rep": 2,
+        "axis": "unexpected",
+        "durAcc": 0.05,
+        "false": 0,
+        "lost": 38,
+        "spurious": false,
+        "vlm_calls": 0
+      },
+      "025_camera_pose_rep2": {
+        "scenario": "camera_pose",
+        "rep": 2,
+        "axis": "environment",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 0
+      },
+      "026_lighting_rep2": {
+        "scenario": "lighting",
+        "rep": 2,
+        "axis": "environment",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 0
+      },
+      "027_occlude_object_rep2": {
+        "scenario": "occlude_object",
+        "rep": 2,
+        "axis": "occlusion",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 0
+      },
+      "028_control_rep2": {
+        "scenario": "control",
+        "rep": 2,
+        "axis": "control",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 0
+      },
+      "029_removal_rep2": {
+        "scenario": "removal",
+        "rep": 2,
+        "axis": "occlusion",
+        "durAcc": 1.0,
+        "false": 36,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 0
+      },
+      "030_identity_swap_rep2": {
+        "scenario": "identity_swap",
+        "rep": 2,
+        "axis": "identity",
+        "durAcc": 0.921,
+        "false": 22,
+        "lost": 3,
+        "spurious": true,
+        "vlm_calls": 0
+      },
+      "031_substitution_rep2": {
+        "scenario": "substitution",
+        "rep": 2,
+        "axis": "unexpected",
+        "durAcc": 1.0,
+        "false": 40,
+        "lost": 0,
+        "spurious": true,
+        "vlm_calls": 0
+      },
+      "032_occlude_hand_rep2": {
+        "scenario": "occlude_hand",
+        "rep": 2,
+        "axis": "occlusion",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 0
+      },
+      "033_occlude_hand_rep3": {
+        "scenario": "occlude_hand",
+        "rep": 3,
+        "axis": "occlusion",
+        "durAcc": 0.05,
+        "false": 0,
+        "lost": 38,
+        "spurious": false,
+        "vlm_calls": 0
+      },
+      "034_camera_pose_rep3": {
+        "scenario": "camera_pose",
+        "rep": 3,
+        "axis": "environment",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 0
+      },
+      "035_occlude_object_rep3": {
+        "scenario": "occlude_object",
+        "rep": 3,
+        "axis": "occlusion",
+        "durAcc": 0.0,
+        "false": 0,
+        "lost": 40,
+        "spurious": false,
+        "vlm_calls": 0
+      },
+      "036_removal_rep3": {
+        "scenario": "removal",
+        "rep": 3,
+        "axis": "occlusion",
+        "durAcc": 0.05,
+        "false": 2,
+        "lost": 38,
+        "spurious": false,
+        "vlm_calls": 0
+      },
+      "037_identity_swap_rep3": {
+        "scenario": "identity_swap",
+        "rep": 3,
+        "axis": "identity",
+        "durAcc": 0.051,
+        "false": 0,
+        "lost": 37,
+        "spurious": true,
+        "vlm_calls": 0
+      },
+      "038_control_rep3": {
+        "scenario": "control",
+        "rep": 3,
+        "axis": "control",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 0
+      },
+      "039_substitution_rep3": {
+        "scenario": "substitution",
+        "rep": 3,
+        "axis": "unexpected",
+        "durAcc": 0.05,
+        "false": 14,
+        "lost": 38,
+        "spurious": false,
+        "vlm_calls": 0
+      },
+      "040_lighting_rep3": {
+        "scenario": "lighting",
+        "rep": 3,
+        "axis": "environment",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 0
+      },
+      "041_control_rep3": {
+        "scenario": "control",
+        "rep": 3,
+        "axis": "control",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 0
+      },
+      "042_camera_pose_rep3": {
+        "scenario": "camera_pose",
+        "rep": 3,
+        "axis": "environment",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 0
+      },
+      "043_lighting_rep3": {
+        "scenario": "lighting",
+        "rep": 3,
+        "axis": "environment",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 0
+      },
+      "044_occlude_object_rep3": {
+        "scenario": "occlude_object",
+        "rep": 3,
+        "axis": "occlusion",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 0
+      },
+      "045_identity_swap_rep3": {
+        "scenario": "identity_swap",
+        "rep": 3,
+        "axis": "identity",
+        "durAcc": 0.05,
+        "false": 28,
+        "lost": 38,
+        "spurious": true,
+        "vlm_calls": 0
+      },
+      "046_removal_rep3": {
+        "scenario": "removal",
+        "rep": 3,
+        "axis": "occlusion",
+        "durAcc": 1.0,
+        "false": 40,
+        "lost": 0,
+        "spurious": true,
+        "vlm_calls": 0
+      },
+      "047_substitution_rep3": {
+        "scenario": "substitution",
+        "rep": 3,
+        "axis": "unexpected",
+        "durAcc": 1.0,
+        "false": 40,
+        "lost": 0,
+        "spurious": true,
+        "vlm_calls": 0
+      },
+      "048_occlude_hand_rep3": {
+        "scenario": "occlude_hand",
+        "rep": 3,
+        "axis": "occlusion",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 0
+      }
+    },
+    "D_full(decay=12)": {
+      "001_camera_pose_rep1": {
+        "scenario": "camera_pose",
+        "rep": 1,
+        "axis": "environment",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 1
+      },
+      "002_removal_rep1": {
+        "scenario": "removal",
+        "rep": 1,
+        "axis": "occlusion",
+        "durAcc": 0.051,
+        "false": 0,
+        "lost": 37,
+        "spurious": false,
+        "vlm_calls": 1
+      },
+      "003_occlude_hand_rep1": {
+        "scenario": "occlude_hand",
+        "rep": 1,
+        "axis": "occlusion",
+        "durAcc": 0.05,
+        "false": 0,
+        "lost": 38,
+        "spurious": false,
+        "vlm_calls": 2
+      },
+      "004_occlude_object_rep1": {
+        "scenario": "occlude_object",
+        "rep": 1,
+        "axis": "occlusion",
+        "durAcc": 0.0,
+        "false": 0,
+        "lost": 40,
+        "spurious": false,
+        "vlm_calls": 2
+      },
+      "005_identity_swap_rep1": {
+        "scenario": "identity_swap",
+        "rep": 1,
+        "axis": "identity",
+        "durAcc": 0.05,
+        "false": 0,
+        "lost": 38,
+        "spurious": false,
+        "vlm_calls": 3
+      },
+      "006_substitution_rep1": {
+        "scenario": "substitution",
+        "rep": 1,
+        "axis": "unexpected",
+        "durAcc": 0.05,
+        "false": 0,
+        "lost": 38,
+        "spurious": false,
+        "vlm_calls": 1
+      },
+      "007_lighting_rep1": {
+        "scenario": "lighting",
+        "rep": 1,
+        "axis": "environment",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 1
+      },
+      "008_control_rep1": {
+        "scenario": "control",
+        "rep": 1,
+        "axis": "control",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 1
+      },
+      "009_identity_swap_rep1": {
+        "scenario": "identity_swap",
+        "rep": 1,
+        "axis": "identity",
+        "durAcc": 0.0,
+        "false": 0,
+        "lost": 35,
+        "spurious": false,
+        "vlm_calls": 17
+      },
+      "010_occlude_hand_rep1": {
+        "scenario": "occlude_hand",
+        "rep": 1,
+        "axis": "occlusion",
+        "durAcc": 0.758,
+        "false": 0,
+        "lost": 8,
+        "spurious": false,
+        "vlm_calls": 10
+      },
+      "011_control_rep1": {
+        "scenario": "control",
+        "rep": 1,
+        "axis": "control",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 1
+      },
+      "012_substitution_rep1": {
+        "scenario": "substitution",
+        "rep": 1,
+        "axis": "unexpected",
+        "durAcc": 0.2,
+        "false": 6,
+        "lost": 32,
+        "spurious": false,
+        "vlm_calls": 5
+      },
+      "013_camera_pose_rep1": {
+        "scenario": "camera_pose",
+        "rep": 1,
+        "axis": "environment",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 1
+      },
+      "014_removal_rep1": {
+        "scenario": "removal",
+        "rep": 1,
+        "axis": "occlusion",
+        "durAcc": 0.229,
+        "false": 0,
+        "lost": 27,
+        "spurious": false,
+        "vlm_calls": 14
+      },
+      "015_lighting_rep1": {
+        "scenario": "lighting",
+        "rep": 1,
+        "axis": "environment",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 1
+      },
+      "016_occlude_object_rep1": {
+        "scenario": "occlude_object",
+        "rep": 1,
+        "axis": "occlusion",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 1
+      },
+      "017_occlude_hand_rep2": {
+        "scenario": "occlude_hand",
+        "rep": 2,
+        "axis": "occlusion",
+        "durAcc": 0.05,
+        "false": 0,
+        "lost": 38,
+        "spurious": false,
+        "vlm_calls": 2
+      },
+      "018_control_rep2": {
+        "scenario": "control",
+        "rep": 2,
+        "axis": "control",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 1
+      },
+      "019_lighting_rep2": {
+        "scenario": "lighting",
+        "rep": 2,
+        "axis": "environment",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 1
+      },
+      "020_identity_swap_rep2": {
+        "scenario": "identity_swap",
+        "rep": 2,
+        "axis": "identity",
+        "durAcc": 0.05,
+        "false": 0,
+        "lost": 38,
+        "spurious": false,
+        "vlm_calls": 2
+      },
+      "021_occlude_object_rep2": {
+        "scenario": "occlude_object",
+        "rep": 2,
+        "axis": "occlusion",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 33,
+        "spurious": false,
+        "vlm_calls": 9
+      },
+      "022_removal_rep2": {
+        "scenario": "removal",
+        "rep": 2,
+        "axis": "occlusion",
+        "durAcc": 0.075,
+        "false": 3,
+        "lost": 37,
+        "spurious": false,
+        "vlm_calls": 2
+      },
+      "023_camera_pose_rep2": {
+        "scenario": "camera_pose",
+        "rep": 2,
+        "axis": "environment",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 1
+      },
+      "024_substitution_rep2": {
+        "scenario": "substitution",
+        "rep": 2,
+        "axis": "unexpected",
+        "durAcc": 0.05,
+        "false": 0,
+        "lost": 38,
+        "spurious": false,
+        "vlm_calls": 1
+      },
+      "025_camera_pose_rep2": {
+        "scenario": "camera_pose",
+        "rep": 2,
+        "axis": "environment",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 1
+      },
+      "026_lighting_rep2": {
+        "scenario": "lighting",
+        "rep": 2,
+        "axis": "environment",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 1
+      },
+      "027_occlude_object_rep2": {
+        "scenario": "occlude_object",
+        "rep": 2,
+        "axis": "occlusion",
+        "durAcc": 0.973,
+        "false": 0,
+        "lost": 1,
+        "spurious": false,
+        "vlm_calls": 4
+      },
+      "028_control_rep2": {
+        "scenario": "control",
+        "rep": 2,
+        "axis": "control",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 1
+      },
+      "029_removal_rep2": {
+        "scenario": "removal",
+        "rep": 2,
+        "axis": "occlusion",
+        "durAcc": 1.0,
+        "false": 15,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 6
+      },
+      "030_identity_swap_rep2": {
+        "scenario": "identity_swap",
+        "rep": 2,
+        "axis": "identity",
+        "durAcc": 0.895,
+        "false": 19,
+        "lost": 4,
+        "spurious": false,
+        "vlm_calls": 7
+      },
+      "031_substitution_rep2": {
+        "scenario": "substitution",
+        "rep": 2,
+        "axis": "unexpected",
+        "durAcc": 1.0,
+        "false": 40,
+        "lost": 0,
+        "spurious": true,
+        "vlm_calls": 1
+      },
+      "032_occlude_hand_rep2": {
+        "scenario": "occlude_hand",
+        "rep": 2,
+        "axis": "occlusion",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 1
+      },
+      "033_occlude_hand_rep3": {
+        "scenario": "occlude_hand",
+        "rep": 3,
+        "axis": "occlusion",
+        "durAcc": 0.05,
+        "false": 0,
+        "lost": 38,
+        "spurious": false,
+        "vlm_calls": 2
+      },
+      "034_camera_pose_rep3": {
+        "scenario": "camera_pose",
+        "rep": 3,
+        "axis": "environment",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 1
+      },
+      "035_occlude_object_rep3": {
+        "scenario": "occlude_object",
+        "rep": 3,
+        "axis": "occlusion",
+        "durAcc": 0.0,
+        "false": 0,
+        "lost": 40,
+        "spurious": false,
+        "vlm_calls": 2
+      },
+      "036_removal_rep3": {
+        "scenario": "removal",
+        "rep": 3,
+        "axis": "occlusion",
+        "durAcc": 0.05,
+        "false": 2,
+        "lost": 38,
+        "spurious": false,
+        "vlm_calls": 2
+      },
+      "037_identity_swap_rep3": {
+        "scenario": "identity_swap",
+        "rep": 3,
+        "axis": "identity",
+        "durAcc": 0.051,
+        "false": 0,
+        "lost": 37,
+        "spurious": false,
+        "vlm_calls": 4
+      },
+      "038_control_rep3": {
+        "scenario": "control",
+        "rep": 3,
+        "axis": "control",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 1
+      },
+      "039_substitution_rep3": {
+        "scenario": "substitution",
+        "rep": 3,
+        "axis": "unexpected",
+        "durAcc": 0.05,
+        "false": 14,
+        "lost": 38,
+        "spurious": false,
+        "vlm_calls": 2
+      },
+      "040_lighting_rep3": {
+        "scenario": "lighting",
+        "rep": 3,
+        "axis": "environment",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 1
+      },
+      "041_control_rep3": {
+        "scenario": "control",
+        "rep": 3,
+        "axis": "control",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 1
+      },
+      "042_camera_pose_rep3": {
+        "scenario": "camera_pose",
+        "rep": 3,
+        "axis": "environment",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 1
+      },
+      "043_lighting_rep3": {
+        "scenario": "lighting",
+        "rep": 3,
+        "axis": "environment",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 1
+      },
+      "044_occlude_object_rep3": {
+        "scenario": "occlude_object",
+        "rep": 3,
+        "axis": "occlusion",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 1
+      },
+      "045_identity_swap_rep3": {
+        "scenario": "identity_swap",
+        "rep": 3,
+        "axis": "identity",
+        "durAcc": 0.05,
+        "false": 17,
+        "lost": 38,
+        "spurious": false,
+        "vlm_calls": 6
+      },
+      "046_removal_rep3": {
+        "scenario": "removal",
+        "rep": 3,
+        "axis": "occlusion",
+        "durAcc": 1.0,
+        "false": 40,
+        "lost": 0,
+        "spurious": true,
+        "vlm_calls": 1
+      },
+      "047_substitution_rep3": {
+        "scenario": "substitution",
+        "rep": 3,
+        "axis": "unexpected",
+        "durAcc": 1.0,
+        "false": 40,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 2
+      },
+      "048_occlude_hand_rep3": {
+        "scenario": "occlude_hand",
+        "rep": 3,
+        "axis": "occlusion",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 1
+      }
+    },
+    "D_full(decay=30)": {
+      "001_camera_pose_rep1": {
+        "scenario": "camera_pose",
+        "rep": 1,
+        "axis": "environment",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 1
+      },
+      "002_removal_rep1": {
+        "scenario": "removal",
+        "rep": 1,
+        "axis": "occlusion",
+        "durAcc": 0.513,
+        "false": 0,
+        "lost": 19,
+        "spurious": false,
+        "vlm_calls": 1
+      },
+      "003_occlude_hand_rep1": {
+        "scenario": "occlude_hand",
+        "rep": 1,
+        "axis": "occlusion",
+        "durAcc": 0.5,
+        "false": 0,
+        "lost": 20,
+        "spurious": false,
+        "vlm_calls": 2
+      },
+      "004_occlude_object_rep1": {
+        "scenario": "occlude_object",
+        "rep": 1,
+        "axis": "occlusion",
+        "durAcc": 0.0,
+        "false": 0,
+        "lost": 40,
+        "spurious": false,
+        "vlm_calls": 2
+      },
+      "005_identity_swap_rep1": {
+        "scenario": "identity_swap",
+        "rep": 1,
+        "axis": "identity",
+        "durAcc": 0.5,
+        "false": 0,
+        "lost": 20,
+        "spurious": false,
+        "vlm_calls": 3
+      },
+      "006_substitution_rep1": {
+        "scenario": "substitution",
+        "rep": 1,
+        "axis": "unexpected",
+        "durAcc": 0.5,
+        "false": 0,
+        "lost": 20,
+        "spurious": false,
+        "vlm_calls": 1
+      },
+      "007_lighting_rep1": {
+        "scenario": "lighting",
+        "rep": 1,
+        "axis": "environment",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 1
+      },
+      "008_control_rep1": {
+        "scenario": "control",
+        "rep": 1,
+        "axis": "control",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 1
+      },
+      "009_identity_swap_rep1": {
+        "scenario": "identity_swap",
+        "rep": 1,
+        "axis": "identity",
+        "durAcc": 0.0,
+        "false": 0,
+        "lost": 35,
+        "spurious": false,
+        "vlm_calls": 17
+      },
+      "010_occlude_hand_rep1": {
+        "scenario": "occlude_hand",
+        "rep": 1,
+        "axis": "occlusion",
+        "durAcc": 0.758,
+        "false": 0,
+        "lost": 8,
+        "spurious": false,
+        "vlm_calls": 10
+      },
+      "011_control_rep1": {
+        "scenario": "control",
+        "rep": 1,
+        "axis": "control",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 1
+      },
+      "012_substitution_rep1": {
+        "scenario": "substitution",
+        "rep": 1,
+        "axis": "unexpected",
+        "durAcc": 0.55,
+        "false": 24,
+        "lost": 18,
+        "spurious": false,
+        "vlm_calls": 5
+      },
+      "013_camera_pose_rep1": {
+        "scenario": "camera_pose",
+        "rep": 1,
+        "axis": "environment",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 1
+      },
+      "014_removal_rep1": {
+        "scenario": "removal",
+        "rep": 1,
+        "axis": "occlusion",
+        "durAcc": 0.229,
+        "false": 0,
+        "lost": 27,
+        "spurious": false,
+        "vlm_calls": 14
+      },
+      "015_lighting_rep1": {
+        "scenario": "lighting",
+        "rep": 1,
+        "axis": "environment",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 1
+      },
+      "016_occlude_object_rep1": {
+        "scenario": "occlude_object",
+        "rep": 1,
+        "axis": "occlusion",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 1
+      },
+      "017_occlude_hand_rep2": {
+        "scenario": "occlude_hand",
+        "rep": 2,
+        "axis": "occlusion",
+        "durAcc": 0.5,
+        "false": 0,
+        "lost": 20,
+        "spurious": false,
+        "vlm_calls": 2
+      },
+      "018_control_rep2": {
+        "scenario": "control",
+        "rep": 2,
+        "axis": "control",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 1
+      },
+      "019_lighting_rep2": {
+        "scenario": "lighting",
+        "rep": 2,
+        "axis": "environment",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 1
+      },
+      "020_identity_swap_rep2": {
+        "scenario": "identity_swap",
+        "rep": 2,
+        "axis": "identity",
+        "durAcc": 0.5,
+        "false": 0,
+        "lost": 20,
+        "spurious": false,
+        "vlm_calls": 2
+      },
+      "021_occlude_object_rep2": {
+        "scenario": "occlude_object",
+        "rep": 2,
+        "axis": "occlusion",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 33,
+        "spurious": false,
+        "vlm_calls": 9
+      },
+      "022_removal_rep2": {
+        "scenario": "removal",
+        "rep": 2,
+        "axis": "occlusion",
+        "durAcc": 0.525,
+        "false": 3,
+        "lost": 19,
+        "spurious": false,
+        "vlm_calls": 2
+      },
+      "023_camera_pose_rep2": {
+        "scenario": "camera_pose",
+        "rep": 2,
+        "axis": "environment",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 1
+      },
+      "024_substitution_rep2": {
+        "scenario": "substitution",
+        "rep": 2,
+        "axis": "unexpected",
+        "durAcc": 0.5,
+        "false": 0,
+        "lost": 20,
+        "spurious": false,
+        "vlm_calls": 1
+      },
+      "025_camera_pose_rep2": {
+        "scenario": "camera_pose",
+        "rep": 2,
+        "axis": "environment",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 1
+      },
+      "026_lighting_rep2": {
+        "scenario": "lighting",
+        "rep": 2,
+        "axis": "environment",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 1
+      },
+      "027_occlude_object_rep2": {
+        "scenario": "occlude_object",
+        "rep": 2,
+        "axis": "occlusion",
+        "durAcc": 0.973,
+        "false": 0,
+        "lost": 1,
+        "spurious": false,
+        "vlm_calls": 4
+      },
+      "028_control_rep2": {
+        "scenario": "control",
+        "rep": 2,
+        "axis": "control",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 1
+      },
+      "029_removal_rep2": {
+        "scenario": "removal",
+        "rep": 2,
+        "axis": "occlusion",
+        "durAcc": 1.0,
+        "false": 15,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 6
+      },
+      "030_identity_swap_rep2": {
+        "scenario": "identity_swap",
+        "rep": 2,
+        "axis": "identity",
+        "durAcc": 0.974,
+        "false": 20,
+        "lost": 1,
+        "spurious": false,
+        "vlm_calls": 7
+      },
+      "031_substitution_rep2": {
+        "scenario": "substitution",
+        "rep": 2,
+        "axis": "unexpected",
+        "durAcc": 1.0,
+        "false": 40,
+        "lost": 0,
+        "spurious": true,
+        "vlm_calls": 1
+      },
+      "032_occlude_hand_rep2": {
+        "scenario": "occlude_hand",
+        "rep": 2,
+        "axis": "occlusion",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 1
+      },
+      "033_occlude_hand_rep3": {
+        "scenario": "occlude_hand",
+        "rep": 3,
+        "axis": "occlusion",
+        "durAcc": 0.5,
+        "false": 0,
+        "lost": 20,
+        "spurious": false,
+        "vlm_calls": 2
+      },
+      "034_camera_pose_rep3": {
+        "scenario": "camera_pose",
+        "rep": 3,
+        "axis": "environment",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 1
+      },
+      "035_occlude_object_rep3": {
+        "scenario": "occlude_object",
+        "rep": 3,
+        "axis": "occlusion",
+        "durAcc": 0.0,
+        "false": 0,
+        "lost": 40,
+        "spurious": false,
+        "vlm_calls": 2
+      },
+      "036_removal_rep3": {
+        "scenario": "removal",
+        "rep": 3,
+        "axis": "occlusion",
+        "durAcc": 0.5,
+        "false": 3,
+        "lost": 20,
+        "spurious": false,
+        "vlm_calls": 2
+      },
+      "037_identity_swap_rep3": {
+        "scenario": "identity_swap",
+        "rep": 3,
+        "axis": "identity",
+        "durAcc": 0.051,
+        "false": 0,
+        "lost": 37,
+        "spurious": false,
+        "vlm_calls": 4
+      },
+      "038_control_rep3": {
+        "scenario": "control",
+        "rep": 3,
+        "axis": "control",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 1
+      },
+      "039_substitution_rep3": {
+        "scenario": "substitution",
+        "rep": 3,
+        "axis": "unexpected",
+        "durAcc": 0.5,
+        "false": 24,
+        "lost": 20,
+        "spurious": false,
+        "vlm_calls": 2
+      },
+      "040_lighting_rep3": {
+        "scenario": "lighting",
+        "rep": 3,
+        "axis": "environment",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 1
+      },
+      "041_control_rep3": {
+        "scenario": "control",
+        "rep": 3,
+        "axis": "control",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 1
+      },
+      "042_camera_pose_rep3": {
+        "scenario": "camera_pose",
+        "rep": 3,
+        "axis": "environment",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 1
+      },
+      "043_lighting_rep3": {
+        "scenario": "lighting",
+        "rep": 3,
+        "axis": "environment",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 1
+      },
+      "044_occlude_object_rep3": {
+        "scenario": "occlude_object",
+        "rep": 3,
+        "axis": "occlusion",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 1
+      },
+      "045_identity_swap_rep3": {
+        "scenario": "identity_swap",
+        "rep": 3,
+        "axis": "identity",
+        "durAcc": 0.5,
+        "false": 20,
+        "lost": 20,
+        "spurious": false,
+        "vlm_calls": 6
+      },
+      "046_removal_rep3": {
+        "scenario": "removal",
+        "rep": 3,
+        "axis": "occlusion",
+        "durAcc": 1.0,
+        "false": 40,
+        "lost": 0,
+        "spurious": true,
+        "vlm_calls": 1
+      },
+      "047_substitution_rep3": {
+        "scenario": "substitution",
+        "rep": 3,
+        "axis": "unexpected",
+        "durAcc": 1.0,
+        "false": 40,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 2
+      },
+      "048_occlude_hand_rep3": {
+        "scenario": "occlude_hand",
+        "rep": 3,
+        "axis": "occlusion",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 1
+      }
+    },
+    "D_full(decay=60)": {
+      "001_camera_pose_rep1": {
+        "scenario": "camera_pose",
+        "rep": 1,
+        "axis": "environment",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 1
+      },
+      "002_removal_rep1": {
+        "scenario": "removal",
+        "rep": 1,
+        "axis": "occlusion",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 1
+      },
+      "003_occlude_hand_rep1": {
+        "scenario": "occlude_hand",
+        "rep": 1,
+        "axis": "occlusion",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 2
+      },
+      "004_occlude_object_rep1": {
+        "scenario": "occlude_object",
+        "rep": 1,
+        "axis": "occlusion",
+        "durAcc": 0.0,
+        "false": 0,
+        "lost": 40,
+        "spurious": false,
+        "vlm_calls": 2
+      },
+      "005_identity_swap_rep1": {
+        "scenario": "identity_swap",
+        "rep": 1,
+        "axis": "identity",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 3
+      },
+      "006_substitution_rep1": {
+        "scenario": "substitution",
+        "rep": 1,
+        "axis": "unexpected",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 1
+      },
+      "007_lighting_rep1": {
+        "scenario": "lighting",
+        "rep": 1,
+        "axis": "environment",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 1
+      },
+      "008_control_rep1": {
+        "scenario": "control",
+        "rep": 1,
+        "axis": "control",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 1
+      },
+      "009_identity_swap_rep1": {
+        "scenario": "identity_swap",
+        "rep": 1,
+        "axis": "identity",
+        "durAcc": 0.0,
+        "false": 0,
+        "lost": 35,
+        "spurious": false,
+        "vlm_calls": 17
+      },
+      "010_occlude_hand_rep1": {
+        "scenario": "occlude_hand",
+        "rep": 1,
+        "axis": "occlusion",
+        "durAcc": 0.758,
+        "false": 0,
+        "lost": 8,
+        "spurious": false,
+        "vlm_calls": 10
+      },
+      "011_control_rep1": {
+        "scenario": "control",
+        "rep": 1,
+        "axis": "control",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 1
+      },
+      "012_substitution_rep1": {
+        "scenario": "substitution",
+        "rep": 1,
+        "axis": "unexpected",
+        "durAcc": 0.75,
+        "false": 30,
+        "lost": 10,
+        "spurious": false,
+        "vlm_calls": 5
+      },
+      "013_camera_pose_rep1": {
+        "scenario": "camera_pose",
+        "rep": 1,
+        "axis": "environment",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 1
+      },
+      "014_removal_rep1": {
+        "scenario": "removal",
+        "rep": 1,
+        "axis": "occlusion",
+        "durAcc": 0.229,
+        "false": 0,
+        "lost": 27,
+        "spurious": false,
+        "vlm_calls": 14
+      },
+      "015_lighting_rep1": {
+        "scenario": "lighting",
+        "rep": 1,
+        "axis": "environment",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 1
+      },
+      "016_occlude_object_rep1": {
+        "scenario": "occlude_object",
+        "rep": 1,
+        "axis": "occlusion",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 1
+      },
+      "017_occlude_hand_rep2": {
+        "scenario": "occlude_hand",
+        "rep": 2,
+        "axis": "occlusion",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 2
+      },
+      "018_control_rep2": {
+        "scenario": "control",
+        "rep": 2,
+        "axis": "control",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 1
+      },
+      "019_lighting_rep2": {
+        "scenario": "lighting",
+        "rep": 2,
+        "axis": "environment",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 1
+      },
+      "020_identity_swap_rep2": {
+        "scenario": "identity_swap",
+        "rep": 2,
+        "axis": "identity",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 2
+      },
+      "021_occlude_object_rep2": {
+        "scenario": "occlude_object",
+        "rep": 2,
+        "axis": "occlusion",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 33,
+        "spurious": false,
+        "vlm_calls": 9
+      },
+      "022_removal_rep2": {
+        "scenario": "removal",
+        "rep": 2,
+        "axis": "occlusion",
+        "durAcc": 1.0,
+        "false": 3,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 2
+      },
+      "023_camera_pose_rep2": {
+        "scenario": "camera_pose",
+        "rep": 2,
+        "axis": "environment",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 1
+      },
+      "024_substitution_rep2": {
+        "scenario": "substitution",
+        "rep": 2,
+        "axis": "unexpected",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 1
+      },
+      "025_camera_pose_rep2": {
+        "scenario": "camera_pose",
+        "rep": 2,
+        "axis": "environment",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 1
+      },
+      "026_lighting_rep2": {
+        "scenario": "lighting",
+        "rep": 2,
+        "axis": "environment",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 1
+      },
+      "027_occlude_object_rep2": {
+        "scenario": "occlude_object",
+        "rep": 2,
+        "axis": "occlusion",
+        "durAcc": 0.973,
+        "false": 0,
+        "lost": 1,
+        "spurious": false,
+        "vlm_calls": 4
+      },
+      "028_control_rep2": {
+        "scenario": "control",
+        "rep": 2,
+        "axis": "control",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 1
+      },
+      "029_removal_rep2": {
+        "scenario": "removal",
+        "rep": 2,
+        "axis": "occlusion",
+        "durAcc": 1.0,
+        "false": 15,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 6
+      },
+      "030_identity_swap_rep2": {
+        "scenario": "identity_swap",
+        "rep": 2,
+        "axis": "identity",
+        "durAcc": 0.974,
+        "false": 20,
+        "lost": 1,
+        "spurious": false,
+        "vlm_calls": 7
+      },
+      "031_substitution_rep2": {
+        "scenario": "substitution",
+        "rep": 2,
+        "axis": "unexpected",
+        "durAcc": 1.0,
+        "false": 40,
+        "lost": 0,
+        "spurious": true,
+        "vlm_calls": 1
+      },
+      "032_occlude_hand_rep2": {
+        "scenario": "occlude_hand",
+        "rep": 2,
+        "axis": "occlusion",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 1
+      },
+      "033_occlude_hand_rep3": {
+        "scenario": "occlude_hand",
+        "rep": 3,
+        "axis": "occlusion",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 2
+      },
+      "034_camera_pose_rep3": {
+        "scenario": "camera_pose",
+        "rep": 3,
+        "axis": "environment",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 1
+      },
+      "035_occlude_object_rep3": {
+        "scenario": "occlude_object",
+        "rep": 3,
+        "axis": "occlusion",
+        "durAcc": 0.0,
+        "false": 0,
+        "lost": 40,
+        "spurious": false,
+        "vlm_calls": 2
+      },
+      "036_removal_rep3": {
+        "scenario": "removal",
+        "rep": 3,
+        "axis": "occlusion",
+        "durAcc": 1.0,
+        "false": 3,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 2
+      },
+      "037_identity_swap_rep3": {
+        "scenario": "identity_swap",
+        "rep": 3,
+        "axis": "identity",
+        "durAcc": 0.051,
+        "false": 0,
+        "lost": 37,
+        "spurious": false,
+        "vlm_calls": 4
+      },
+      "038_control_rep3": {
+        "scenario": "control",
+        "rep": 3,
+        "axis": "control",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 1
+      },
+      "039_substitution_rep3": {
+        "scenario": "substitution",
+        "rep": 3,
+        "axis": "unexpected",
+        "durAcc": 1.0,
+        "false": 24,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 2
+      },
+      "040_lighting_rep3": {
+        "scenario": "lighting",
+        "rep": 3,
+        "axis": "environment",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 1
+      },
+      "041_control_rep3": {
+        "scenario": "control",
+        "rep": 3,
+        "axis": "control",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 1
+      },
+      "042_camera_pose_rep3": {
+        "scenario": "camera_pose",
+        "rep": 3,
+        "axis": "environment",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 1
+      },
+      "043_lighting_rep3": {
+        "scenario": "lighting",
+        "rep": 3,
+        "axis": "environment",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 1
+      },
+      "044_occlude_object_rep3": {
+        "scenario": "occlude_object",
+        "rep": 3,
+        "axis": "occlusion",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 1
+      },
+      "045_identity_swap_rep3": {
+        "scenario": "identity_swap",
+        "rep": 3,
+        "axis": "identity",
+        "durAcc": 1.0,
+        "false": 20,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 6
+      },
+      "046_removal_rep3": {
+        "scenario": "removal",
+        "rep": 3,
+        "axis": "occlusion",
+        "durAcc": 1.0,
+        "false": 40,
+        "lost": 0,
+        "spurious": true,
+        "vlm_calls": 1
+      },
+      "047_substitution_rep3": {
+        "scenario": "substitution",
+        "rep": 3,
+        "axis": "unexpected",
+        "durAcc": 1.0,
+        "false": 40,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 2
+      },
+      "048_occlude_hand_rep3": {
+        "scenario": "occlude_hand",
+        "rep": 3,
+        "axis": "occlusion",
+        "durAcc": 1.0,
+        "false": 0,
+        "lost": 0,
+        "spurious": false,
+        "vlm_calls": 1
+      }
+    }
+  },
+  "skipped": [],
+  "corpus": {
+    "episodes": 48,
+    "frames": 8428,
+    "scored": 5699,
+    "absent": 691
+  }
+}
